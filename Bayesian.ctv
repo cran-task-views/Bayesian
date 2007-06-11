@@ -25,14 +25,16 @@
     
     <p>This is a preliminary task view, and we have likely missed some
     important information.  Please email the
-    <a href="mailto:jhpark@artsci.wustl.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
+    <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
     with any feedback.</p>
     
     <p>
     <strong>Bayesian packages for general model fitting</strong>
     <ul>
-    <li>
-    <pkg>bayesm</pkg> provides R functions for Bayesian inference for
+    <li><pkg>BACCO</pkg> is an R bundle for Bayesian analysis of random functions.  <pkg>BACCO</pkg> 
+    contains three sub-packages: emulator, calibrator, and approximator, that perform Bayesian emulation and 
+    calibration of computer programs.</li>
+    <li><pkg>bayesm</pkg> provides R functions for Bayesian inference for
     various models widely used in marketing and micro-econometrics. The
     models include linear regression models, multinomial logit,
     multinomial probit, multivariate probit, multivariate mixture of
@@ -65,10 +67,7 @@
 
     <p>
     <strong>Bayesian packages for specific models or methods</strong>
-    <ul>
-    <li><pkg>BACCO</pkg> is an R package for Bayesian analysis of random functions. <pkg>BACCO</pkg> contains two sub-packages,
-    emulator and calibrator, that perform Bayesian emulation and calibration of computer programs.</li>
-    
+    <ul>    
     <li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via Compound
     Poisson Process (CPP) priors.</li>     
 
@@ -216,21 +215,21 @@ as multivariate point-referenced data using MCMC methods.</li>
     
 
   <p>
-  The Bayesian Inference Task View is written by Jong Hee Park and
+  The Bayesian Inference Task View is written by Jong Hee Park (University of Chicago, IL, USA), 
   Andrew D. Martin (Washington University, St. Louis, MO, USA), and
   Kevin M. Quinn (Harvard University, Cambridge, MA, USA).  Please email the
-  <a href="mailto:jhpark@artsci.wustl.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
+  <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
   with suggestions.</p>
  
  <p>
- Last Update: Mon Jun 04 15:43:04 2007
+ Last Update: Mon Jun 11 07:37:42 2007
 
  </p>
  
   </info>
 
   <packagelist>
-    <pkg>BACCO</pkg>
+    <pkg priority="core">BACCO</pkg>
     <pkg priority="core">bayesm</pkg>
     <pkg>bayesmix</pkg>
     <pkg>BayHaz</pkg>
