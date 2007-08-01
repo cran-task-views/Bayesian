@@ -31,6 +31,7 @@
     <p>
     <strong>Bayesian packages for general model fitting</strong>
     <ul>
+    <li>The <pkg>arm</pkg> package contains R functions for Bayesian inference using lm, glm, mer and polr objects.</li>
     <li><pkg>BACCO</pkg> is an R bundle for Bayesian analysis of random functions.  <pkg>BACCO</pkg> 
     contains three sub-packages: emulator, calibrator, and approximator, that perform Bayesian emulation and 
     calibration of computer programs.</li>
@@ -150,6 +151,9 @@ as multivariate point-referenced data using MCMC methods.</li>
     models ranging from the simple linear model, to nonstationary treed
     Gaussian process, and others in between.</li> 
     
+    <li><pkg>Umacs</pkg> is an R package that facilitates the construction
+of the Gibbs sampler and Metropolis algorithm for Bayesian inference. </li>
+    
     <li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can
     extract a Bayesian posterior covariance matrix of the parameters
     from a fitted <tt>gam</tt> object.</li>
@@ -222,13 +226,14 @@ as multivariate point-referenced data using MCMC methods.</li>
   with suggestions.</p>
  
  <p>
- Last Update: Mon Jun 11 07:37:42 2007
+ Last Update: Mon Jul 30 15:14:03 2007
 
  </p>
  
   </info>
 
   <packagelist>
+    <pkg priority="core">arm</pkg>
     <pkg priority="core">BACCO</pkg>
     <pkg priority="core">bayesm</pkg>
     <pkg>bayesmix</pkg>
@@ -266,6 +271,7 @@ as multivariate point-referenced data using MCMC methods.</li>
     <pkg>sna</pkg>
     <pkg>spBayes</pkg>
     <pkg>tgp</pkg>
+    <pkg>Umacs</pkg>
     <pkg>vabayelMix</pkg>
     </packagelist>
 
