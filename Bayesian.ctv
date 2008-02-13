@@ -90,6 +90,11 @@
     <li><pkg>deal</pkg> provides R functions for Bayesian network analysis;
     the current version of covers discrete and continuous variables
     under Gaussian network structure. </li>
+
+    <li><pkg>dlm</pkg> is a package for Bayesian (and likelihood) analysis of
+    dynamic linear models. It includes the calculations of
+    the Kalman filter and smoother, and the forward filtering backward
+    sampling algorithm. </li>
         
     <li><pkg>EbayesThresh</pkg> implements Bayesian estimation for
     thresholding methods. Although the original model is developed in
@@ -200,12 +205,16 @@
     <p>
     <strong>Packages for learning Bayesian statistics</strong>
     <ul>
+    <li>The <pkg>Bolstad</pkg> package contains a set of R functions and data sets for the book Introduction to Bayesian Statistics,
+by Bolstad, W.M. (2007). </li>
+    
     <li>The <pkg>LearnBayes</pkg> package contains a collection of functions helpful in learning the basic tenets of
 	Bayesian statistical inference. It contains functions for summarizing basic one and two
 	parameter posterior distributions and predictive distributions and MCMC algorithms for
 	summarizing posterior distributions defined by the user. It also contains functions for regression
 	models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.</li>
    </ul>
+    
     </p>
 
     <p>
@@ -241,7 +250,7 @@
   with suggestions.</p>
  
  <p>
- Last Update: Fri Dec  7 12:03:57 2007
+ Last Update: Wed Feb 13 12:08:57 2008
 
  </p>
  
@@ -257,11 +266,13 @@
     <pkg>bim</pkg>
     <pkg>BMA</pkg>
     <pkg priority="core">boa</pkg>
+    <pkg>Bolstad</pkg>
     <pkg>bqtl</pkg>
     <pkg>BRugs</pkg>
     <pkg priority="core">coda</pkg>
     <pkg>cslogistic</pkg>
     <pkg>deal</pkg>
+    <pkg>dlm</pkg>		
     <pkg priority="core">DPpackage</pkg>
     <pkg>EbayesThresh</pkg>
     <pkg>ensembleBMA</pkg>
@@ -269,7 +280,7 @@
     <pkg>exactLoglinTest</pkg>
     <pkg>geoR</pkg>
     <pkg>geoRglm</pkg>
-	<pkg>HI</pkg>    
+    <pkg>HI</pkg>    
     <pkg>Hmisc</pkg>
     <pkg>LearnBayes</pkg>
     <pkg>lme4</pkg>
