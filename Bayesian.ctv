@@ -2,7 +2,8 @@
 
   <name>Bayesian</name>  
   <topic>Bayesian Inference</topic>
-  <maintainer>Jong Hee Park</maintainer>
+  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
+  <version>2008-02-13</version>
   
   <info>
   
@@ -248,11 +249,6 @@ by Bolstad, W.M. (2007). </li>
   Kevin M. Quinn (Harvard University, Cambridge, MA, USA).  Please email the
   <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
   with suggestions.</p>
- 
- <p>
- Last Update: Wed Feb 13 12:08:57 2008
-
- </p>
  
   </info>
 
