@@ -2,8 +2,7 @@
 
   <name>Bayesian</name>  
   <topic>Bayesian Inference</topic>
-  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
-  <version>2008-02-13</version>
+  <maintainer>Jong Hee Park</maintainer>
   
   <info>
   
@@ -40,9 +39,10 @@
     various models widely used in marketing and micro-econometrics. The
     models include linear regression models, multinomial logit,
     multinomial probit, multivariate probit, multivariate mixture of
-    normals (including clustering), hierarchical linear models, hierarchical multinomial logit,
+    normals (including clustering), density estimation using finite mixtures of normals as well as Dirichlet Process priors, 
+	hierarchical linear models, hierarchical multinomial logit,
     hierarchical negative binomial regression models, and linear instrumental
-    variable models.
+    variable models.  	
     </li>
     <li><pkg>bayesSurv</pkg> contains R functions to perform Bayesian
     inference for survival regression models with flexible error and random effects distributions.  
@@ -249,6 +249,11 @@ by Bolstad, W.M. (2007). </li>
   Kevin M. Quinn (Harvard University, Cambridge, MA, USA).  Please email the
   <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
   with suggestions.</p>
+ 
+ <p>
+ Last Update: Mon May 26 10:59:31 2008
+
+ </p>
  
   </info>
 
