@@ -2,7 +2,8 @@
 
   <name>Bayesian</name>  
   <topic>Bayesian Inference</topic>
-  <maintainer>Jong Hee Park</maintainer>
+  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
+  <version>2008-06-01</version>
   
   <info>
   
@@ -22,11 +23,6 @@
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>,
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>, and
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.</p>
-    
-    <p>This is a preliminary task view, and we have likely missed some
-    important information.  Please email the
-    <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
-    with any feedback.</p>
     
     <p>
     <strong>Bayesian packages for general model fitting</strong>
@@ -249,11 +245,6 @@ by Bolstad, W.M. (2007). </li>
   Kevin M. Quinn (Harvard University, Cambridge, MA, USA).  Please email the
   <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
   with suggestions.</p>
- 
- <p>
- Last Update: Mon May 26 10:59:31 2008
-
- </p>
  
   </info>
 
