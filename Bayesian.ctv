@@ -20,9 +20,9 @@
     methods in Bayesian statistics.  This is followed by a description
     of packages used for post-estimation analysis.  Finally, we review
     packages that link R to other Bayesian sampling engines such as
-    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>,
-    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>, and
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.</p>
+    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS,</a>
+    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS,</a> and
+    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS.</a> </p>
     
     <p>
     <strong>Bayesian packages for general model fitting</strong>
@@ -221,14 +221,17 @@ by Bolstad, W.M. (2007). </li>
     <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models using
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
     
-    <li><pkg>BRugs</pkg> provides an R interface on Windows machines to
-    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>.</li>
+    <li><b>BRugs</a> provides an R interface on Windows machines to
+    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>.
+    It works only under Windows and used to be available from CRAN, now it is located
+    at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
+    repository.</li>
     
     <li>There are two packages that can be used to interface R with
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.
     <pkg>R2WinBUGS</pkg> provides a set of
     functions to call WinBUGS on a Windows system and a Linux system;  <pkg>rbugs</pkg>
-    supports Linux systems through <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBugs</a> 
+    supports Linux systems through <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a> 
     on Linux (LinBUGS).</li>
     
     <li> All of these BUGS engines use graphical models for model
@@ -260,7 +263,6 @@ by Bolstad, W.M. (2007). </li>
     <pkg priority="core">boa</pkg>
     <pkg>Bolstad</pkg>
     <pkg>bqtl</pkg>
-    <pkg>BRugs</pkg>
     <pkg priority="core">coda</pkg>
     <pkg>cslogistic</pkg>
     <pkg>deal</pkg>
@@ -301,6 +303,7 @@ by Bolstad, W.M. (2007). </li>
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
+    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/" target="_top">BRugs in CRANextras</a>
     <view>gR</view>
     <a href="http://www.public-health.uiowa.edu/boa/" target="_top">BOA</a>
     <a href="http://www-fis.iarc.fr/coda/" target="_top">CODA</a>
