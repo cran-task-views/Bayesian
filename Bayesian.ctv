@@ -3,7 +3,7 @@
   <name>Bayesian</name>  
   <topic>Bayesian Inference</topic>
   <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
-  <version>2008-06-01</version>
+  <version>2008-06-06</version>
   
   <info>
   
@@ -221,7 +221,7 @@ by Bolstad, W.M. (2007). </li>
     <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models using
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
     
-    <li><b>BRugs</a> provides an R interface on Windows machines to
+    <li><b>BRugs</b> provides an R interface on Windows machines to
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>.
     It works only under Windows and used to be available from CRAN, now it is located
     at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
