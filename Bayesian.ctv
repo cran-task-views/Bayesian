@@ -3,7 +3,7 @@
   <name>Bayesian</name>  
   <topic>Bayesian Inference</topic>
   <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
-  <version>2008-06-06</version>
+  <version>2008-07-03</version>
   
   <info>
   
@@ -36,9 +36,9 @@
     models include linear regression models, multinomial logit,
     multinomial probit, multivariate probit, multivariate mixture of
     normals (including clustering), density estimation using finite mixtures of normals as well as Dirichlet Process priors, 
-	hierarchical linear models, hierarchical multinomial logit,
+    hierarchical linear models, hierarchical multinomial logit,
     hierarchical negative binomial regression models, and linear instrumental
-    variable models.  	
+    variable models.    
     </li>
     <li><pkg>bayesSurv</pkg> contains R functions to perform Bayesian
     inference for survival regression models with flexible error and random effects distributions.  
@@ -107,10 +107,10 @@
     <li><pkg>exactLoglinTest</pkg> provides functions for log-linear models that
     compute  Monte Carlo estimates of conditional P-values for goodness of fit 
     tests. </li>
-	
-	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach to 
-	transdimensional MCMC methods and random direction multivariate
-	Adaptive Rejection Metropolis Sampling.</li>
+    
+    <li>The <pkg>HI</pkg> package has functions to implement a geometric approach to 
+    transdimensional MCMC methods and random direction multivariate
+    Adaptive Rejection Metropolis Sampling.</li>
 
     <li>The <tt>gbayes()</tt> function in <pkg>Hmisc</pkg> derives the
     posterior (and optionally) the predictive distribution when both the
@@ -130,7 +130,7 @@
     
     <li>The <tt>mcmcsamp()</tt> function in <pkg>lme4</pkg> allows 
     MCMC sampling for the linear mixed model and generalized linear mixed model.</li>   
-    	
+        
     <li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>
     
     <li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>
@@ -138,7 +138,7 @@
     <li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector Autoregression 
     models and Bayesian structural Vector Autoregression models.</li>
 
-    <li>The <pkg>pcsl</pkg> package provides R functions to fit item-response theory models using MCMC methods
+    <li>The <pkg>pscl</pkg> package provides R functions to fit item-response theory models using MCMC methods
     and to compute highest density regions for the Beta distribution and the inverse gamma distribution.</li>
 
     <li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of CGH microarrays using hidden Markov chain models. 
@@ -150,7 +150,7 @@
     Bayesian network accuracy model using Gibbs sampling.</li>
     
     <li><pkg>spBayes</pkg> provides R functions that fit Gaussian spatial process models for univariate as well
-	as multivariate point-referenced data using MCMC methods.</li>
+    as multivariate point-referenced data using MCMC methods.</li>
     
     <li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: a spaptial
     modeling and regression package providing fully Bayesian MCMC posterior inference for
@@ -158,7 +158,7 @@
     Gaussian process, and others in between.</li> 
     
     <li><pkg>Umacs</pkg> is an R package that facilitates the construction
-	of the Gibbs sampler and Metropolis algorithm for Bayesian inference. </li>
+    of the Gibbs sampler and Metropolis algorithm for Bayesian inference. </li>
     
     <li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can
     extract a Bayesian posterior covariance matrix of the parameters
@@ -206,10 +206,10 @@
 by Bolstad, W.M. (2007). </li>
     
     <li>The <pkg>LearnBayes</pkg> package contains a collection of functions helpful in learning the basic tenets of
-	Bayesian statistical inference. It contains functions for summarizing basic one and two
-	parameter posterior distributions and predictive distributions and MCMC algorithms for
-	summarizing posterior distributions defined by the user. It also contains functions for regression
-	models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.</li>
+    Bayesian statistical inference. It contains functions for summarizing basic one and two
+    parameter posterior distributions and predictive distributions and MCMC algorithms for
+    summarizing posterior distributions defined by the user. It also contains functions for regression
+    models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.</li>
    </ul>
     
     </p>
@@ -266,7 +266,7 @@ by Bolstad, W.M. (2007). </li>
     <pkg priority="core">coda</pkg>
     <pkg>cslogistic</pkg>
     <pkg>deal</pkg>
-    <pkg>dlm</pkg>		
+    <pkg>dlm</pkg>      
     <pkg priority="core">DPpackage</pkg>
     <pkg>EbayesThresh</pkg>
     <pkg>ensembleBMA</pkg>
@@ -286,6 +286,7 @@ by Bolstad, W.M. (2007). </li>
     <pkg>mgcv</pkg>
     <pkg>MNP</pkg>
     <pkg>MSBVAR</pkg>
+    <pkg>pscl</pkg>
     <pkg>R2WinBUGS</pkg>
     <pkg>rbugs</pkg>
     <pkg>RJaCGH</pkg>
@@ -310,4 +311,3 @@ by Bolstad, W.M. (2007). </li>
     </links>
 
 </CRANTaskView>
-
