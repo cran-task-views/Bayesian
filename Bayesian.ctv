@@ -26,6 +26,7 @@
     
     <p>
     <strong>Bayesian packages for general model fitting</strong>
+    </p>
     <ul>
     <li>The <pkg>arm</pkg> package contains R functions for Bayesian inference using lm, glm, mer and polr objects.</li>
     <li><pkg>BACCO</pkg> is an R bundle for Bayesian analysis of random functions.  <pkg>BACCO</pkg> 
@@ -61,10 +62,10 @@
     <li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk 
     Metropolis algorithm for a continuous random vector.</li>
     </ul>
-    </p>
 
     <p>
     <strong>Bayesian packages for specific models or methods</strong>
+    </p>
     <ul>    
     <li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via Compound
     Poisson Process (CPP) priors.</li>     
@@ -168,10 +169,10 @@
     for a Gaussian mixture model using a variational approach.
     </li>
     </ul>
-    </p>
     
     <p>
     <strong>Post-estimation tools</strong>
+    </p>
     <ul>
     <li>
     The <pkg>boa</pkg> package provides functions for diagnostics,
@@ -197,10 +198,10 @@
     in which posterior simulation objects can be conveniently handled as random variables.
     </li>
     </ul>
-    </p>
 
     <p>
     <strong>Packages for learning Bayesian statistics</strong>
+    </p>
     <ul>
     <li>The <pkg>Bolstad</pkg> package contains a set of R functions and data sets for the book Introduction to Bayesian Statistics,
 by Bolstad, W.M. (2007). </li>
@@ -212,10 +213,9 @@ by Bolstad, W.M. (2007). </li>
     models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.</li>
    </ul>
     
-    </p>
-
     <p>
     <strong>Packages that link R to other sampling engines</strong>
+    </p>
     <ul>
     <li>    
     <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models using
@@ -239,7 +239,6 @@ by Bolstad, W.M. (2007). </li>
     interest.
     </li>
     </ul>
-    </p>
     
 
   <p>
