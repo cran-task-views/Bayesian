@@ -157,7 +157,7 @@
 
     <li><pkg>mcgibbsit</pkg> provides the Warnes and Raftery MCGibbsit MCMC diagnostic. It operates on <tt>mcmc</tt> objects.</li>
     
-    <li><pkg>ramp</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
+    <li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
 
     <li><pkg>rv</pkg> provides a simulation-based random variable class in R, in which posterior simulation objects can be conveniently handled as random variables. </li>
 	
@@ -254,7 +254,7 @@
     <pkg>pscl</pkg>
     <pkg>R2jags</pkg>
     <pkg>R2WinBUGS</pkg>
-    <pkg>ramp</pkg>
+    <pkg>ramps</pkg>
     <pkg>rbugs</pkg>
     <pkg>RJaCGH</pkg>
     <pkg>rjags</pkg>
