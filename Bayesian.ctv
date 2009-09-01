@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2009-06-11</version>
+ <version>2009-08-31</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -46,7 +46,7 @@
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
-	measurement models (item response theory and factor models), and models for ecological inference.  
+	measurement models (item response theory and factor models), changepoint models (binary and Poisson), and models for ecological inference.  
 	It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
 
     	<li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk Metropolis algorithm for 
@@ -243,6 +243,8 @@
     	supports Linux systems through 
 	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a> on Linux (LinBUGS).</li>
 
+	<li> <pkg>glmmBUGS</pkg> writes BUGS model files, formats data, and creates starting values for generalized linear mixed models.</li>
+
     	<li>There are three packages that provide R interface with 
 	<a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>:
     	<pkg>rjags</pkg>, <pkg>R2jags</pkg>, and <pkg>runjags</pkg>.</li>    
@@ -294,6 +296,7 @@
     <pkg>G1DBN</pkg>
     <pkg>geoR</pkg>
     <pkg>geoRglm</pkg>
+    <pkg>glmmBUGS</pkg>
     <pkg>HI</pkg>    
     <pkg>Hmisc</pkg>
     <pkg>LearnBayes</pkg>
