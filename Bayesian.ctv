@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2009-10-28</version>
+ <version>2009-11-12</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -25,9 +25,9 @@
 	<li>The <pkg>arm</pkg> package contains R functions for Bayesian inference using lm, glm, 
 	mer and polr objects.</li>
 
-	<li><pkg>BACCO</pkg> is an R package (formerly bundle) for Bayesian analysis of random functions. 
-	<pkg>BACCO</pkg> depends on three sub-packages: <pkg>emulator</pkg>, <pkg>calibrator</pkg>, and
-	<pkg>approximator</pkg>, that perform Bayesian emulation and calibration of computer programs.</li>
+	<li><pkg>BACCO</pkg> is an R bundle for Bayesian analysis of random functions. 
+	<pkg>BACCO</pkg> contains three sub-packages: emulator, calibrator, and approximator, 
+	that perform Bayesian emulation and calibration of computer programs.</li>
 
 	<li><pkg>bayesm</pkg> provides R functions for Bayesian inference for various models 
 	widely used in marketing and micro-econometrics. The models include linear regression models, 
@@ -139,15 +139,20 @@
     	<pkg>geoRglm</pkg> package implements Bayesian posterior simulation and spatial prediction 
 	for the binomial spatial model (see the <view>Spatial</view> view for more information). </li>
 
+    	<li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>    
+
     	<li><pkg>MasterBayes</pkg> is an R package that implements MCMC methods to 
 	integrate over uncertainity in pedigree configurations estimated from molecular markers and phenotypic data. </li>    
+
+   	<li><pkg>MCMCglmm</pkg> is package for fitting Generalised Linear Mixed Models using MCMC methods. </li>    
 
     	<li>The <tt>mcmcsamp()</tt> function in <pkg>lme4</pkg> allows MCMC sampling for 
 	the linear mixed model and generalized linear mixed model.</li>   
 
-    	<li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>    
 
-    	<li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>    
+    	<li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>  
+
+	<li><pkg>monomvn</pkg> is an R package for stimation of multivariate normal and Student-t data of arbitrary dimension where the pattern of missing data is monotone.</li>
 
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
 	Autoregression models and Bayesian structural Vector Autoregression models.</li>
@@ -262,7 +267,6 @@
 
     <packagelist>
     <pkg>AdMit</pkg>
-    <pkg>approximator</pkg>
     <pkg priority="core">arm</pkg>
     <pkg priority="core">BACCO</pkg>
     <pkg>BaM</pkg>
@@ -285,14 +289,12 @@
     <pkg>BPHO</pkg> 
     <pkg>bqtl</pkg>
     <pkg>bspec</pkg>	
-    <pkg>calibrator</pkg>
     <pkg priority="core">coda</pkg>
     <pkg>cslogistic</pkg>
     <pkg>deal</pkg>
     <pkg>dlm</pkg>      
     <pkg priority="core">DPpackage</pkg>
     <pkg>EbayesThresh</pkg>
-    <pkg>emulator</pkg>
     <pkg>ensembleBMA</pkg>
     <pkg>evdbayes</pkg>
     <pkg>exactLoglinTest</pkg>
@@ -306,11 +308,13 @@
     <pkg>lme4</pkg>
     <pkg>lmm</pkg>
     <pkg>MasterBayes</pkg>
-    <pkg>mcgibbsit</pkg>
     <pkg priority="core">mcmc</pkg>
+    <pkg>MCMCglmm</pkg>
     <pkg priority="core">MCMCpack</pkg>
+    <pkg>mcgibbsit</pkg>
     <pkg>mgcv</pkg>
     <pkg>MNP</pkg>
+    <pkg>monomvn</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>pscl</pkg>
     <pkg>R2jags</pkg>
