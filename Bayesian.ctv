@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2009-11-12</version>
+ <version>2009-12-10</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -176,9 +176,6 @@
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
 
-    	<li><pkg>Umacs</pkg> is an R package that facilitates the construction of 
-	the Gibbs sampler and Metropolis algorithm for Bayesian inference. </li>
-
     	<li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can extract a 
 	Bayesian posterior covariance matrix of the parameters from a fitted <tt>gam</tt> object.</li>
 
@@ -329,7 +326,6 @@
     <pkg>scapeMCMC</pkg>
     <pkg>spBayes</pkg>
     <pkg>tgp</pkg>
-    <pkg>Umacs</pkg>
     <pkg>vabayelMix</pkg>
     </packagelist>
 
