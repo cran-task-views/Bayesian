@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2009-12-10</version>
+ <version>2010-02-01</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -132,6 +132,8 @@
 	(and optionally) the predictive distribution when both the
     	prior and the likelihood are Gaussian, and when the statistic of interest comes from a two-sample problem.</li>
 
+	<li>The <pkg>GLAMMarp</pkg> package contains functions to estimate the GLMM-AR(p) model for analyzing discrete time-series cross-sectional data.</li>
+
     	<li>The function <tt>krige.bayes()</tt> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
@@ -176,11 +178,16 @@
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
 
+    	<li><pkg>Umacs</pkg> is an R package that facilitates the construction of 
+	the Gibbs sampler and Metropolis algorithm for Bayesian inference. </li>
+
     	<li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can extract a 
 	Bayesian posterior covariance matrix of the parameters from a fitted <tt>gam</tt> object.</li>
 
     	<li><pkg>vabayelMix</pkg> provides R functions to perform Bayesian inference for a 	
 	Gaussian mixture model using a variational approach. </li>
+
+	<li><pkg>zic</pkg> provides functions for an MCMC analysis of zero-inflated count models including stochastic search variable selection.</li>
 
     </ul>
 
@@ -298,6 +305,7 @@
     <pkg>G1DBN</pkg>
     <pkg>geoR</pkg>
     <pkg>geoRglm</pkg>
+    <pkg>GLAMMarp</pkg>
     <pkg>glmmBUGS</pkg>
     <pkg>HI</pkg>    
     <pkg>Hmisc</pkg>
@@ -326,7 +334,9 @@
     <pkg>scapeMCMC</pkg>
     <pkg>spBayes</pkg>
     <pkg>tgp</pkg>
+    <pkg>Umacs</pkg>
     <pkg>vabayelMix</pkg>
+    <pkg>zic</pkg>
     </packagelist>
 
     <links>
