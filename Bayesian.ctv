@@ -181,9 +181,6 @@
     	<li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can extract a 
 	Bayesian posterior covariance matrix of the parameters from a fitted <tt>gam</tt> object.</li>
 
-    	<li><pkg>vabayelMix</pkg> provides R functions to perform Bayesian inference for a 	
-	Gaussian mixture model using a variational approach. </li>
-
 	<li><pkg>zic</pkg> provides functions for an MCMC analysis of zero-inflated count models including stochastic search variable selection.</li>
 
     </ul>
@@ -328,7 +325,6 @@
     <pkg>scapeMCMC</pkg>
     <pkg>spBayes</pkg>
     <pkg>tgp</pkg>
-    <pkg>vabayelMix</pkg>
     <pkg>zic</pkg>
     </packagelist>
 
