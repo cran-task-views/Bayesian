@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2010-02-01</version>
+ <version>2010-05-08</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -204,8 +204,6 @@
     	and related methods which are used by other packages.  It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
-    	<li><pkg>mcgibbsit</pkg> provides the Warnes and Raftery MCGibbsit MCMC diagnostic. It operates on <tt>mcmc</tt> objects.</li>
-    
     	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
 
     	<li><pkg>rv</pkg> provides a simulation-based random variable class in R, in which posterior simulation objects can be conveniently handled as random variables. </li>
@@ -313,7 +311,6 @@
     <pkg priority="core">mcmc</pkg>
     <pkg>MCMCglmm</pkg>
     <pkg priority="core">MCMCpack</pkg>
-    <pkg>mcgibbsit</pkg>
     <pkg>mgcv</pkg>
     <pkg>MNP</pkg>
     <pkg>monomvn</pkg>
