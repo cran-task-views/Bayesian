@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2010-05-08</version>
+ <version>2010-07-30</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -94,8 +94,7 @@
     	<li><pkg>bqtl</pkg> can be used to fit quantitative trait loci (QTL) models. 
 	This package allows Bayesian estimation of multi-gene models
     	via Laplace approximations and provides tools for interval mapping of genetic loci. 
-	<pkg>bim</pkg> provides a function for Bayesian interval
-    	mapping using MCMC methods. Both of these packages contain graphical tools for QTL analysis.</li>
+	The package also contains graphical tools for QTL analysis.</li>
     
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
@@ -202,8 +201,6 @@
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
     	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
-
-    	<li><pkg>rv</pkg> provides a simulation-based random variable class in R, in which posterior simulation objects can be conveniently handled as random variables. </li>
 	
 	<li><pkg>scapeMCMC</pkg> is a Bayesian companion package of scape which deals with age and time structured population models. It provides multipanel 
 	MCMC diagnostic plots with aestically pleasing defaults and graphical parameters that are easy to change.</li>
@@ -278,7 +275,6 @@
     <pkg priority="core">bayesSurv</pkg>    
     <pkg>BCE</pkg>
     <pkg>bcp</pkg>
-    <pkg>bim</pkg>
     <pkg>BMA</pkg>
     <pkg priority="core">boa</pkg>
     <pkg>Bolstad</pkg>
@@ -320,7 +316,6 @@
     <pkg>RJaCGH</pkg>
     <pkg>rjags</pkg>
     <pkg>runjags</pkg>
-    <pkg>rv</pkg>
     <pkg>sna</pkg>
     <pkg>scapeMCMC</pkg>
     <pkg>spBayes</pkg>
