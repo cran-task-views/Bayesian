@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2010-07-30</version>
+ <version>2010-09-23</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -57,27 +57,23 @@
     <p> <strong>Bayesian packages for specific models or methods</strong></p>
     
     <ul>    
-	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
-	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
-	in importance sampling or as the candidate density in the Metropolis-Hastings algorithm.</li>
-
 	<li>The <pkg>bark</pkg> package impelements BARK (Bayesian Additive Regression Kernels) 
 	with feature selection. </li>
 
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
-	
-   	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
-	Compound Poisson Process (CPP) priors.</li>     
 
 	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
+	
+   	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
+	Compound Poisson Process (CPP) priors.</li>     
 
  	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>   
 
 	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>     
-
+Ebaye
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
 	biomarker data using a Bayesian approach.  </li>
 
@@ -88,6 +84,8 @@
 	generalized linear models, and survival models.  The complementary package <pkg>ensembleBMA</pkg> uses 
 	the <pkg>BMA</pkg> package to create probabilistic forecasts of ensembles using a mixture of 
 	normal distributions.</li>
+
+    	<li><pkg>BMS</pkg> provides R functions for Bayesian model averaging for univariate linear models under Zellner's g prior.</li>
 
     	<li><pkg>BPHO</pkg> is a package for Bayesian prediction of higher-order interactions using slice sampling method.</li>
 
@@ -167,6 +165,11 @@
     	The selection of the number of states is made via their posterior 
 	probability computed by reversible jump Markov chain Monte Carlo Methods.</li>
 
+	<li><pkg>SampleSizeMeans</pkg> and <pkg>SampleSizeProportions</pkg> contains a set of R functions for calculating sample size requirements using
+	three different Bayesian criteria in the context of designing an
+	experiment to estimate a normal mean or the difference between two normal means and the difference between two binomial
+	proportions.</li>
+
     	<li><pkg>sna</pkg>, an R package for social network analysis, contains functions to generate posterior samples from Butt's 
     	Bayesian network accuracy model using Gibbs sampling.</li>
 
@@ -228,12 +231,6 @@
     	<li> <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models 
 	using <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
 
-    	<li><b>BRugs</b> provides an R interface on Windows machines to 
-	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>. 
-	It works only under Windows and used to be available from CRAN, now it is 
-	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
-    	repository.</li>
-
     	<li>There are two packages that can be used to interface R with 
 	<a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.
     	<pkg>R2WinBUGS</pkg> provides a set of functions to call WinBUGS on 
@@ -259,8 +256,7 @@
     </info>
 
     <packagelist>
-    <pkg>AdMit</pkg>
-    <pkg priority="core">arm</pkg>
+bay    <pkg priority="core">arm</pkg>
     <pkg priority="core">BACCO</pkg>
     <pkg>BaM</pkg>
     <pkg>bark</pkg> 
@@ -275,6 +271,7 @@
     <pkg priority="core">bayesSurv</pkg>    
     <pkg>BCE</pkg>
     <pkg>bcp</pkg>
+    <pkg>BMA</pkg>
     <pkg>BMA</pkg>
     <pkg priority="core">boa</pkg>
     <pkg>Bolstad</pkg>
@@ -316,6 +313,8 @@
     <pkg>RJaCGH</pkg>
     <pkg>rjags</pkg>
     <pkg>runjags</pkg>
+    <pkg>SampleSizeMeans</pkg>
+    <pkg>SampleSizeProportions</pkg>
     <pkg>sna</pkg>
     <pkg>scapeMCMC</pkg>
     <pkg>spBayes</pkg>
@@ -329,7 +328,6 @@
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
-    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/" target="_top">BRugs in CRANextras</a>
     <view>gR</view>
     <a href="http://www.public-health.uiowa.edu/boa/" target="_top">BOA</a>
     <a href="http://www-fis.iarc.fr/coda/" target="_top">CODA</a>
