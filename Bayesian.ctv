@@ -73,7 +73,7 @@
 
 	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>     
-Ebaye
+
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
 	biomarker data using a Bayesian approach.  </li>
 
@@ -256,7 +256,7 @@ Ebaye
     </info>
 
     <packagelist>
-bay    <pkg priority="core">arm</pkg>
+    <pkg priority="core">arm</pkg>
     <pkg priority="core">BACCO</pkg>
     <pkg>BaM</pkg>
     <pkg>bark</pkg> 
