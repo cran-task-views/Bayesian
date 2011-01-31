@@ -138,8 +138,6 @@
 	(and optionally) the predictive distribution when both the
     	prior and the likelihood are Gaussian, and when the statistic of interest comes from a two-sample problem.</li>
 
-	<li>The <pkg>GLMMarp</pkg> package contains functions to estimate the GLMM-AR(p) model for analyzing discrete time-series cross-sectional data.</li>
-
     	<li>The function <tt>krige.bayes()</tt> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
@@ -224,8 +222,6 @@
     	and related methods which are used by other packages.  It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
-    	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
-	
 	<li><pkg>scapeMCMC</pkg> is a Bayesian companion package of scape which deals with age and time structured population models. It provides multipanel 
 	MCMC diagnostic plots with aestically pleasing defaults and graphical parameters that are easy to change.</li>
 
@@ -323,7 +319,6 @@
     <pkg>G1DBN</pkg>
     <pkg>geoR</pkg>
     <pkg>geoRglm</pkg>
-    <pkg>GLMMarp</pkg>
     <pkg>glmmBUGS</pkg>
     <pkg>HI</pkg>    
     <pkg>Hmisc</pkg>
@@ -343,7 +338,6 @@
     <pkg>R2WinBUGS</pkg>
     <pkg>Ratings</pkg>
     <pkg>RxCEcolInf</pkg>
-    <pkg>ramps</pkg>
     <pkg>rbugs</pkg>
     <pkg>RJaCGH</pkg>
     <pkg>rjags</pkg>
