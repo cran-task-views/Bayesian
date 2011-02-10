@@ -222,6 +222,8 @@
     	and related methods which are used by other packages.  It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
+    	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
+
 	<li><pkg>scapeMCMC</pkg> is a Bayesian companion package of scape which deals with age and time structured population models. It provides multipanel 
 	MCMC diagnostic plots with aestically pleasing defaults and graphical parameters that are easy to change.</li>
 
@@ -336,6 +338,7 @@
     <pkg>pscl</pkg>
     <pkg>R2jags</pkg>
     <pkg>R2WinBUGS</pkg>
+    <pkg>ramps</pkg>
     <pkg>Ratings</pkg>
     <pkg>RxCEcolInf</pkg>
     <pkg>rbugs</pkg>
