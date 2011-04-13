@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2010-12-14</version>
+ <version>2011-04-13</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -131,8 +131,6 @@
     	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach 
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
-
-    	<li><pkg>G1DBN</pkg> performs dynamic Bayesian network inference.</li>
  
     	<li>The <tt>gbayes()</tt> function in <pkg>Hmisc</pkg> derives the posterior 
 	(and optionally) the predictive distribution when both the
@@ -318,7 +316,6 @@
     <pkg>ensembleBMA</pkg>
     <pkg>evdbayes</pkg>
     <pkg>exactLoglinTest</pkg>
-    <pkg>G1DBN</pkg>
     <pkg>geoR</pkg>
     <pkg>geoRglm</pkg>
     <pkg>glmmBUGS</pkg>
