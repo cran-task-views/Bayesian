@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-04-13</version>
+ <version>2011-05-10</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -43,6 +43,9 @@
 	DPpackage currently includes semiparametric models for density estimation, ROC curve analysis, 
 	interval censored data, binary regression models, generalized linear mixed models, and IRT type models. </li>
 
+	<li><pkg>LaplacesDemon</pkg> allows Laplace Approximation and the choice of four MCMC algorithms 
+	to update a Bayesian model according to a user-specified model function.</li>
+
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
@@ -57,9 +60,15 @@
     <p> <strong>Bayesian packages for specific models or methods</strong></p>
     
     <ul>    
+	<li><pkg>abc</pkg> package implements several ABC algorithms for performing parameter estimation and model selection. 
+	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			probabilities of different models.</li>
+	
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
 	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
 	in importance sampling or as the candidate density in the Metropolis-Hastings algorithm.</li>
+
+	<li>The <pkg>BaBoon</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
+	multiply impute missing data. </li>
 
 	<li>The <pkg>bark</pkg> package impelements BARK (Bayesian Additive Regression Kernels) 
 	with feature selection. </li>
@@ -67,32 +76,56 @@
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
 	
-   	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
-	Compound Poisson Process (CPP) priors.</li>     
-
-	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
+ 	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
- 	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>   
+  	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
+	Compound Poisson Process (CPP) priors.</li>     
 
-	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
-	by Chipman, George, and McCulloch (2006).</li>     
+ 	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>  
 
+ 	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
+	by Chipman, George, and McCulloch (2006).</li>  
+
+ 	<li><pkg>bbemkr</pkg> implements Bayesian bandwidth estimation for Nadaraya-Watson 
+	type multivariate kernel regression with Gaussian error.</li>  
+	   
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
 	biomarker data using a Bayesian approach.  </li>
 
+	<li><pkg>bclust</pkg> builds a dendrogram with log posterior as a natural distance defined by the model. 
+	It is also capable to computing Bayesian discrimination probabilities equivalent to the implemented Bayesian clustering. 
+	Spike-and-Slab models are adopted in a way to be able to produce an importance measure for clustering 
+	and discriminant variables. </li>
+
 	<li><pkg>bcp</pkg> implements a Bayesian analysis of changepoint problem using  
 	Barry and Hartigan product partition model.</li>
+
+	<li><pkg>bfp</pkg> implements the Bayesian paradigm for fractional polynomial models 
+	under the assumption of normally distributed error terms.</li>
+
+	<li><pkg>bisoreg</pkg> implements the Bayesian isotonic regression with Bernstein polynomials.</li>
+
+
+	<li><pkg>BLR</pkg> provides R functions to fit parametric regression models using different types of shrinkage methods.</li>
 
      	<li>The <pkg>BMA</pkg> package has functions for Bayesian model averaging for linear models, 
 	generalized linear models, and survival models.  The complementary package <pkg>ensembleBMA</pkg> uses 
 	the <pkg>BMA</pkg> package to create probabilistic forecasts of ensembles using a mixture of 
 	normal distributions.</li>
 
-     	<li><pkg>BMS</pkg> implements Bayesian Model Averaging for univariate linear models under Zellner’s g prior. 
-	Options include fixed and flexible g priors, 5 kinds of model prior concepts, and model sampling via model enumeration or MCMC samplers. 
+	<li><pkg>Bmix</pkg> is a bare-bones implementation of sampling algorithms for a variety of Bayesian stick-breaking 
+	(marginally DP) mixture models, including particle learning and Gibbs sampling for static DP mixtures, 
+	particle learning for dynamic BAR stick-breaking, and DP mixture regression. </li>
+	
+     	<li><pkg>BMS</pkg> implements Bayesian Model Averaging for univariate linear models under Zellner's g prior. 
+	Options include fixed and flexible g priors, 5 kinds of model prior concepts, 
+	and model sampling via model enumeration or MCMC samplers. 
 	Post-processing allows for inference according to different concepts and for plotting </li>
 
+	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
+	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
+	
     	<li><pkg>BPHO</pkg> is a package for Bayesian prediction of higher-order interactions using slice sampling method.</li>
 
     	<li><pkg>bqtl</pkg> can be used to fit quantitative trait loci (QTL) models. 
@@ -102,10 +135,12 @@
     
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
+	<li><pkg>catnet</pkg> is a package that handles discrete Bayesian network models and provides 
+	inference using the frequentist approach.</li>
+
     	<li><pkg>cslogistic</pkg> has a function that performs a Bayesian analaysis of 
 	a conditionally specified logistic regression model.</li> 
-	
-	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
+	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
 	for complex models using data cloning and MCMC methods.</li> 
 
     	<li><pkg>deal</pkg> provides R functions for Bayesian network analysis; 
@@ -123,19 +158,28 @@
 
     	<li><pkg>eco</pkg> fits Bayesian ecological inference models in two by two tables using MCMC methods.</li>  
 
+	<li><pkg>ebdbNet</pkg> can be used to infer the adjacency matrix of a network from time course data 
+	using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.</li>
+
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis of extreme value models.</li>
 
     	<li><pkg>exactLoglinTest</pkg> provides functions for log-linear models that compute  
 	Monte Carlo estimates of conditional P-values for goodness of fit tests. </li>
 
-    	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach 
-	to transdimensional MCMC methods and random direction multivariate
-    	Adaptive Rejection Metropolis Sampling.</li>
- 
+	<li><pkg>factorQR</pkg> is a package to fit Bayesian quantile regression models 
+	that assume a factor structure for at least part of the design matrix.</li>
+
+   	<li><pkg>gausspred</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
+	such as gene expression data. </li>
+
     	<li>The <tt>gbayes()</tt> function in <pkg>Hmisc</pkg> derives the posterior 
 	(and optionally) the predictive distribution when both the
     	prior and the likelihood are Gaussian, and when the statistic of interest comes from a two-sample problem.</li>
 
+    	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach 
+	to transdimensional MCMC methods and random direction multivariate
+    	Adaptive Rejection Metropolis Sampling.</li>
+ 
     	<li>The function <tt>krige.bayes()</tt> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
@@ -153,12 +197,21 @@
     	<li>The <tt>mcmcsamp()</tt> function in <pkg>lme4</pkg> allows MCMC sampling for 
 	the linear mixed model and generalized linear mixed model.</li>   
 
+    	<li>The <pkg>mlogitBMA</pkg> Provides a modified function <tt>bic.glm()</tt> of the <pkg>BMA<\pkg> package that 
+	can be applied to multinomial logit (MNL) data. </li>  
+
     	<li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>  
 
-	<li><pkg>monomvn</pkg> is an R package for stimation of multivariate normal and Student-t data of arbitrary dimension where the pattern of missing data is monotone.</li>
+	<li><pkg>mombf</pkg> performs model selection based on non-local priors, including MOM, eMOM and iMOM priors..</li>
+
+	<li><pkg>monomvn</pkg> is an R package for stimation of multivariate normal and Student-t data of arbitrary 
+	dimension where the pattern of missing data is monotone.</li>
 
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
 	Autoregression models and Bayesian structural Vector Autoregression models.</li>
+
+	<li><pkg>predbayescor</pkg> and <pkg>predmixcor</pkg> provide functions to predict the binary response based 
+	on high dimensional binary features modeled with Bayesian mixture models. </li>
 
     	<li>The <pkg>pscl</pkg> package provides R functions to fit 
 	item-response theory models using MCMC methods 
@@ -173,6 +226,8 @@
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
+	<li><pkg>rWMBAT</pkg> is the William and Mary Bayesian analysis tool to get a resulting Bayesian network.</li>
+
 	<li><pkg>SampleSizeMeans</pkg> contains a set of R functions for calculating sample size requirements using
 	three different Bayesian criteria in the context of designing an
 	experiment to estimate a normal mean or the difference between two
@@ -183,7 +238,12 @@
 	experiment to estimate the difference between two binomial
 	proportions. </li>
 
-	<li><pkg>SimpleTable</pkg> provides a series of methods to conduct Bayesian inference and sensitivity analysis for causal effects from 2 x 2 and 2 x 2 x K tables.</li>
+	<li><pkg>sbgcop</pkg> estimates parameters of a Gaussian copula, treating the univariate marginal distributions as 
+	nuisance parameters as described in Hoff(2007). It also provides a semiparametric imputation procedure for missing 
+	multivariate data.</li>
+
+	<li><pkg>SimpleTable</pkg> provides a series of methods to conduct Bayesian inference and sensitivity analysis 
+	for causal effects from 2 x 2 and 2 x 2 x K tables.</li>
 
     	<li><pkg>sna</pkg>, an R package for social network analysis, contains functions to generate posterior samples from Butt's 
     	Bayesian network accuracy model using Gibbs sampling.</li>
@@ -193,9 +253,18 @@
 
 	<li><pkg>spikeslab</pkg> provides functions for prediction and variable selection using spike and slab regression.</li>
 
+	<li><pkg>spikeSlabGAM</pkg> implements Bayesian variable selection, model choice, and regularized estimation in  
+	(geo-)additive mixed models for Gaussian, binomial, and Poisson responses.</li>
+
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: 
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
+	
+	<li><pkg>vbmp</pkg> is a package for variational Bayesian multinomial probate regression with Gaussian process priors. 
+	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
+	This software also incorporates feature weighting by means of Automatic Relevance Determination. </li>
+	
+	<li>The <pkg>varSelectIP</pkg> package implements objective Bayes variable selection in linear regression and probit models.</li>
 
     	<li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can extract a 
 	Bayesian posterior covariance matrix of the parameters from a fitted <tt>gam</tt> object.</li>
@@ -216,11 +285,14 @@
 	the Brooks and Gelman multivariate shrink factors.</li>
 
     	<li>The <pkg>coda</pkg> (Convergence Diagnosis and Output Analysis) package is a suite of functions that 
-	can be used to summarize, plot, and and diagnose convergence from MCMC samples. <pkg>coda</pkg> also defines an <tt>mcmc</tt> object
-    	and related methods which are used by other packages.  It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
+	can be used to summarize, plot, and and diagnose convergence from MCMC samples. 
+	<pkg>coda</pkg> also defines an <tt>mcmc</tt> object
+    	and related methods which are used by other packages.  
+	It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
-    	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes using a reparameterized and marginalized posterior sampling algorithm. </li>
+    	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes 
+	using a reparameterized and marginalized posterior sampling algorithm. </li>
 
 	<li><pkg>scapeMCMC</pkg> is a Bayesian companion package of scape which deals with age and time structured population models. It provides multipanel 
 	MCMC diagnostic plots with aestically pleasing defaults and graphical parameters that are easy to change.</li>
@@ -251,11 +323,23 @@
     	<li> <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models 
 	using <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
 
+	<li><pkg>bayespack</pkg> provides an R interface to the Fortran BAYESPACK integration routines written by Alan Genz. 
+	Given an unnormalized posterior distribution, the BAYESPACK routines approximate the normalization constant 
+	and the mean and covariance of the posterior. 
+	Posterior means of additional functions of the parameters can be calculated as well.</li>  
+
+   	<li> <pkg>BayesX</pkg> provides functionality for exploring and visualizing estimation results 
+	obtained with the software package <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>.</li>
+
     	<li><b>BRugs</b> provides an R interface on Windows machines to 
 	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>. 
 	It works only under Windows and used to be available from CRAN, now it is 
 	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
     	repository.</li>
+
+   	<li> <pkg>cudaBayesreg</pkg> provides a Compute Unified Device Architecture (CUDA) implementation of a Bayesian multilevel model 
+	for the analysis of brain fMRI data. 
+	CUDA is a software platform for massively parallel high-performance computing on NVIDIA GPUs.</li>
 
     	<li>There are two packages that can be used to interface R with 
 	<a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.
@@ -275,87 +359,117 @@
     </ul>
 
     
-    <p> The Bayesian Inference Task View is written by Jong Hee Park (University of Chicago, IL, USA), Andrew D. Martin (Washington University, St. Louis, MO, USA), and
-    Kevin M. Quinn (UC Berkeley, Berkeley, CA, USA).  Please email the <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
-    with suggestions.</p>
+    <p> The Bayesian Inference Task View is written by Jong Hee Park (University of Chicago, IL, USA), 
+	Andrew D. Martin (Washington University, St. Louis, MO, USA), 
+	and Kevin M. Quinn (UC Berkeley, Berkeley, CA, USA).  
+	Please email the <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
+    	with suggestions.</p>
 
     </info>
 
-    <packagelist>
-    <pkg>AdMit</pkg>
-    <pkg priority="core">arm</pkg>
-    <pkg priority="core">BACCO</pkg>
-    <pkg>BaM</pkg>
-    <pkg>bark</pkg> 
-    <pkg>BAS</pkg> 
-    <pkg>bayesGARCH</pkg>
-    <pkg priority="core">bayesm</pkg>
-    <pkg>bayesmix</pkg>
-    <pkg>BayHaz</pkg>
-    <pkg>BAYSTAR</pkg>
-    <pkg>BayesDA</pkg>
-    <pkg>BayesTree</pkg>
-    <pkg>BayesValidate</pkg>
-    <pkg priority="core">bayesSurv</pkg>    
-    <pkg>BCE</pkg>
-    <pkg>bcp</pkg>
-    <pkg>BMA</pkg>
-    <pkg>BMS</pkg>
-    <pkg priority="core">boa</pkg>
-    <pkg>Bolstad</pkg>
-    <pkg>BPHO</pkg> 
-    <pkg>bqtl</pkg>
-    <pkg>bspec</pkg>	
-    <pkg priority="core">coda</pkg>
-    <pkg>cslogistic</pkg>
-    <pkg>dclone</pkg>
-    <pkg>deal</pkg>
-    <pkg>dlm</pkg>      
-    <pkg priority="core">DPpackage</pkg>
-    <pkg>EbayesThresh</pkg>
-    <pkg>ensembleBMA</pkg>
-    <pkg>evdbayes</pkg>
-    <pkg>exactLoglinTest</pkg>
-    <pkg>geoR</pkg>
-    <pkg>geoRglm</pkg>
-    <pkg>glmmBUGS</pkg>
-    <pkg>HI</pkg>    
-    <pkg>Hmisc</pkg>
-    <pkg>LearnBayes</pkg>
-    <pkg>lme4</pkg>
-    <pkg>lmm</pkg>
-    <pkg>MasterBayes</pkg>
-    <pkg priority="core">mcmc</pkg>
-    <pkg>MCMCglmm</pkg>
-    <pkg priority="core">MCMCpack</pkg>
-    <pkg>mgcv</pkg>
-    <pkg>MNP</pkg>
-    <pkg>monomvn</pkg>
-    <pkg>MSBVAR</pkg>
-    <pkg>pscl</pkg>
-    <pkg>R2jags</pkg>
-    <pkg>R2WinBUGS</pkg>
-    <pkg>ramps</pkg>
-    <pkg>Ratings</pkg>
-    <pkg>RxCEcolInf</pkg>
-    <pkg>rbugs</pkg>
-    <pkg>RJaCGH</pkg>
-    <pkg>rjags</pkg>
-    <pkg>runjags</pkg>
-    <pkg>SampleSizeMeans</pkg>
-    <pkg>SampleSizeProportions</pkg>
-    <pkg>SimpleTable</pkg>
-    <pkg>sna</pkg>
-    <pkg>scapeMCMC</pkg>
-    <pkg>spBayes</pkg>
-    <pkg>spikeslab</pkg>
-    <pkg>tgp</pkg>
-    <pkg>zic</pkg>
-    </packagelist>
+    	<packagelist>
+	<pkg>abc</pkg>
+    	<pkg>AdMit</pkg>
+    	<pkg priority="core">arm</pkg>
+	<pkg>BaBoon</pkg>
+    	<pkg priority="core">BACCO</pkg>
+    	<pkg>BaM</pkg>
+    	<pkg>bark</pkg> 
+    	<pkg>BAS</pkg> 
+    	<pkg>bayesGARCH</pkg>
+    	<pkg priority="core">bayesm</pkg>
+    	<pkg>bayesmix</pkg>
+    	<pkg>BayHaz</pkg>
+    	<pkg>BAYSTAR</pkg>
+    	<pkg>BayesDA</pkg>
+    	<pkg>bayespack</pkg>
+    	<pkg>BayesTree</pkg>
+    	<pkg>BayesValidate</pkg>
+    	<pkg priority="core">bayesSurv</pkg>    
+	<pkg>BayesX</pkg>
+	<pkg>bbemkr</pkg>
+	<pkg>BCE</pkg>
+	<pkg>bclust</pkg>
+    	<pkg>bcp</pkg>
+    	<pkg>bfp</pkg>
+    	<pkg>bisoreg</pkg>
+	<pkg>BLR</pkg>
+    	<pkg>BMA</pkg>
+    	<pkg>BMS</pkg>
+    	<pkg>Bmix</pkg>
+	<pkg>bnlearn</pkg>
+    	<pkg priority="core">boa</pkg>
+    	<pkg>Bolstad</pkg>
+    	<pkg>BPHO</pkg> 
+    	<pkg>bqtl</pkg>
+    	<pkg>bspec</pkg>	
+	<pkg>catnet</pkg>
+    	<pkg priority="core">coda</pkg>
+    	<pkg>cslogistic</pkg>
+	<pkg>cudaBayesreg</pkg>
+    	<pkg>dclone</pkg>
+    	<pkg>deal</pkg>
+    	<pkg>dlm</pkg>      
+    	<pkg priority="core">DPpackage</pkg>
+    	<pkg>EbayesThresh</pkg>
+	<pkg>ebdbNet</pkg>
+    	<pkg>ensembleBMA</pkg>
+    	<pkg>evdbayes</pkg>
+    	<pkg>exactLoglinTest</pkg>
+	<pkg>factorQR</pkg>
+	<pkg>gausspred</pkg>
+    	<pkg>geoR</pkg>
+    	<pkg>geoRglm</pkg>
+    	<pkg>glmmBUGS</pkg>
+    	<pkg>HI</pkg>    
+    	<pkg>Hmisc</pkg>
+    	<pkg>LearnBayes</pkg>
+    	<pkg>LaplacesDemon</pkg>
+    	<pkg>lme4</pkg>
+    	<pkg>lmm</pkg>
+    	<pkg>MasterBayes</pkg>
+    	<pkg priority="core">mcmc</pkg>
+    	<pkg>MCMCglmm</pkg>
+    	<pkg priority="core">MCMCpack</pkg>
+    	<pkg>mgcv</pkg>
+	<pkg>mlogitBMA</pkg>
+    	<pkg>MNP</pkg>
+	<pkg>mombf</pkg>
+    	<pkg>monomvn</pkg>
+    	<pkg>MSBVAR</pkg>
+	<pkg>predbayescor</pkg>
+	<pkg>predmixcor</pkg>
+    	<pkg>pscl</pkg>
+    	<pkg>R2jags</pkg>
+    	<pkg>R2WinBUGS</pkg>
+    	<pkg>ramps</pkg>
+    	<pkg>Ratings</pkg>
+    	<pkg>RxCEcolInf</pkg>
+    	<pkg>rbugs</pkg>
+    	<pkg>RJaCGH</pkg>
+    	<pkg>rjags</pkg>
+    	<pkg>runjags</pkg>
+	<pkg>rWMBAT</pkg>
+    	<pkg>SampleSizeMeans</pkg>
+    	<pkg>SampleSizeProportions</pkg>
+	<pkg>sbgcop</pkg>
+    	<pkg>scapeMCMC</pkg>
+    	<pkg>SimpleTable</pkg>
+    	<pkg>sna</pkg>
+    	<pkg>spBayes</pkg>
+    	<pkg>spikeslab</pkg>
+	<pkg>spikeSlabGAM</pkg>
+    	<pkg>tgp</pkg>
+	<pkg>varSelectIP</pkg>
+	<pkg>vbmp</pkg>
+    	<pkg>zic</pkg>
+    	
+	</packagelist>
 
     <links>
     <a href="http://mcmcpack.wustl.edu/" target="_top">MCMCpack</a>
     <a href="http://faculty.chicagogsb.edu/peter.rossi/research/bsm.html" target="_top">Bayesian Statistics and Marketing (bayesm)</a>
+    <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
