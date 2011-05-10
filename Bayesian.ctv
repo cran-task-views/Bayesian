@@ -172,7 +172,7 @@
    	<li><pkg>gausspred</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
 	such as gene expression data. </li>
 
-    	<li>The <tt>gbayes()</tt> function in <pkg>Hmisc</pkg> derives the posterior 
+    	<li>The <code>gbayes()</code> function in <pkg>Hmisc</pkg> derives the posterior 
 	(and optionally) the predictive distribution when both the
     	prior and the likelihood are Gaussian, and when the statistic of interest comes from a two-sample problem.</li>
 
@@ -180,10 +180,10 @@
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
  
-    	<li>The function <tt>krige.bayes()</tt> in the <pkg>geoR</pkg> package performs 
+    	<li>The function <code>krige.bayes()</code> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
-	The <tt>binom.krige.bayes()</tt> function in the
+	The <code>binom.krige.bayes()</code> function in the
     	<pkg>geoRglm</pkg> package implements Bayesian posterior simulation and spatial prediction 
 	for the binomial spatial model (see the <view>Spatial</view> view for more information). </li>
 
@@ -194,10 +194,10 @@
 
    	<li><pkg>MCMCglmm</pkg> is package for fitting Generalised Linear Mixed Models using MCMC methods. </li>    
 
-    	<li>The <tt>mcmcsamp()</tt> function in <pkg>lme4</pkg> allows MCMC sampling for 
+    	<li>The <code>mcmcsamp()</code> function in <pkg>lme4</pkg> allows MCMC sampling for 
 	the linear mixed model and generalized linear mixed model.</li>   
 
-    	<li>The <pkg>mlogitBMA</pkg> Provides a modified function <tt>bic.glm()</tt> of the <pkg>BMA<\pkg> package that 
+    	<li>The <pkg>mlogitBMA</pkg> Provides a modified function <code>bic.glm()</code> of the <pkg>BMA</pkg> package that 
 	can be applied to multinomial logit (MNL) data. </li>  
 
     	<li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>  
@@ -266,8 +266,8 @@
 	
 	<li>The <pkg>varSelectIP</pkg> package implements objective Bayes variable selection in linear regression and probit models.</li>
 
-    	<li>The <tt>vcov.gam()</tt> function the <pkg>mgcv</pkg> package can extract a 
-	Bayesian posterior covariance matrix of the parameters from a fitted <tt>gam</tt> object.</li>
+    	<li>The <code>vcov.gam()</code> function the <pkg>mgcv</pkg> package can extract a 
+	Bayesian posterior covariance matrix of the parameters from a fitted <code>gam</code> object.</li>
 
 	<li><pkg>zic</pkg> provides functions for an MCMC analysis of zero-inflated count models including stochastic search variable selection.</li>
 
@@ -286,7 +286,7 @@
 
     	<li>The <pkg>coda</pkg> (Convergence Diagnosis and Output Analysis) package is a suite of functions that 
 	can be used to summarize, plot, and and diagnose convergence from MCMC samples. 
-	<pkg>coda</pkg> also defines an <tt>mcmc</tt> object
+	<pkg>coda</pkg> also defines an <code>mcmc</code> object
     	and related methods which are used by other packages.  
 	It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
