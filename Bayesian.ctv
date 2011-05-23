@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-05-10</version>
+ <version>2011-05-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -260,7 +260,7 @@
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
 	
-	<li><pkg>vbmp</pkg> is a package for variational Bayesian multinomial probate regression with Gaussian process priors. 
+	<li><bioc>vbmp</bioc> is a package for variational Bayesian multinomial probate regression with Gaussian process priors. 
 	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
 	This software also incorporates feature weighting by means of Automatic Relevance Determination. </li>
 	
@@ -461,7 +461,6 @@
 	<pkg>spikeSlabGAM</pkg>
     	<pkg>tgp</pkg>
 	<pkg>varSelectIP</pkg>
-	<pkg>vbmp</pkg>
     	<pkg>zic</pkg>
     	
 	</packagelist>
@@ -475,6 +474,7 @@
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/" target="_top">BRugs in CRANextras</a>
     <view>gR</view>
+    <bioc>vbmp</bioc>
     <a href="http://www.public-health.uiowa.edu/boa/" target="_top">BOA</a>
     <a href="http://www-fis.iarc.fr/coda/" target="_top">CODA</a>
     </links>
