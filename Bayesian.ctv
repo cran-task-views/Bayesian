@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-05-22</version>
+ <version>2011-07-28</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -169,7 +169,7 @@
 	<li><pkg>factorQR</pkg> is a package to fit Bayesian quantile regression models 
 	that assume a factor structure for at least part of the design matrix.</li>
 
-   	<li><pkg>gausspred</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
+   	<li><pkg>BCBCSF</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
 	such as gene expression data. </li>
 
     	<li>The <code>gbayes()</code> function in <pkg>Hmisc</pkg> derives the posterior 
@@ -388,6 +388,7 @@
     	<pkg priority="core">bayesSurv</pkg>    
 	<pkg>BayesX</pkg>
 	<pkg>bbemkr</pkg>
+	<pkg>BCBCSF</pkg>
 	<pkg>BCE</pkg>
 	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
@@ -417,7 +418,6 @@
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
 	<pkg>factorQR</pkg>
-	<pkg>gausspred</pkg>
     	<pkg>geoR</pkg>
     	<pkg>geoRglm</pkg>
     	<pkg>glmmBUGS</pkg>
