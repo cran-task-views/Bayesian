@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-07-28</version>
+ <version>2011-08-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -61,7 +61,8 @@
     
     <ul>    
 	<li><pkg>abc</pkg> package implements several ABC algorithms for performing parameter estimation and model selection. 
-	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			probabilities of different models.</li>
+	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			
+	probabilities of different models.</li>
 	
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
 	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
@@ -79,15 +80,17 @@
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
-  	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
+  	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
+	by Chipman, George, and McCulloch (2006).</li>  
+
+	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, both continuous as well as binary dependent variables.</li>  
+
+	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
 	Compound Poisson Process (CPP) priors.</li>     
 
  	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>  
 
- 	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
-	by Chipman, George, and McCulloch (2006).</li>  
-
- 	<li><pkg>bbemkr</pkg> implements Bayesian bandwidth estimation for Nadaraya-Watson 
+  	<li><pkg>bbemkr</pkg> implements Bayesian bandwidth estimation for Nadaraya-Watson 
 	type multivariate kernel regression with Gaussian error.</li>  
 	   
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
@@ -140,7 +143,8 @@
 
     	<li><pkg>cslogistic</pkg> has a function that performs a Bayesian analaysis of 
 	a conditionally specified logistic regression model.</li> 
-	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
+
+	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
 	for complex models using data cloning and MCMC methods.</li> 
 
     	<li><pkg>deal</pkg> provides R functions for Bayesian network analysis; 
@@ -331,9 +335,9 @@
    	<li> <pkg>BayesX</pkg> provides functionality for exploring and visualizing estimation results 
 	obtained with the software package <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>.</li>
 
-    	<li><b>BRugs</b> provides an R interface on Windows machines to 
+    	<li><b>BRugs</b> provides an R interface to 
 	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>. 
-	It works only under Windows and used to be available from CRAN, now it is 
+	It works under Windows and Linux.  <b>BRugs</b> used to be available from CRAN, now it is 
 	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
     	repository.</li>
 
@@ -383,6 +387,7 @@
     	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
     	<pkg>bayespack</pkg>
+    	<pkg>bayesQR</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
@@ -481,6 +486,5 @@
 
 
 </CRANTaskView>
-
 
 
