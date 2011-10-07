@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-08-16</version>
+ <version>2011-10-07</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -216,6 +216,10 @@
 
 	<li><pkg>predbayescor</pkg> and <pkg>predmixcor</pkg> provide functions to predict the binary response based 
 	on high dimensional binary features modeled with Bayesian mixture models. </li>
+
+	<li><pkg>profdpm</pkg> facilitates profile inference
+	(inference at the posterior mode) for a class of product
+	partition models. </li> 
 
     	<li>The <pkg>pscl</pkg> package provides R functions to fit 
 	item-response theory models using MCMC methods 
@@ -444,6 +448,7 @@
     	<pkg>MSBVAR</pkg>
 	<pkg>predbayescor</pkg>
 	<pkg>predmixcor</pkg>
+	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
@@ -486,5 +491,4 @@
 
 
 </CRANTaskView>
-
 
