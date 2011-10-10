@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-10-07</version>
+ <version>2011-10-10</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -213,6 +213,8 @@
 
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
 	Autoregression models and Bayesian structural Vector Autoregression models.</li>
+
+	<li><pkg>PottsUtils</pkg> comprises several functions related to the Potts model definedon undirected graphs.</li>
 
 	<li><pkg>predbayescor</pkg> and <pkg>predmixcor</pkg> provide functions to predict the binary response based 
 	on high dimensional binary features modeled with Bayesian mixture models. </li>
@@ -446,6 +448,7 @@
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
     	<pkg>MSBVAR</pkg>
+	<pkg>PottsUtils</pkg>
 	<pkg>predbayescor</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>profdpm</pkg>
