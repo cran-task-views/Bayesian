@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2011-10-10</version>
+ <version>2012-01-13</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -43,14 +43,17 @@
 	DPpackage currently includes semiparametric models for density estimation, ROC curve analysis, 
 	interval censored data, binary regression models, generalized linear mixed models, and IRT type models. </li>
 
-	<li><pkg>LaplacesDemon</pkg> allows Laplace Approximation and the choice of four MCMC algorithms 
-	to update a Bayesian model according to a user-specified model function.</li>
+	<li><pkg>LaplacesDemon</pkg> seeks to provide a complete Bayesian environment, 
+	including numerous MCMC algorithms, Laplace Approximation with multiple optimization algorithms, 
+	scores of examples, dozens of additional probability distributions, numerous MCMC diagnostics, 
+	Bayes factors, posterior predictive checks, a variety of plots, elicitation, 
+	parameter and variable importance, and numerous additional utility functions.</li>
 
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
-	measurement models (item response theory and factor models), changepoint models (binary and Poisson), and models for ecological inference.  
-	It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
+	measurement models (item response theory and factor models), changepoint models (binary probit, ordinal probit, Poisson, panel), 
+	and models for ecological inference. It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
 
     	<li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk Metropolis algorithm for 
 	a continuous random vector.</li>
@@ -184,6 +187,9 @@
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
  
+	<li><pkg>iterLap</pkg> performs an iterative Laplace approximation to build a global approximation of the posterior (using
+	mixture distributions) and then uses importance sampling for simulation based inference. </li>
+
     	<li>The function <code>krige.bayes()</code> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
@@ -233,6 +239,9 @@
 	CGH microarrays using hidden Markov chain models.
     	The selection of the number of states is made via their posterior 
 	probability computed by reversible jump Markov chain Monte Carlo Methods.</li>
+
+	<li>The <code>hitro.new()</code> function in <pkg>Runuran</pkg> provides an MCMC sampler 
+	based on the Hit-and-Run algorithm in combinaton with the Ratio-of-Uniforms method.</li>
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
@@ -310,7 +319,10 @@
     </ul>
 
     <p> <strong>Packages for learning Bayesian statistics</strong></p>
-    <ul>	
+    <ul>
+	<li><pkg>AtelieR</pkg> is a GTK interface for teaching basic concepts in statistical inference, 
+	and doing elementary bayesian statistics (inference on proportions, multinomial counts, means and variances).</li>
+		
 	<li>The <pkg>BaM</pkg> package is an R package associated with Jeff Gill's book, 
 	"Bayesian Methods: A Social and Behavioral Sciences Approach, Second Edition" (CRC Press, 2007).</li>
 
@@ -381,6 +393,7 @@
 	<pkg>abc</pkg>
     	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
+	<pkg>AtelieR</pkg>
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
@@ -434,6 +447,7 @@
     	<pkg>glmmBUGS</pkg>
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
+	<pkg>iterLap</pkg>
     	<pkg>LearnBayes</pkg>
     	<pkg>LaplacesDemon</pkg>
     	<pkg>lme4</pkg>
@@ -462,6 +476,7 @@
     	<pkg>RJaCGH</pkg>
     	<pkg>rjags</pkg>
     	<pkg>runjags</pkg>
+	<pkg>Runuran</pkg>
 	<pkg>rWMBAT</pkg>
     	<pkg>SampleSizeMeans</pkg>
     	<pkg>SampleSizeProportions</pkg>
