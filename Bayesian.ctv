@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2012-01-13</version>
+ <version>2012-06-24</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -124,11 +124,6 @@
 	(marginally DP) mixture models, including particle learning and Gibbs sampling for static DP mixtures, 
 	particle learning for dynamic BAR stick-breaking, and DP mixture regression. </li>
 	
-     	<li><pkg>BMS</pkg> implements Bayesian Model Averaging for univariate linear models under Zellner's g prior. 
-	Options include fixed and flexible g priors, 5 kinds of model prior concepts, 
-	and model sampling via model enumeration or MCMC samplers. 
-	Post-processing allows for inference according to different concepts and for plotting </li>
-
 	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
 	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
 	
@@ -420,7 +415,6 @@
     	<pkg>bisoreg</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
-    	<pkg>BMS</pkg>
     	<pkg>Bmix</pkg>
 	<pkg>bnlearn</pkg>
     	<pkg priority="core">boa</pkg>
