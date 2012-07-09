@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2012-06-24</version>
+ <version>2012-07-09</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -240,8 +240,6 @@
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
-	<li><pkg>rWMBAT</pkg> is the William and Mary Bayesian analysis tool to get a resulting Bayesian network.</li>
-
 	<li><pkg>SampleSizeMeans</pkg> contains a set of R functions for calculating sample size requirements using
 	three different Bayesian criteria in the context of designing an
 	experiment to estimate a normal mean or the difference between two
@@ -471,7 +469,6 @@
     	<pkg>rjags</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
-	<pkg>rWMBAT</pkg>
     	<pkg>SampleSizeMeans</pkg>
     	<pkg>SampleSizeProportions</pkg>
 	<pkg>sbgcop</pkg>
