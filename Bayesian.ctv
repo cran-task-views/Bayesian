@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2012-07-09</version>
+ <version>2012-08-26</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -227,8 +227,6 @@
     	<li>The <pkg>pscl</pkg> package provides R functions to fit 
 	item-response theory models using MCMC methods 
 	and to compute highest density regions for the Beta distribution and the inverse gamma distribution.</li>
-
-	<li>The <pkg>Ratings</pkg> package contains functions to implement the methods to improve the presentation and interpretation of online ratings data.</li>
 
     	<li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of 
 	CGH microarrays using hidden Markov chain models.
@@ -462,7 +460,6 @@
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
     	<pkg>ramps</pkg>
-    	<pkg>Ratings</pkg>
     	<pkg>RxCEcolInf</pkg>
     	<pkg>rbugs</pkg>
     	<pkg>RJaCGH</pkg>
