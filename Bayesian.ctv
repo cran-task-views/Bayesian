@@ -1,8 +1,8 @@
 <CRANTaskView>
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
- <maintainer email="jhp@uchicago.edu">Jong Hee Park</maintainer>
- <version>2012-08-26</version>
+ <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
+ <version>2012-09-07</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -83,10 +83,15 @@
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
+  	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
+	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
+	using Gaussian link function and saving just the summaries of the chains. </li>  
+
   	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>  
 
-	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, both continuous as well as binary dependent variables.</li>  
+	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, 
+	both continuous as well as binary dependent variables.</li>  
 
 	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
 	Compound Poisson Process (CPP) priors.</li>     
@@ -104,6 +109,9 @@
 	Spike-and-Slab models are adopted in a way to be able to produce an importance measure for clustering 
 	and discriminant variables. </li>
 
+   	<li><pkg>BCBCSF</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
+	such as gene expression data. </li>
+
 	<li><pkg>bcp</pkg> implements a Bayesian analysis of changepoint problem using  
 	Barry and Hartigan product partition model.</li>
 
@@ -112,13 +120,15 @@
 
 	<li><pkg>bisoreg</pkg> implements the Bayesian isotonic regression with Bernstein polynomials.</li>
 
-
 	<li><pkg>BLR</pkg> provides R functions to fit parametric regression models using different types of shrinkage methods.</li>
 
      	<li>The <pkg>BMA</pkg> package has functions for Bayesian model averaging for linear models, 
 	generalized linear models, and survival models.  The complementary package <pkg>ensembleBMA</pkg> uses 
 	the <pkg>BMA</pkg> package to create probabilistic forecasts of ensembles using a mixture of 
 	normal distributions.</li>
+
+	<li><pkg>BMS</pkg> is Bayesian Model Averaging library for linear models with a wide choice of (customizable) priors.
+	Built-in priorss include coefficient priors (fixed, flexible and hyper-g priors), and 5 kinds of model priors. </li>
 
 	<li><pkg>Bmix</pkg> is a bare-bones implementation of sampling algorithms for a variety of Bayesian stick-breaking 
 	(marginally DP) mixture models, including particle learning and Gibbs sampling for static DP mixtures, 
@@ -135,6 +145,11 @@
 	The package also contains graphical tools for QTL analysis.</li>
     
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
+
+    	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
+
+    	<li><pkg>BVS</pkg> is a package for Bayesian variant selection and Bayesian model uncertainty
+	techniques for genetic association studies.</li>
 
 	<li><pkg>catnet</pkg> is a package that handles discrete Bayesian network models and provides 
 	inference using the frequentist approach.</li>
@@ -171,17 +186,25 @@
 	<li><pkg>factorQR</pkg> is a package to fit Bayesian quantile regression models 
 	that assume a factor structure for at least part of the design matrix.</li>
 
-   	<li><pkg>BCBCSF</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
-	such as gene expression data. </li>
 
     	<li>The <code>gbayes()</code> function in <pkg>Hmisc</pkg> derives the posterior 
 	(and optionally) the predictive distribution when both the
     	prior and the likelihood are Gaussian, and when the statistic of interest comes from a two-sample problem.</li>
 
+    	<li> <pkg>ggmcmc</pkg>  is a tool for assessing and diagnosing convergence of Markov Chain Monte Carlo simulations, 
+	as well as for graphically display results from full MCMC analysis. </li>
+		
+    	<li> <pkg>growcurves</pkg>  is a package for Bayesian semi and nonparametric growth curve models 
+	that additionally include multiple membership random effects. </li>
+
     	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach 
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
- 
+	
+    	<li>The <pkg>hbase</pkg> package provides functions to compute small area estimates based on a basic area or unit-level model. 
+	The model is fit using restricted maximum likelihood, or in a hierarchical Bayesian way.</li>
+	 
+
 	<li><pkg>iterLap</pkg> performs an iterative Laplace approximation to build a global approximation of the posterior (using
 	mixture distributions) and then uses importance sampling for simulation based inference. </li>
 
@@ -202,6 +225,8 @@
     	<li>The <code>mcmcsamp()</code> function in <pkg>lme4</pkg> allows MCMC sampling for 
 	the linear mixed model and generalized linear mixed model.</li>   
 
+   	<li><pkg>MISA</pkg> is a package for Bayesian model search and multilevel inference for SNP association studies. </li>    
+
     	<li>The <pkg>mlogitBMA</pkg> Provides a modified function <code>bic.glm()</code> of the <pkg>BMA</pkg> package that 
 	can be applied to multinomial logit (MNL) data. </li>  
 
@@ -215,6 +240,9 @@
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
 	Autoregression models and Bayesian structural Vector Autoregression models.</li>
 
+	<li><pkg>pacbpred</pkg> perform estimation and prediction in high-dimensional additive models, 
+	using a sparse PAC-Bayesian point of view and a MCMC algorithm.</li>
+
 	<li><pkg>PottsUtils</pkg> comprises several functions related to the Potts model definedon undirected graphs.</li>
 
 	<li><pkg>predbayescor</pkg> and <pkg>predmixcor</pkg> provide functions to predict the binary response based 
@@ -227,6 +255,9 @@
     	<li>The <pkg>pscl</pkg> package provides R functions to fit 
 	item-response theory models using MCMC methods 
 	and to compute highest density regions for the Beta distribution and the inverse gamma distribution.</li>
+
+	<li><pkg>rcppbugs</pkg> is a package that attempts to provide an R alternative to using OpenBUGS/WinBUGS/JAGS 
+	using random walk Metropolis sampling.</li>
 
     	<li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of 
 	CGH microarrays using hidden Markov chain models.
@@ -265,6 +296,10 @@
 
 	<li><pkg>spikeSlabGAM</pkg> implements Bayesian variable selection, model choice, and regularized estimation in  
 	(geo-)additive mixed models for Gaussian, binomial, and Poisson responses.</li>
+
+	<li><pkg>spTimer</pkg> fits, spatially predict and temporally forecast large amounts of space-time data using 
+	Bayesian Gaussian Process Models, Bayesian Auto-Regressive (AR) Models, and Bayesian Gaussian Predictive Processes
+	based AR Models. </li>
 
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: 
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
@@ -369,13 +404,16 @@
 
     	<li> All of these BUGS engines use graphical models for model specification.  As such, the <view>gR</view> task view may be of interest. </li>
 
+	<li>Note that <pkg>rcppbugs</pkg> is a package that attempts to provide a pure R alternative to using OpenBUGS/WinBUGS/JAGS for MCMC.</li>
+
+
     </ul>
 
     
-    <p> The Bayesian Inference Task View is written by Jong Hee Park (University of Chicago, IL, USA), 
+    <p> The Bayesian Inference Task View is written by Jong Hee Park (Seoul National University, South Korea), 
 	Andrew D. Martin (Washington University, St. Louis, MO, USA), 
 	and Kevin M. Quinn (UC Berkeley, Berkeley, CA, USA).  
-	Please email the <a href="mailto:jhp@uchicago.edu?subject=Bayesian%20Task%20View">task view maintainer</a>
+	Please email the <a href="mailto:jongheepark@snu.ac.kr?subject=Bayesian%20Task%20View">task view maintainer</a>
     	with suggestions.</p>
 
     </info>
@@ -398,6 +436,7 @@
     	<pkg>BayesDA</pkg>
     	<pkg>bayespack</pkg>
     	<pkg>bayesQR</pkg>
+	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
@@ -411,13 +450,16 @@
     	<pkg>bisoreg</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
+	<pkg>BMS</pkg>
     	<pkg>Bmix</pkg>
 	<pkg>bnlearn</pkg>
     	<pkg priority="core">boa</pkg>
     	<pkg>Bolstad</pkg>
     	<pkg>BPHO</pkg> 
     	<pkg>bqtl</pkg>
-    	<pkg>bspec</pkg>	
+    	<pkg>bspec</pkg>
+	<pkg>bspmma</pkg>
+	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
     	<pkg priority="core">coda</pkg>
     	<pkg>cslogistic</pkg>
@@ -434,7 +476,10 @@
 	<pkg>factorQR</pkg>
     	<pkg>geoR</pkg>
     	<pkg>geoRglm</pkg>
+	<pkg>ggmcmc</pkg>
     	<pkg>glmmBUGS</pkg>
+	<pkg>growcurves</pkg>
+	<pkg>hbase</pkg>
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
 	<pkg>iterLap</pkg>
@@ -446,12 +491,14 @@
     	<pkg priority="core">mcmc</pkg>
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
-    	<pkg>mgcv</pkg>
+    	<pkg>mgcv</pkg>	
+	<pkg>MISA</pkg>
 	<pkg>mlogitBMA</pkg>
     	<pkg>MNP</pkg>
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
     	<pkg>MSBVAR</pkg>
+	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
 	<pkg>predbayescor</pkg>
 	<pkg>predmixcor</pkg>
@@ -463,6 +510,7 @@
     	<pkg>RxCEcolInf</pkg>
     	<pkg>rbugs</pkg>
     	<pkg>RJaCGH</pkg>
+	<pkg>rcppbugs</pkg>
     	<pkg>rjags</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
@@ -475,6 +523,7 @@
     	<pkg>spBayes</pkg>
     	<pkg>spikeslab</pkg>
 	<pkg>spikeSlabGAM</pkg>
+	<pkg>spTimer</pkg>
     	<pkg>tgp</pkg>
 	<pkg>varSelectIP</pkg>
     	<pkg>zic</pkg>
