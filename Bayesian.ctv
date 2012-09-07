@@ -201,7 +201,7 @@
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
 	
-    	<li>The <pkg>hbase</pkg> package provides functions to compute small area estimates based on a basic area or unit-level model. 
+    	<li>The <pkg>hbsae</pkg> package provides functions to compute small area estimates based on a basic area or unit-level model. 
 	The model is fit using restricted maximum likelihood, or in a hierarchical Bayesian way.</li>
 	 
 
@@ -479,7 +479,7 @@
 	<pkg>ggmcmc</pkg>
     	<pkg>glmmBUGS</pkg>
 	<pkg>growcurves</pkg>
-	<pkg>hbase</pkg>
+	<pkg>hbsae</pkg>
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
 	<pkg>iterLap</pkg>
