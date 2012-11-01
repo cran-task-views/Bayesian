@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-09-07</version>
+ <version>2012-11-01</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -144,8 +144,6 @@
     	via Laplace approximations and provides tools for interval mapping of genetic loci. 
 	The package also contains graphical tools for QTL analysis.</li>
     
-    	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
-
     	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
 
     	<li><pkg>BVS</pkg> is a package for Bayesian variant selection and Bayesian model uncertainty
@@ -457,7 +455,6 @@
     	<pkg>Bolstad</pkg>
     	<pkg>BPHO</pkg> 
     	<pkg>bqtl</pkg>
-    	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
