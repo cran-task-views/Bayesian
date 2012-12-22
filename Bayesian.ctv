@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-11-01</version>
+ <version>2012-12-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -137,8 +137,6 @@
 	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
 	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
 	
-    	<li><pkg>BPHO</pkg> is a package for Bayesian prediction of higher-order interactions using slice sampling method.</li>
-
     	<li><pkg>bqtl</pkg> can be used to fit quantitative trait loci (QTL) models. 
 	This package allows Bayesian estimation of multi-gene models
     	via Laplace approximations and provides tools for interval mapping of genetic loci. 
@@ -453,7 +451,6 @@
 	<pkg>bnlearn</pkg>
     	<pkg priority="core">boa</pkg>
     	<pkg>Bolstad</pkg>
-    	<pkg>BPHO</pkg> 
     	<pkg>bqtl</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>BVS</pkg>	
