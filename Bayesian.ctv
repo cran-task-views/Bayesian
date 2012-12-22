@@ -104,11 +104,6 @@
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
 	biomarker data using a Bayesian approach.  </li>
 
-	<li><pkg>bclust</pkg> builds a dendrogram with log posterior as a natural distance defined by the model. 
-	It is also capable to computing Bayesian discrimination probabilities equivalent to the implemented Bayesian clustering. 
-	Spike-and-Slab models are adopted in a way to be able to produce an importance measure for clustering 
-	and discriminant variables. </li>
-
    	<li><pkg>BCBCSF</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
 	such as gene expression data. </li>
 
@@ -440,7 +435,6 @@
 	<pkg>bbemkr</pkg>
 	<pkg>BCBCSF</pkg>
 	<pkg>BCE</pkg>
-	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
     	<pkg>bfp</pkg>
     	<pkg>bisoreg</pkg>
