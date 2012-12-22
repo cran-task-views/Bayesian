@@ -234,7 +234,7 @@
 
 	<li><pkg>PottsUtils</pkg> comprises several functions related to the Potts model definedon undirected graphs.</li>
 
-	<li><pkg>predbayescor</pkg> and <pkg>predmixcor</pkg> provide functions to predict the binary response based 
+	<li><pkg>predmixcor</pkg> provides functions to predict the binary response based 
 	on high dimensional binary features modeled with Bayesian mixture models. </li>
 
 	<li><pkg>profdpm</pkg> facilitates profile inference
@@ -485,7 +485,6 @@
     	<pkg>MSBVAR</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
-	<pkg>predbayescor</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
