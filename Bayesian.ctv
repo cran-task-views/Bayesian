@@ -216,8 +216,6 @@
     	<li>The <code>mcmcsamp()</code> function in <pkg>lme4</pkg> allows MCMC sampling for 
 	the linear mixed model and generalized linear mixed model.</li>   
 
-   	<li><pkg>MISA</pkg> is a package for Bayesian model search and multilevel inference for SNP association studies. </li>    
-
     	<li>The <pkg>mlogitBMA</pkg> Provides a modified function <code>bic.glm()</code> of the <pkg>BMA</pkg> package that 
 	can be applied to multinomial logit (MNL) data. </li>  
 
@@ -480,7 +478,6 @@
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
     	<pkg>mgcv</pkg>	
-	<pkg>MISA</pkg>
 	<pkg>mlogitBMA</pkg>
     	<pkg>MNP</pkg>
 	<pkg>mombf</pkg>
