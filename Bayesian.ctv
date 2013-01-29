@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-12-22</version>
+ <version>2013-01-29</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -459,6 +459,7 @@
     	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
+	<pkg>eco</pkg>
     	<pkg>ensembleBMA</pkg>
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
