@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-01-29</version>
+ <version>2012-02-05</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -527,7 +527,7 @@
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/" target="_top">BRugs in CRANextras</a>
-    <a href="http://www.bayesian-inference.com/software" target="_top">LaplacesDemonk</a>
+    <a href="http://www.bayesian-inference.com/software" target="_top">LaplacesDemon</a>
     <view>gR</view>
     <bioc>vbmp</bioc>
     <a href="http://www.public-health.uiowa.edu/boa/" target="_top">BOA</a>
