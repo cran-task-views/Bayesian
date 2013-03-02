@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-02-05</version>
+ <version>2012-03-02</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -82,10 +82,6 @@
 	
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
-
-  	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
-	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
-	using Gaussian link function and saving just the summaries of the chains. </li>  
 
   	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>  
@@ -426,7 +422,6 @@
     	<pkg>BayesDA</pkg>
     	<pkg>bayespack</pkg>
     	<pkg>bayesQR</pkg>
-	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
