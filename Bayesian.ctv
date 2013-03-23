@@ -364,11 +364,6 @@
     	<li> <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models 
 	using <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
 
-	<li><pkg>bayespack</pkg> provides an R interface to the Fortran BAYESPACK integration routines written by Alan Genz. 
-	Given an unnormalized posterior distribution, the BAYESPACK routines approximate the normalization constant 
-	and the mean and covariance of the posterior. 
-	Posterior means of additional functions of the parameters can be calculated as well.</li>  
-
    	<li> <pkg>BayesX</pkg> provides functionality for exploring and visualizing estimation results 
 	obtained with the software package <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>.</li>
 
@@ -427,7 +422,6 @@
     	<pkg>BayHaz</pkg>
     	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
-    	<pkg>bayespack</pkg>
     	<pkg>bayesQR</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
