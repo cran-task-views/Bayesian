@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-03-23</version>
+ <version>2012-03-31</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -83,6 +83,10 @@
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
+  	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
+	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
+	using Gaussian link function and saving just the summaries of the chains. </li>  
+
   	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>  
 
@@ -157,6 +161,10 @@
     	<li><pkg>deal</pkg> provides R functions for Bayesian network analysis; 
 	the current version of covers discrete and continuous variables
     	under Gaussian network structure. </li>
+
+    	<li><pkg>dlm</pkg> is a package for Bayesian (and likelihood) analysis of 
+	dynamic linear models. It includes the calculations of
+    	the Kalman filter and smoother, and the forward filtering backward sampling algorithm. </li>
 
     	<li><pkg>EbayesThresh</pkg> implements Bayesian estimation for thresholding methods. 
 	Although the original model is developed in
@@ -419,6 +427,7 @@
     	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
     	<pkg>bayesQR</pkg>
+	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
@@ -447,6 +456,7 @@
 	<pkg>cudaBayesreg</pkg>
     	<pkg>dclone</pkg>
     	<pkg>deal</pkg>
+    	<pkg>dlm</pkg>      
     	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
