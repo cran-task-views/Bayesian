@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2012-03-31</version>
+ <version>2013-04-18</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -52,7 +52,7 @@
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
-	measurement models (item response theory and factor models), changepoint models (binary probit, ordinal probit, Poisson, panel), 
+	measurement models (item response theory and factor models), changepoint models (linear regression, binary probit, ordinal probit, Poisson, panel), 
 	and models for ecological inference. It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
 
     	<li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk Metropolis algorithm for 
@@ -265,6 +265,9 @@
 
 	<li>The <code>hitro.new()</code> function in <pkg>Runuran</pkg> provides an MCMC sampler 
 	based on the Hit-and-Run algorithm in combinaton with the Ratio-of-Uniforms method.</li>
+	
+	<li><pkg>RSGHB</pkg> can be used to estimate models using a hierarchical Bayesian framework and provides flexibility in allowing 
+	the user to specify the likelihood function directly instead of assuming predetermined model structures.</li>
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
@@ -297,6 +300,8 @@
 	<li><pkg>spTimer</pkg> fits, spatially predict and temporally forecast large amounts of space-time data using 
 	Bayesian Gaussian Process Models, Bayesian Auto-Regressive (AR) Models, and Bayesian Gaussian Predictive Processes
 	based AR Models. </li>
+
+	<li><pkg>stochvol</pkg> provides efficient algorithms for fully Bayesian estimation of stochastic volatility (SV) models.</li>
 
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: 
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
@@ -502,6 +507,7 @@
     	<pkg>RJaCGH</pkg>
 	<pkg>rcppbugs</pkg>
     	<pkg>rjags</pkg>
+	<pkg>RSGHB</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
     	<pkg>SampleSizeMeans</pkg>
@@ -513,6 +519,7 @@
     	<pkg>spBayes</pkg>
 	<pkg>spikeSlabGAM</pkg>
 	<pkg>spTimer</pkg>
+	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
 	<pkg>varSelectIP</pkg>
     	<pkg>zic</pkg>
@@ -536,4 +543,3 @@
 
 
 </CRANTaskView>
-
