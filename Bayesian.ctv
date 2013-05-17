@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-04-18</version>
+ <version>2013-05-17</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -95,8 +95,6 @@
 
 	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
 	Compound Poisson Process (CPP) priors.</li>     
-
- 	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>  
 
   	<li><pkg>bbemkr</pkg> implements Bayesian bandwidth estimation for Nadaraya-Watson 
 	type multivariate kernel regression with Gaussian error.</li>  
@@ -429,7 +427,6 @@
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
     	<pkg>BayHaz</pkg>
-    	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
     	<pkg>bayesQR</pkg>
 	<pkg>Bayesthresh</pkg>
