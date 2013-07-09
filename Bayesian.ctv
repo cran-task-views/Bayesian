@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-05-26</version>
+ <version>2013-07-09</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -144,6 +144,8 @@
 
     	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
 
+    	<li><pkg>BSquare</pkg> models the quantile process as a function of predictors. </li>
+
     	<li><pkg>BVS</pkg> is a package for Bayesian variant selection and Bayesian model uncertainty
 	techniques for genetic association studies.</li>
 
@@ -182,6 +184,10 @@
 	<li><pkg>factorQR</pkg> is a package to fit Bayesian quantile regression models 
 	that assume a factor structure for at least part of the design matrix.</li>
 
+	<li><pkg>FME</pkg> provides functions to help in fitting models to data, to perform Monte Carlo, 
+	sensitivity and identifiability analysis. It is intended to work with models be written as a set of 
+	differential equations that are solved either by an integration routine from deSolve, 
+	or a steady-state solver from rootSolve.</li>
 
     	<li>The <code>gbayes()</code> function in <pkg>Hmisc</pkg> derives the posterior 
 	(and optionally) the predictive distribution when both the
@@ -242,6 +248,9 @@
 	<li><pkg>predmixcor</pkg> provides functions to predict the binary response based 
 	on high dimensional binary features modeled with Bayesian mixture models. </li>
 
+	<li><pkg>prevalence</pkg> provides functions for the estimation of true prevalence from apparent prevalence in a 
+	Bayesian framework. MCMC sampling is performed via JAGS/rjags. </li>
+
 	<li><pkg>profdpm</pkg> facilitates profile inference
 	(inference at the posterior mode) for a class of product
 	partition models. </li> 
@@ -291,8 +300,6 @@
 
     	<li><pkg>spBayes</pkg> provides R functions that fit Gaussian spatial process models 
 	for univariate as well as multivariate point-referenced data using MCMC methods.</li>
-
-	<li><pkg>spikeslab</pkg> provides functions for prediction and variable selection using spike and slab regression.</li>
 
 	<li><pkg>spikeSlabGAM</pkg> implements Bayesian variable selection, model choice, and regularized estimation in  
 	(geo-)additive mixed models for Gaussian, binomial, and Poisson responses.</li>
@@ -453,6 +460,7 @@
     	<pkg>bqtl</pkg>
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
+	<pkg>BSquare</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
     	<pkg priority="core">coda</pkg>
@@ -469,6 +477,7 @@
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
 	<pkg>factorQR</pkg>
+	<pkg>FME</pkg>
     	<pkg>geoR</pkg>
     	<pkg>geoRglm</pkg>
 	<pkg>ggmcmc</pkg>
@@ -495,6 +504,7 @@
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
 	<pkg>predmixcor</pkg>
+	<pkg>prevalence</pkg>
 	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
 	<pkg>PAWL</pkg>
@@ -516,7 +526,6 @@
     	<pkg>SimpleTable</pkg>
     	<pkg>sna</pkg>
     	<pkg>spBayes</pkg>
-    	<pkg>spikeslab</pkg>
 	<pkg>spikeSlabGAM</pkg>
 	<pkg>spTimer</pkg>
 	<pkg>stochvol</pkg>
