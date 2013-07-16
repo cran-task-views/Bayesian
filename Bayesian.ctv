@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-07-09</version>
+ <version>2013-07-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -42,12 +42,6 @@
 	<li><pkg>DPpackage</pkg> contains R functions for Bayesian nonparametric and semiparametric models. 
 	DPpackage currently includes semiparametric models for density estimation, ROC curve analysis, 
 	interval censored data, binary regression models, generalized linear mixed models, and IRT type models. </li>
-
-	<li><pkg>LaplacesDemon</pkg> seeks to provide a complete Bayesian environment, 
-	including numerous MCMC algorithms, Laplace Approximation with multiple optimization algorithms, 
-	scores of examples, dozens of additional probability distributions, numerous MCMC diagnostics, 
-	Bayes factors, posterior predictive checks, a variety of plots, elicitation, 
-	parameter and variable importance, and numerous additional utility functions.</li>
 
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
@@ -488,7 +482,6 @@
     	<pkg>Hmisc</pkg>
 	<pkg>iterLap</pkg>
     	<pkg>LearnBayes</pkg>
-    	<pkg>LaplacesDemon</pkg>
     	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
     	<pkg>MasterBayes</pkg>
