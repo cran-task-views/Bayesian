@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-07-16</version>
+ <version>2013-12-10</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -61,10 +61,6 @@
 	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			
 	probabilities of different models.</li>
 	
-	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
-	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
-	in importance sampling or as the candidate density in the Metropolis-Hastings algorithm.</li>
-
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
 
@@ -418,7 +414,6 @@
 
     	<packagelist>
 	<pkg>abc</pkg>
-    	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
 	<pkg>AtelieR</pkg>
 	<pkg>BaBooN</pkg>
