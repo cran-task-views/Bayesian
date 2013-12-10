@@ -70,9 +70,6 @@
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
 	
- 	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
-	GARCH(1,1) model with Student's t innovations.</li>
-
   	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
 	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
 	using Gaussian link function and saving just the summaries of the chains. </li>  
@@ -421,7 +418,6 @@
     	<pkg>BaM</pkg>
     	<pkg>bark</pkg> 
     	<pkg>BAS</pkg> 
-    	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
     	<pkg>BayHaz</pkg>
