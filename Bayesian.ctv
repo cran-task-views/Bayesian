@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-12-10</version>
+ <version>2013-12-11</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -288,6 +288,8 @@
     	<li><pkg>spBayes</pkg> provides R functions that fit Gaussian spatial process models 
 	for univariate as well as multivariate point-referenced data using MCMC methods.</li>
 
+	<li><pkg>spikeslab</pkg> provides functions for prediction and variable selection using spike and slab regression.</li>
+
 	<li><pkg>spikeSlabGAM</pkg> implements Bayesian variable selection, model choice, and regularized estimation in  
 	(geo-)additive mixed models for Gaussian, binomial, and Poisson responses.</li>
 
@@ -510,6 +512,7 @@
     	<pkg>SimpleTable</pkg>
     	<pkg>sna</pkg>
     	<pkg>spBayes</pkg>
+    	<pkg>spikeslab</pkg>
 	<pkg>spikeSlabGAM</pkg>
 	<pkg>spTimer</pkg>
 	<pkg>stochvol</pkg>
