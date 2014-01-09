@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2013-12-12</version>
+ <version>2014-01-09</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -15,9 +15,9 @@
     packages that address specific Bayesian models or specialized methods in Bayesian statistics.  
     This is followed by a description of packages used for post-estimation analysis.  
     Finally, we review packages that link R to other Bayesian sampling engines such as
-    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS,</a> 
-    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS,</a> and
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS.</a> </p> 
+    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>, 
+    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>, and
+    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.</p> 
 
     <p><strong>Bayesian packages for general model fitting</strong> </p>
     
@@ -61,6 +61,10 @@
 	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			
 	probabilities of different models.</li>
 	
+	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
+	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
+	in importance sampling or as the candidate density in the Metropolis-Hastings algorithm.</li>
+
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
 
@@ -70,6 +74,9 @@
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
 	
+ 	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
+	GARCH(1,1) model with Student's t innovations.</li>
+
   	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
 	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
 	using Gaussian link function and saving just the summaries of the chains. </li>  
@@ -415,6 +422,7 @@
 
     	<packagelist>
 	<pkg>abc</pkg>
+    	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
 	<pkg>AtelieR</pkg>
 	<pkg>BaBooN</pkg>
@@ -422,6 +430,7 @@
     	<pkg>BaM</pkg>
     	<pkg>bark</pkg> 
     	<pkg>BAS</pkg> 
+    	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
     	<pkg>BayHaz</pkg>
