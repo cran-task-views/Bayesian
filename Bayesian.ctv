@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-01-09</version>
+ <version>2014-03-07</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -166,8 +166,6 @@
 	Although the original model is developed in
     	the context of wavelets, this package is useful when researchers need to take 
 	advantage of possible sparsity in a parameter set.</li> 
-
-    	<li><pkg>eco</pkg> fits Bayesian ecological inference models in two by two tables using MCMC methods.</li>  
 
 	<li><pkg>ebdbNet</pkg> can be used to infer the adjacency matrix of a network from time course data 
 	using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.</li>
@@ -471,7 +469,6 @@
     	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
-	<pkg>eco</pkg>
     	<pkg>ensembleBMA</pkg>
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
