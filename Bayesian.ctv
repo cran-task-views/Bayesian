@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-03-07</version>
+ <version>2014-03-10</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -198,8 +198,7 @@
     	Adaptive Rejection Metropolis Sampling.</li>
 	
     	<li>The <pkg>hbsae</pkg> package provides functions to compute small area estimates based on a basic area or unit-level model. 
-	The model is fit using restricted maximum likelihood, or in a hierarchical Bayesian way.</li>
-	 
+	The model is fit using restricted maximum likelihood, or in a hierarchical Bayesian way.</li>	 
 
 	<li><pkg>iterLap</pkg> performs an iterative Laplace approximation to build a global approximation of the posterior (using
 	mixture distributions) and then uses importance sampling for simulation based inference. </li>
@@ -228,7 +227,7 @@
 
 	<li><pkg>mombf</pkg> performs model selection based on non-local priors, including MOM, eMOM and iMOM priors..</li>
 
-	<li><pkg>monomvn</pkg> is an R package for stimation of multivariate normal and Student-t data of arbitrary 
+	<li><pkg>monomvn</pkg> is an R package for estimation of multivariate normal and Student-t data of arbitrary 
 	dimension where the pattern of missing data is monotone.</li>
 
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
@@ -503,6 +502,7 @@
 	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
 	<pkg>PAWL</pkg>
+	<pkg>RSGHB</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
     	<pkg>ramps</pkg>
