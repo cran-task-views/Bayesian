@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-03-10</version>
+ <version>2014-05-02</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -46,8 +46,9 @@
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
-	measurement models (item response theory and factor models), changepoint models (linear regression, binary probit, ordinal probit, Poisson, panel), 
-	and models for ecological inference. It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
+	measurement models (item response theory and factor models), changepoint models (linear regression, 
+	binary probit, ordinal probit, Poisson, panel), and models for ecological inference. 
+	It also contains a generic Metropolis sampler that can be used to fit arbitrary models. </li>
 
     	<li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk Metropolis algorithm for 
 	a continuous random vector.</li>
@@ -169,6 +170,10 @@
 
 	<li><pkg>ebdbNet</pkg> can be used to infer the adjacency matrix of a network from time course data 
 	using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.</li>
+	
+   	<li><pkg>eigenmodel</pkg> estimates the parameters of a model for symmetric relational data 
+	(e.g., the above-diagonal part of a square matrix), using a model-based eigenvalue decomposition and regression using MCMC methods.</li>
+
 
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis of extreme value models.</li>
 
@@ -255,6 +260,9 @@
 	<li>The <pkg>PAWL</pkg> package implements parallel adaptive
 	Metropolis-Hastings and sequential Monte Carlo samplers for sampling from multimodal target distributions.</li>
 
+	<li><pkg>PReMiuM</pkg> is a package for profile regression, which is a Dirichlet process Bayesian clustering 
+	where the response is linked non-parametrically to the covariate profile.</li>
+
 	<li><pkg>rcppbugs</pkg> is a package that attempts to provide an R alternative to using OpenBUGS/WinBUGS/JAGS 
 	using random walk Metropolis sampling.</li>
 
@@ -268,6 +276,10 @@
 	
 	<li><pkg>RSGHB</pkg> can be used to estimate models using a hierarchical Bayesian framework and provides flexibility in allowing 
 	the user to specify the likelihood function directly instead of assuming predetermined model structures.</li>
+
+	<li><pkg>rstiefel</pkg> simulates random orthonormal matrices from linear and quadratic exponential family distributions on the
+	Stiefel manifold using the Gibbs sampling method. The most general type of distribution covered is 
+	the matrix-variate Bingham-von Mises-Fisher distribution.</li>
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
@@ -468,7 +480,8 @@
     	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
-    	<pkg>ensembleBMA</pkg>
+    	<pkg>eigenmodel</pkg>
+	<pkg>ensembleBMA</pkg>
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
 	<pkg>factorQR</pkg>
@@ -502,6 +515,7 @@
 	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
 	<pkg>PAWL</pkg>
+	<pkg>PReMiuM</pkg>
 	<pkg>RSGHB</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
@@ -512,6 +526,7 @@
 	<pkg>rcppbugs</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
+ 	<pkg>rstiefel</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
     	<pkg>SampleSizeMeans</pkg>
