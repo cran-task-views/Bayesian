@@ -352,9 +352,6 @@
     	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes 
 	using a reparameterized and marginalized posterior sampling algorithm. </li>
 
-	<li><pkg>scapeMCMC</pkg> is a Bayesian companion package of scape which deals with age and time structured population models. It provides multipanel 
-	MCMC diagnostic plots with aestically pleasing defaults and graphical parameters that are easy to change.</li>
-
     </ul>
 
     <p> <strong>Packages for learning Bayesian statistics</strong></p>
@@ -528,7 +525,6 @@
     	<pkg>SampleSizeMeans</pkg>
     	<pkg>SampleSizeProportions</pkg>
 	<pkg>sbgcop</pkg>
-    	<pkg>scapeMCMC</pkg>
     	<pkg>SimpleTable</pkg>
     	<pkg>sna</pkg>
     	<pkg>spBayes</pkg>
