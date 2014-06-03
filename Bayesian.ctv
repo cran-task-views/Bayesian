@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-05-31</version>
+ <version>2014-06-03</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -231,6 +231,9 @@
 
 	<li><pkg>monomvn</pkg> is an R package for estimation of multivariate normal and Student-t data of arbitrary 
 	dimension where the pattern of missing data is monotone.</li>
+
+    	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
+	Autoregression models and Bayesian structural Vector Autoregression models.</li>
 
 	<li><pkg>pacbpred</pkg> perform estimation and prediction in high-dimensional additive models, 
 	using a sparse PAC-Bayesian point of view and a MCMC algorithm.</li>
@@ -497,6 +500,7 @@
     	<pkg>MNP</pkg>
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
+	<pkg>MSBVAR</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
 	<pkg>predmixcor</pkg>
