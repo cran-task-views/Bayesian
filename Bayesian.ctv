@@ -15,9 +15,9 @@
     packages that address specific Bayesian models or specialized methods in Bayesian statistics.  
     This is followed by a description of packages used for post-estimation analysis.  
     Finally, we review packages that link R to other Bayesian sampling engines such as
-    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>, 
-    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>, and
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.</p> 
+    <a href="http://www-fis.iarc.fr/~martyn/software/jags/">JAGS</a>, 
+    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>, and
+    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>.</p> 
 
     <p><strong>Bayesian packages for general model fitting</strong> </p>
     
@@ -379,15 +379,15 @@
     <p> <strong>Packages that link R to other sampling engines</strong></p>
     <ul>
     	<li> <pkg>bayesmix</pkg> is an R package to fit Bayesian mixture models 
-	using <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">JAGS</a>.</li>
+	using <a href="http://www-fis.iarc.fr/~martyn/software/jags/">JAGS</a>.</li>
 
    	<li> <pkg>BayesX</pkg> provides functionality for exploring and visualizing estimation results 
-	obtained with the software package <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>.</li>
+	obtained with the software package <a href="http://www.BayesX.org/">BayesX</a>.</li>
 
     	<li><b>BRugs</b> provides an R interface to 
-	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>. 
+	<a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>. 
 	It works under Windows and Linux.  <b>BRugs</b> used to be available from CRAN, now it is 
-	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/" target="_top">CRANextras</a>
+	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/">CRANextras</a>
     	repository.</li>
 
    	<li> <pkg>cudaBayesreg</pkg> provides a Compute Unified Device Architecture (CUDA) implementation of a Bayesian multilevel model 
@@ -395,16 +395,16 @@
 	CUDA is a software platform for massively parallel high-performance computing on NVIDIA GPUs.</li>
 
     	<li>There are two packages that can be used to interface R with 
-	<a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">WinBUGS</a>.
+	<a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>.
     	<pkg>R2WinBUGS</pkg> provides a set of functions to call WinBUGS on 
 	a Windows system and a Linux system;  <pkg>rbugs</pkg>
     	supports Linux systems through 
-	<a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a> on Linux (LinBUGS).</li>
+	<a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a> on Linux (LinBUGS).</li>
 
 	<li> <pkg>glmmBUGS</pkg> writes BUGS model files, formats data, and creates starting values for generalized linear mixed models.</li>
 
     	<li>There are three packages that provide R interface with 
-	<a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>:
+	<a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a>:
     	<pkg>rjags</pkg>, <pkg>R2jags</pkg>, and <pkg>runjags</pkg>.</li>    
 
     	<li> All of these BUGS engines use graphical models for model specification.  As such, the <view>gR</view> task view may be of interest. </li>
@@ -539,18 +539,18 @@
 	</packagelist>
 
     <links>
-    <a href="http://mcmcpack.wustl.edu/" target="_top">MCMCpack</a>
-    <a href="http://faculty.chicagogsb.edu/peter.rossi/research/bsm.html" target="_top">Bayesian Statistics and Marketing (bayesm)</a>
-    <a href="http://www.stat.uni-muenchen.de/~bayesx" target="_top">BayesX</a>
-    <a href="http://www-fis.iarc.fr/~martyn/software/jags/" target="_top">Just Another Gibbs Sampler (JAGS)</a>
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/" target="_top">The BUGS Project (WinBUGS)</a>
-    <a href="http://mathstat.helsinki.fi/openbugs/" target="_top">OpenBUGS</a>
-    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/" target="_top">BRugs in CRANextras</a>
-    <a href="http://www.bayesian-inference.com/software" target="_top">LaplacesDemon</a>
+    <a href="http://mcmcpack.wustl.edu/">MCMCpack</a>
+    <a href="http://faculty.chicagogsb.edu/peter.rossi/research/bsm.html">Bayesian Statistics and Marketing (bayesm)</a>
+    <a href="http://www.BayesX.org/">BayesX</a>
+    <a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a>
+    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
+    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
+    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
+    <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a>
     <view>gR</view>
     <bioc>vbmp</bioc>
-    <a href="http://www.public-health.uiowa.edu/boa/" target="_top">BOA</a>
-    <a href="http://www-fis.iarc.fr/coda/" target="_top">CODA</a>
+    <a href="http://www.public-health.uiowa.edu/boa/">BOA</a>
+    <a href="http://www-fis.iarc.fr/coda/">CODA</a>
     </links>
 
 
