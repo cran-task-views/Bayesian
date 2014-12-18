@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-06-03</version>
+ <version>2014-12-18</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -81,6 +81,9 @@
   	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
 	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
 	using Gaussian link function and saving just the summaries of the chains. </li>  
+
+  	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
+	by Chipman, George, and McCulloch (2006).</li>  
 
 	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, 
 	both continuous as well as binary dependent variables.</li>  
@@ -440,9 +443,10 @@
     	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
     	<pkg>bayesQR</pkg>
-	<pkg>Bayesthresh</pkg>
-    	<pkg>BayesValidate</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
+	<pkg>Bayesthresh</pkg>
+    	<pkg>BayesTree</pkg>
+    	<pkg>BayesValidate</pkg>
 	<pkg>BayesX</pkg>
 	<pkg>bbemkr</pkg>
 	<pkg>BCBCSF</pkg>
