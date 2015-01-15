@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2014-12-18</version>
+ <version>2015-01-15</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -68,9 +68,6 @@
 
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
-
-	<li>The <pkg>bark</pkg> package impelements BARK (Bayesian Additive Regression Kernels) 
-	with feature selection. </li>
 
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
@@ -434,7 +431,6 @@
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
-    	<pkg>bark</pkg> 
     	<pkg>BAS</pkg> 
     	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
