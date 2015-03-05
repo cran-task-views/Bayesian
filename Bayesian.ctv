@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2015-02-06</version>
+ <version>2015-03-05</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -72,6 +72,9 @@
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
+	<li><pkg>BayesSummaryStatLM</pkg> provides two functions: one function that computes summary statistics of
+	data and one function that carries out the MCMC posterior sampling for Bayesian linear regression models where summary statistics are used as input. </li>
+	
   	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
 	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
 	using Gaussian link function and saving just the summaries of the chains. </li>  
@@ -143,6 +146,8 @@
 	<li><pkg>catnet</pkg> is a package that handles discrete Bayesian network models and provides 
 	inference using the frequentist approach.</li>
 
+	<li><pkg>coalescentMCMC</pkg> provides a flexible framework for coalescent analyses in R.</li>
+
     	<li><pkg>cslogistic</pkg> has a function that performs a Bayesian analaysis of 
 	a conditionally specified logistic regression model.</li> 
 
@@ -167,7 +172,6 @@
 	
    	<li><pkg>eigenmodel</pkg> estimates the parameters of a model for symmetric relational data 
 	(e.g., the above-diagonal part of a square matrix), using a model-based eigenvalue decomposition and regression using MCMC methods.</li>
-
 
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis of extreme value models.</li>
 
@@ -212,7 +216,10 @@
     	<li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>    
 
     	<li><pkg>MasterBayes</pkg> is an R package that implements MCMC methods to 
-	integrate over uncertainity in pedigree configurations estimated from molecular markers and phenotypic data. </li>    
+	integrate over uncertainity in pedigree configurations estimated from molecular markers and phenotypic data. </li>
+
+	<li><pkg>matchingMarkets</pkg> implements a structural model based on a Gibbs sampler to correct for the bias
+	from endogenous matching (e.g. group formation or two-sided matching).</li>
 
    	<li><pkg>MCMCglmm</pkg> is package for fitting Generalised Linear Mixed Models using MCMC methods. </li>    
 
@@ -277,6 +284,10 @@
 
 	<li><pkg>RxCEcolInf</pkg> fits the R x C inference model described in Greiner and Quinn (2009).</li>
 
+	<li><pkg>SamplerCompare</pkg> provides a framework for running sets of MCMC samplers on sets of
+	distributions with a variety of tuning parameters, along with plotting
+	functions to visualize the results of those simulations. </li>
+	
 	<li><pkg>SampleSizeMeans</pkg> contains a set of R functions for calculating sample size requirements using
 	three different Bayesian criteria in the context of designing an
 	experiment to estimate a normal mean or the difference between two
@@ -435,6 +446,7 @@
     	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
     	<pkg>bayesQR</pkg>
+	<pkg>BayesSummaryStatLM</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
 	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
@@ -460,6 +472,7 @@
 	<pkg>BSquare</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
+	<pkg>coalescentMCMC</pkg>
     	<pkg priority="core">coda</pkg>
     	<pkg>cslogistic</pkg>
 	<pkg>cudaBayesreg</pkg>
@@ -487,6 +500,7 @@
     	<pkg>LearnBayes</pkg>
     	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
+	<pkg>matchingMarkets</pkg>
     	<pkg>MasterBayes</pkg>
     	<pkg priority="core">mcmc</pkg>
     	<pkg>MCMCglmm</pkg>
@@ -518,6 +532,7 @@
  	<pkg>rstiefel</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
+	<pkg>SamplerCompare</pkg>
     	<pkg>SampleSizeMeans</pkg>
     	<pkg>SampleSizeProportions</pkg>
 	<pkg>sbgcop</pkg>
