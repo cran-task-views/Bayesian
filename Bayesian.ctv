@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2015-03-05</version>
+ <version>2015-04-13</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -424,7 +424,7 @@
 
     
     <p> The Bayesian Inference Task View is written by Jong Hee Park (Seoul National University, South Korea), 
-	Andrew D. Martin (Washington University, St. Louis, MO, USA), 
+	Andrew D. Martin (University of Michigan, Ann Arbor, MI, USA), 
 	and Kevin M. Quinn (UC Berkeley, Berkeley, CA, USA).  
 	Please email the <a href="mailto:jongheepark@snu.ac.kr?subject=Bayesian%20Task%20View">task view maintainer</a>
     	with suggestions.</p>
@@ -550,7 +550,7 @@
 	</packagelist>
 
     <links>
-    <a href="http://mcmcpack.wustl.edu/">MCMCpack</a>
+    <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
     <a href="http://www.perossi.org/home/bsm-1">Bayesian Statistics and Marketing (bayesm)</a>
     <a href="http://www.BayesX.org/">BayesX</a>
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a>
