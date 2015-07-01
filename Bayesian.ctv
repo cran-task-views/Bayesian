@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2015-06-18</version>
+ <version>2015-07-01</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -332,8 +332,6 @@
 	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
 	This software also incorporates feature weighting by means of Automatic Relevance Determination. </li>
 	
-	<li>The <pkg>varSelectIP</pkg> package implements objective Bayes variable selection in linear regression and probit models.</li>
-
     	<li>The <code>vcov.gam()</code> function the <pkg>mgcv</pkg> package can extract a 
 	Bayesian posterior covariance matrix of the parameters from a fitted <code>gam</code> object.</li>
 
@@ -547,7 +545,6 @@
 	<pkg>spTimer</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
-	<pkg>varSelectIP</pkg>
     	<pkg>zic</pkg>
     	
 	</packagelist>
