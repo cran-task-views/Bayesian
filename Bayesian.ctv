@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2015-07-01</version>
+ <version>2015-09-30</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -16,8 +16,9 @@
     This is followed by a description of packages used for post-estimation analysis.  
     Finally, we review packages that link R to other Bayesian sampling engines such as
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/">JAGS</a>, 
-    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>, and
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>.</p> 
+    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>, 
+    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>, and
+    <a href="http://mc-stan.org/">Stan</a>.</p> 
 
     <p><strong>Bayesian packages for general model fitting</strong> </p>
     
@@ -419,6 +420,11 @@
 
 	<li>Note that <pkg>rcppbugs</pkg> is a package that attempts to provide a pure R alternative to using OpenBUGS/WinBUGS/JAGS for MCMC.</li>
 
+	<li> <pkg>rstan</pkg> provides R functions to parse, compile, test, estimate, and analyze Stan
+	models by accessing the header-only Stan library provided by the `StanHeaders' package.
+	The <a href="http://mc-stan.org/"> Stan </a> project develops a probabilistic programming language that implements
+	full Bayesian statistical inference via MCMC and (optionally penalized) maximum likelihood estimation via optimization. </li>
+
 
     </ul>
 
@@ -530,6 +536,7 @@
 	<pkg>rcppbugs</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
+	<pkg>rstan</pkg>
  	<pkg>rstiefel</pkg>
     	<pkg>runjags</pkg>
 	<pkg>Runuran</pkg>
@@ -550,14 +557,15 @@
 	</packagelist>
 
     <links>
-    <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
     <a href="http://www.perossi.org/home/bsm-1">Bayesian Statistics and Marketing (bayesm)</a>
     <a href="http://www.BayesX.org/">BayesX</a>
     <a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a>
+    <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
     <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a>
+    <a href="http://mc-stan.org/"> Stan </a>
     <view>gR</view>
     <bioc>vbmp</bioc>
     <a href="http://www.public-health.uiowa.edu/boa/">BOA</a>
