@@ -564,7 +564,7 @@
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
-    <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a>
+    <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
     <a href="http://mc-stan.org/">Stan</a>
     <view>gR</view>
     <bioc>vbmp</bioc>
