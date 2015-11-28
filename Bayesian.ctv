@@ -559,17 +559,17 @@
     <links>
     <a href="http://www.perossi.org/home/bsm-1">Bayesian Statistics and Marketing (bayesm)</a>
     <a href="http://www.BayesX.org/">BayesX</a>
-    <a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a>
+    <!-- <a href="http://www-fis.iarc.fr/~martyn/software/jags/">Just Another Gibbs Sampler (JAGS)</a> -->
     <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
     <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a>
-    <a href="http://mc-stan.org/"> Stan </a>
+    <a href="http://mc-stan.org/">Stan</a>
     <view>gR</view>
     <bioc>vbmp</bioc>
     <a href="http://www.public-health.uiowa.edu/boa/">BOA</a>
-    <a href="http://www-fis.iarc.fr/coda/">CODA</a>
+    <!-- <a href="http://www-fis.iarc.fr/coda/">CODA</a> -->
     </links>
 
 
