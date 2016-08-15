@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2015-09-30</version>
+ <version>2016-08-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -267,9 +267,6 @@
 	<li><pkg>PReMiuM</pkg> is a package for profile regression, which is a Dirichlet process Bayesian clustering 
 	where the response is linked non-parametrically to the covariate profile.</li>
 
-	<li><pkg>rcppbugs</pkg> is a package that attempts to provide an R alternative to using OpenBUGS/WinBUGS/JAGS 
-	using random walk Metropolis sampling.</li>
-
     	<li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of 
 	CGH microarrays using hidden Markov chain models.
     	The selection of the number of states is made via their posterior 
@@ -418,8 +415,6 @@
 
     	<li> All of these BUGS engines use graphical models for model specification.  As such, the <view>gR</view> task view may be of interest. </li>
 
-	<li>Note that <pkg>rcppbugs</pkg> is a package that attempts to provide a pure R alternative to using OpenBUGS/WinBUGS/JAGS for MCMC.</li>
-
 	<li> <pkg>rstan</pkg> provides R functions to parse, compile, test, estimate, and analyze Stan
 	models by accessing the header-only Stan library provided by the `StanHeaders' package.
 	The <a href="http://mc-stan.org/"> Stan </a> project develops a probabilistic programming language that implements
@@ -533,7 +528,6 @@
     	<pkg>RxCEcolInf</pkg>
     	<pkg>rbugs</pkg>
     	<pkg>RJaCGH</pkg>
-	<pkg>rcppbugs</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
 	<pkg>rstan</pkg>
