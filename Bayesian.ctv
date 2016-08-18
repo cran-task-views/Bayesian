@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2016-08-16</version>
+ <version>2016-08-18</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -44,6 +44,12 @@
 	DPpackage currently includes semiparametric models for density estimation, ROC curve analysis, 
 	interval censored data, binary regression models, generalized linear mixed models, and IRT type models. </li>
 
+	<li><pkg>LaplacesDemon</pkg> seeks to provide a complete Bayesian environment, 
+	including numerous MCMC algorithms, Laplace Approximation with multiple optimization algorithms, 
+	scores of examples, dozens of additional probability distributions, numerous MCMC diagnostics, 
+	Bayes factors, posterior predictive checks, a variety of plots, elicitation, 
+	parameter and variable importance, and numerous additional utility functions.</li>
+
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain Monte Carlo (MCMC) algorithms for 
 	wide range of models commonly used in the social and behavioral sciences. It contains R functions 
 	to fit a number of regression models (linear regression, logit, ordinal probit, probit, Poisson regression, etc.), 
@@ -70,6 +76,9 @@
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
 
+	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
+	<pkg>BAS</pkg> utilizes an efficient aglorithm to sample models without replacement.</li>
+	
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
@@ -440,6 +449,7 @@
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
+    	<pkg>BAS</pkg> 
     	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
@@ -499,6 +509,7 @@
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
 	<pkg>iterLap</pkg>
+    	<pkg>LaplacesDemon</pkg>
     	<pkg>LearnBayes</pkg>
     	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
