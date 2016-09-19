@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2016-08-18</version>
+ <version>2016-09-19</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -68,6 +68,8 @@
 	<li><pkg>abc</pkg> package implements several ABC algorithms for performing parameter estimation and model selection. 
 	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			
 	probabilities of different models.</li>
+
+	<li><pkg>abn</pkg> is a package for modelling multivariate data using additive Bayesian networks. It provides routines to help determine optimal Bayesian network models for a given data set, where these models are used to identify statistical dependencies in messy, complex data.</li>
 	
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
 	to a tgarget density through its kernel function. The mixture approximation can be used as the importance density 	
@@ -138,6 +140,8 @@
 	
 	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
 	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
+
+	<li><pkg>BoomSpikeSlab</pkg> provides functions to do spike and slab regression via the stochastic search variable selection algorithm. It handles probit, logit, poisson, and student T data.</li>
 	
     	<li><pkg>bqtl</pkg> can be used to fit quantitative trait loci (QTL) models. 
 	This package allows Bayesian estimation of multi-gene models
@@ -149,6 +153,8 @@
     	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
 
     	<li><pkg>BSquare</pkg> models the quantile process as a function of predictors. </li>
+
+	<li><pkg>bsts</pkg> is a package for time series regression using dynamic linear models using MCMC.</li>
 
     	<li><pkg>BVS</pkg> is a package for Bayesian variant selection and Bayesian model uncertainty
 	techniques for genetic association studies.</li>
@@ -399,6 +405,8 @@
    	<li> <pkg>BayesX</pkg> provides functionality for exploring and visualizing estimation results 
 	obtained with the software package <a href="http://www.BayesX.org/">BayesX</a>.</li>
 
+	<li> <pkg>Boom</pkg> provides a C++ library for Bayesian modeling, with an emphasis on Markov chain Monte Carlo.</li>
+
     	<li><b>BRugs</b> provides an R interface to 
 	<a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>. 
 	It works under Windows and Linux.  <b>BRugs</b> used to be available from CRAN, now it is 
@@ -443,6 +451,7 @@
 
     	<packagelist>
 	<pkg>abc</pkg>
+	<pkg>abn</pkg>
     	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
 	<pkg>AtelieR</pkg>
@@ -477,9 +486,12 @@
 	<pkg>bnlearn</pkg>
     	<pkg priority="core">boa</pkg>
     	<pkg>Bolstad</pkg>
+	<pkg>Boom</pkg>
+	<pkg>BoomSpikeSlab</pkg>
     	<pkg>bqtl</pkg>
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
+	<pkg>bsts</pkg>
 	<pkg>BSquare</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
