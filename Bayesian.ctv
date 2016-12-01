@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2016-09-19</version>
+ <version>2016-12-01</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -84,6 +84,11 @@
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
+
+	<li><pkg>bayesImageS</pkg> is an R package for Bayesian image analysis using the hidden Potts model.</li>
+
+	<li><pkg>bayesmeta</pkg> is an R package to perform meta-analyses within the common random-effects model framework.</li>
+	
 	<li><pkg>BayesSummaryStatLM</pkg> provides two functions: one function that computes summary statistics of
 	data and one function that carries out the MCMC posterior sampling for Bayesian linear regression models where summary statistics are used as input. </li>
 	
@@ -426,6 +431,9 @@
 
 	<li> <pkg>glmmBUGS</pkg> writes BUGS model files, formats data, and creates starting values for generalized linear mixed models.</li>
 
+	<li> <pkg>nimble</pkg> is flexible system that allows one to apply various algorithms to hierarchical models specified using the BUGS language, including MCMC, sequential Monte Carlo, and algorithms written by users. Algorithm code is automatically translated to C++, compiled, and linked back for use
+from R.</li>
+
     	<li>There are three packages that provide R interface with 
 	<a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>:
     	<pkg>rjags</pkg>, <pkg>R2jags</pkg>, and <pkg>runjags</pkg>.</li>    
@@ -462,9 +470,9 @@
     	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
-    	<pkg>BayHaz</pkg>
-    	<pkg>BAYSTAR</pkg>
     	<pkg>BayesDA</pkg>
+	<pkg>bayesImageS</pkg>
+	<pkg>bayesmeta</pkg>
     	<pkg>bayesQR</pkg>
 	<pkg>BayesSummaryStatLM</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
@@ -472,6 +480,8 @@
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
 	<pkg>BayesX</pkg>
+    	<pkg>BayHaz</pkg>
+    	<pkg>BAYSTAR</pkg>
 	<pkg>bbemkr</pkg>
 	<pkg>BCBCSF</pkg>
 	<pkg>BCE</pkg>
@@ -536,6 +546,7 @@
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
 	<pkg>MSBVAR</pkg>
+	<pkg>nimble</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
 	<pkg>predmixcor</pkg>
@@ -581,6 +592,7 @@
     <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
     <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
+    <a href="http://r-nimble.org/">NIMBLE</a>
     <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
     <a href="http://mc-stan.org/">Stan</a>
     <view>gR</view>
