@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2016-12-01</version>
+ <version>2017-03-24</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -100,7 +100,10 @@
 	by Chipman, George, and McCulloch (2006).</li>  
 
 	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, 
-	both continuous as well as binary dependent variables.</li>  
+	both continuous as well as binary dependent variables.</li>
+
+	<li><pkg>BayesVarSel</pkg> calculate Bayes factors in linear models and then to provide a
+	formal Bayesian answer to testing and variable selection problems.</li>
 
 	<li><pkg>BayHaz</pkg> contains a suite of R functions for Bayesian estimation of smooth hazard rates via 
 	Compound Poisson Process (CPP) priors.</li>     
@@ -152,6 +155,10 @@
 	This package allows Bayesian estimation of multi-gene models
     	via Laplace approximations and provides tools for interval mapping of genetic loci. 
 	The package also contains graphical tools for QTL analysis.</li>
+
+	<li><pkg>bridgesampling</pkg> provides R functions for estimating marginal likelihoods,
+	Bayes factors, posterior model probabilities, and normalizing constants in general,
+	via different versions of bridge sampling (Meng and Wong, 1996). </li>
     
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
@@ -178,6 +185,9 @@
     	<li><pkg>deal</pkg> provides R functions for Bayesian network analysis; 
 	the current version of covers discrete and continuous variables
     	under Gaussian network structure. </li>
+
+	<li><pkg>deBInfer</pkg> provides R functions for Bayesian parameter inference
+	in differential equations using MCMC methods.</li>
 
     	<li><pkg>dlm</pkg> is a package for Bayesian (and likelihood) analysis of 
 	dynamic linear models. It includes the calculations of
@@ -287,6 +297,9 @@
 	<li><pkg>PReMiuM</pkg> is a package for profile regression, which is a Dirichlet process Bayesian clustering 
 	where the response is linked non-parametrically to the covariate profile.</li>
 
+	<li><pkg>revdbayes</pkg> provides functions for the Bayesian analysis of extreme value models using
+	direct random sampling from extreme value posterior distributions. </li>
+	
     	<li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of 
 	CGH microarrays using hidden Markov chain models.
     	The selection of the number of states is made via their posterior 
@@ -479,6 +492,7 @@ from R.</li>
 	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
+	<pkg>BayesVarSel</pkg>
 	<pkg>BayesX</pkg>
     	<pkg>BayHaz</pkg>
     	<pkg>BAYSTAR</pkg>
@@ -499,6 +513,7 @@ from R.</li>
 	<pkg>Boom</pkg>
 	<pkg>BoomSpikeSlab</pkg>
     	<pkg>bqtl</pkg>
+	<pkg>bridgesampling</pkg>
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
@@ -511,6 +526,7 @@ from R.</li>
 	<pkg>cudaBayesreg</pkg>
     	<pkg>dclone</pkg>
     	<pkg>deal</pkg>
+	<pkg>deBInfer</pkg> 
     	<pkg>dlm</pkg>      
     	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
@@ -559,6 +575,7 @@ from R.</li>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
     	<pkg>ramps</pkg>
+	<pkg>revdbayes</pkg>
     	<pkg>RxCEcolInf</pkg>
     	<pkg>rbugs</pkg>
     	<pkg>RJaCGH</pkg>
