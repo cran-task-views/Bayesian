@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2017-03-24</version>
+ <version>2017-04-01</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -126,9 +126,6 @@
 
 	<li><pkg>bcp</pkg> implements a Bayesian analysis of changepoint problem using  
 	Barry and Hartigan product partition model.</li>
-
-	<li><pkg>bfp</pkg> implements the Bayesian paradigm for fractional polynomial models 
-	under the assumption of normally distributed error terms.</li>
 
 	<li><pkg>bisoreg</pkg> implements the Bayesian isotonic regression with Bernstein polynomials.</li>
 
@@ -501,7 +498,6 @@ from R.</li>
 	<pkg>BCE</pkg>
 	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
-    	<pkg>bfp</pkg>
     	<pkg>bisoreg</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
