@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2017-04-01</version>
+ <version>2017-04-25</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -172,9 +172,6 @@
 	inference using the frequentist approach.</li>
 
 	<li><pkg>coalescentMCMC</pkg> provides a flexible framework for coalescent analyses in R.</li>
-
-    	<li><pkg>cslogistic</pkg> has a function that performs a Bayesian analaysis of 
-	a conditionally specified logistic regression model.</li> 
 
 	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
 	for complex models using data cloning and MCMC methods.</li> 
@@ -518,7 +515,6 @@ from R.</li>
 	<pkg>catnet</pkg>
 	<pkg>coalescentMCMC</pkg>
     	<pkg priority="core">coda</pkg>
-    	<pkg>cslogistic</pkg>
 	<pkg>cudaBayesreg</pkg>
     	<pkg>dclone</pkg>
     	<pkg>deal</pkg>
