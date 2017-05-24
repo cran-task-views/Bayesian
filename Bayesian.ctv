@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2017-04-25</version>
+ <version>2017-05-24</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -219,6 +219,9 @@
 
     	<li> <pkg>ggmcmc</pkg>  is a tool for assessing and diagnosing convergence of Markov Chain Monte Carlo simulations, 
 	as well as for graphically display results from full MCMC analysis. </li>
+
+	<li> <pkg>gRain</pkg> is a package for probability propagation in graphical independence networks,
+	also known as Bayesian networks or probabilistic expert systems. </li>
 		
     	<li> <pkg>growcurves</pkg>  is a package for Bayesian semi and nonparametric growth curve models 
 	that additionally include multiple membership random effects. </li>
@@ -265,6 +268,10 @@
 
     	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
 	Autoregression models and Bayesian structural Vector Autoregression models.</li>
+
+	<li> <pkg>NetworkChange</pkg> is an R package for change point analysis in longitudinal network data.
+	It implements a hidden Markovmultilinear tenstor regression model. Model diagnostic tools using marginal likelihoods
+	and WAIC are provided. </li>
 
 	<li><pkg>pacbpred</pkg> perform estimation and prediction in high-dimensional additive models, 
 	using a sparse PAC-Bayesian point of view and a MCMC algorithm.</li>
@@ -534,6 +541,7 @@ from R.</li>
     	<pkg>geoRglm</pkg>
 	<pkg>ggmcmc</pkg>
     	<pkg>glmmBUGS</pkg>
+	<pkg>gRain</pkg>
 	<pkg>growcurves</pkg>
 	<pkg>hbsae</pkg>
     	<pkg>HI</pkg>    
@@ -554,6 +562,7 @@ from R.</li>
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
 	<pkg>MSBVAR</pkg>
+	<pkg>NetworkChange</pkg>
 	<pkg>nimble</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
