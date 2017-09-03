@@ -16,8 +16,8 @@
     This is followed by a description of packages used for post-estimation analysis.  
     Finally, we review packages that link R to other Bayesian sampling engines such as
     <a href="http://mcmc-jags.sourceforge.net/">JAGS</a>, 
-    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>, 
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>, and
+    <a href="http://www.openbugs.net/">OpenBUGS</a>, 
+    <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>, and
     <a href="http://mc-stan.org/">Stan</a>.</p> 
 
     <p><strong>Bayesian packages for general model fitting</strong> </p>
@@ -427,7 +427,7 @@
 	<li> <pkg>Boom</pkg> provides a C++ library for Bayesian modeling, with an emphasis on Markov chain Monte Carlo.</li>
 
     	<li><b>BRugs</b> provides an R interface to 
-	<a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>. 
+	<a href="http://www.openbugs.net/">OpenBUGS</a>. 
 	It works under Windows and Linux.  <b>BRugs</b> used to be available from CRAN, now it is 
 	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/">CRANextras</a>
     	repository.</li>
@@ -437,11 +437,11 @@
 	CUDA is a software platform for massively parallel high-performance computing on NVIDIA GPUs.</li>
 
     	<li>There are two packages that can be used to interface R with 
-	<a href="http://www.mrc-bsu.cam.ac.uk/bugs/">WinBUGS</a>.
+	<a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>.
     	<pkg>R2WinBUGS</pkg> provides a set of functions to call WinBUGS on 
 	a Windows system and a Linux system;  <pkg>rbugs</pkg>
     	supports Linux systems through 
-	<a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a> on Linux (LinBUGS).</li>
+	<a href="http://www.openbugs.net/">OpenBUGS</a> on Linux (LinBUGS).</li>
 
 	<li> <pkg>glmmBUGS</pkg> writes BUGS model files, formats data, and creates starting values for generalized linear mixed models.</li>
 
@@ -607,8 +607,8 @@ from R.</li>
     <a href="http://www.BayesX.org/">BayesX</a>
     <a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>
     <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
-    <a href="http://www.mrc-bsu.cam.ac.uk/bugs/">The BUGS Project (WinBUGS)</a>
-    <a href="http://mathstat.helsinki.fi/openbugs/">OpenBUGS</a>
+    <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">The BUGS Project (WinBUGS)</a>
+    <a href="http://www.openbugs.net/">OpenBUGS</a>
     <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
     <a href="http://r-nimble.org/">NIMBLE</a>
     <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
