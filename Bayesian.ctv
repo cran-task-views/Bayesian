@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2017-05-24</version>
+ <version>2017-09-21</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -273,6 +273,9 @@
 	It implements a hidden Markovmultilinear tenstor regression model. Model diagnostic tools using marginal likelihoods
 	and WAIC are provided. </li>
 
+	<li> <pkg>openEBGM</pkg> calculates Empirical Bayes Geometric Mean (EBGM) and quantile scores from the posterior distribution
+	using the Gamma-Poisson Shrinker (GPS) model to find unusually large cell counts in large, sparse contingency tables.</li>
+
 	<li><pkg>pacbpred</pkg> perform estimation and prediction in high-dimensional additive models, 
 	using a sparse PAC-Bayesian point of view and a MCMC algorithm.</li>
 
@@ -359,6 +362,9 @@
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: 
 	a spaptial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
+
+	<li><pkg>tRophicPosition</pkg> estimates the trophic position of a consumer relative to a baseline species.
+	It implements a Bayesian approach which combines an interface to the JAGS MCMC library of rjags and stable isotopes.</li> 
 	
 	<li><bioc>vbmp</bioc> is a package for variational Bayesian multinomial probate regression with Gaussian process priors. 
 	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
@@ -564,6 +570,7 @@ from R.</li>
 	<pkg>MSBVAR</pkg>
 	<pkg>NetworkChange</pkg>
 	<pkg>nimble</pkg>
+	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>PottsUtils</pkg>
 	<pkg>predmixcor</pkg>
@@ -598,6 +605,7 @@ from R.</li>
 	<pkg>spTimer</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
+	<pkg>tRophicPosition</pkg>
     	<pkg>zic</pkg>
     	
 	</packagelist>
