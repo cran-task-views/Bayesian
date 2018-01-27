@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2017-09-21</version>
+ <version>2018-01-28</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -278,8 +278,6 @@
 
 	<li><pkg>pacbpred</pkg> perform estimation and prediction in high-dimensional additive models, 
 	using a sparse PAC-Bayesian point of view and a MCMC algorithm.</li>
-
-	<li><pkg>PottsUtils</pkg> comprises several functions related to the Potts model definedon undirected graphs.</li>
 
 	<li><pkg>predmixcor</pkg> provides functions to predict the binary response based 
 	on high dimensional binary features modeled with Bayesian mixture models. </li>
@@ -572,7 +570,6 @@ from R.</li>
 	<pkg>nimble</pkg>
 	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
-	<pkg>PottsUtils</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>prevalence</pkg>
 	<pkg>profdpm</pkg>
