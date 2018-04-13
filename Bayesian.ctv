@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-02-02</version>
+ <version>2018-04-13</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -60,6 +60,12 @@
     	<li>The <pkg>mcmc</pkg> package consists of an R function for a random-walk Metropolis algorithm for 
 	a continuous random vector.</li>
 
+   	<li>The <pkg>nimble</pkg> package provides a general MCMC system that allows customizable MCMC for
+	models written in the BUGS/JAGS model language.  Users can choose samplers and write new samplers.  Models and samplers are
+	automatically compiled via generated C++.  The package also supports other
+	methods such as particle filtering or whatever users write in its algorithm
+	language.</li>
+
     </ul>
 
     <p> <strong>Bayesian packages for specific models or methods</strong></p>
@@ -69,7 +75,8 @@
 	Cross-validation tools are also available for measuring the accuracy of ABC estimates, and to calculate the misclassification 			
 	probabilities of different models.</li>
 
-	<li><pkg>abn</pkg> is a package for modelling multivariate data using additive Bayesian networks. It provides routines to help determine optimal Bayesian network models for a given data set, where these models are used to identify statistical dependencies in messy, complex data.</li>
+	<li><pkg>abn</pkg> is a package for modelling multivariate data using additive Bayesian networks.
+	It provides routines to help determine optimal Bayesian network models for a given data set, where these models are used to identify statistical dependencies in messy, complex data.</li>
 	
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting of an adapative mixture of Student-t distributions 	
 	to a target density through its kernel function. The mixture approximation can be used as the importance density 	
@@ -77,6 +84,8 @@
 
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
+
+	<li><pkg>bamlss</pkg> provides an infrastructure for estimating probabilistic distributional regression models in a Bayesian framework. The distribution parameters may capture location, scale,	 shape, etc. and every parameter may depend on complex additive terms similar to a generalized additive model. </li>
 
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient algorithm to sample models without replacement.</li>
@@ -101,6 +110,9 @@
 
 	<li><pkg>bayesQR</pkg> supports Bayesian quantile regression using the asymmetric Laplace distribution, 
 	both continuous as well as binary dependent variables.</li>
+
+	<li><pkg>BayesFactor</pkg> provides a suite of functions for computing various Bayes factors for simple designs, including contingency tables,
+	one- and two-sample designs, one-way designs, general ANOVA designs, and linear regression.</li>
 
 	<li><pkg>BayesVarSel</pkg> calculate Bayes factors in linear models and then to provide a
 	formal Bayesian answer to testing and variable selection problems.</li>
@@ -156,7 +168,12 @@
 	<li><pkg>bridgesampling</pkg> provides R functions for estimating marginal likelihoods,
 	Bayes factors, posterior model probabilities, and normalizing constants in general,
 	via different versions of bridge sampling (Meng and Wong, 1996). </li>
-    
+
+
+	<li><pkg>bsamGP</pkg> provides functions to perform Bayesian inference using a spectral analysis of Gaussian process priors.
+	Gaussian processes are represented with a Fourier series based on cosine basis functions. Currently the package includes parametric linear models,
+	partial linear additive models with/without shape restrictions, generalized linear additive models with/without shape restrictions, and density estimation model. </li>
+	
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
     	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
@@ -364,7 +381,7 @@
 	<li><pkg>tRophicPosition</pkg> estimates the trophic position of a consumer relative to a baseline species.
 	It implements a Bayesian approach which combines an interface to the JAGS MCMC library of rjags and stable isotopes.</li> 
 	
-	<li><bioc>vbmp</bioc> is a package for variational Bayesian multinomial probate regression with Gaussian process priors. 
+	<li><bioc>vbmp</bioc> is a package for variational Bayesian multinomial probit regression with Gaussian process priors. 
 	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
 	This software also incorporates feature weighting by means of Automatic Relevance Determination. </li>
 	
@@ -436,6 +453,11 @@
 	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/">CRANextras</a>
     	repository.</li>
 
+	<li> <pkg>brms</pkg> implements Bayesian multilevel models in R using <a href="http://mc-stan.org/">Stan</a>. A wide range of distributions and link functions are supported,
+	allowing users to fit linear, robust linear, binomial, Pois- son, survival, response times, ordinal, quantile, zero-inflated,
+	hurdle, and even non-linear models all in a multilevel context.</li>
+
+
    	<li> <pkg>cudaBayesreg</pkg> provides a Compute Unified Device Architecture (CUDA) implementation of a Bayesian multilevel model 
 	for the analysis of brain fMRI data. 
 	CUDA is a software platform for massively parallel high-performance computing on NVIDIA GPUs.</li>
@@ -457,8 +479,10 @@
 
 	<li> <pkg>rstan</pkg> provides R functions to parse, compile, test, estimate, and analyze Stan
 	models by accessing the header-only Stan library provided by the `StanHeaders' package.
-	The <a href="http://mc-stan.org/"> Stan </a> project develops a probabilistic programming language that implements
+	The <a href="http://mc-stan.org/">Stan</a> project develops a probabilistic programming language that implements
 	full Bayesian statistical inference via MCMC and (optionally penalized) maximum likelihood estimation via optimization. </li>
+
+	<li> <pkg>R2BayesX</pkg> provides an R interface to estimate structured additive regression (STAR) models with 'BayesX'.</li> 
 
 
     </ul>
@@ -481,11 +505,13 @@
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
+	<pkg>bamlss</pkg>
     	<pkg>BAS</pkg> 
+    	<pkg>BayesDA</pkg>
+	<pkg>BayesFactor</pkg>
     	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
-    	<pkg>BayesDA</pkg>
 	<pkg>bayesImageS</pkg>
 	<pkg>bayesmeta</pkg>
     	<pkg>bayesQR</pkg>
@@ -515,6 +541,8 @@
 	<pkg>BoomSpikeSlab</pkg>
     	<pkg>bqtl</pkg>
 	<pkg>bridgesampling</pkg>
+	<pkg>brms</pkg>
+	<pkg>bsamGP</pkg>
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
@@ -564,6 +592,7 @@
     	<pkg>monomvn</pkg>
 	<pkg>MSBVAR</pkg>
 	<pkg>NetworkChange</pkg>
+	<pkg priority="core">nimble</pkg>
 	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>predmixcor</pkg>
@@ -573,6 +602,7 @@
 	<pkg>PAWL</pkg>
 	<pkg>PReMiuM</pkg>
 	<pkg>RSGHB</pkg>
+	<pkg>R2BayesX</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
     	<pkg>ramps</pkg>
