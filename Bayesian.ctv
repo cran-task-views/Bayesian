@@ -101,10 +101,6 @@
 	<li><pkg>BayesSummaryStatLM</pkg> provides two functions: one function that computes summary statistics of
 	data and one function that carries out the MCMC posterior sampling for Bayesian linear regression models where summary statistics are used as input. </li>
 	
-  	<li><pkg>Bayesthresh</pkg> fits a linear mixed model for ordinal categorical responses using 
-	Bayesian inference via Monte Carlo Markov Chains. Default is Nandran and Chen algorithm 
-	using Gaussian link function and saving just the summaries of the chains. </li>  
-
   	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive Regression Trees) 
 	by Chipman, George, and McCulloch (2006).</li>  
 
@@ -514,7 +510,6 @@
     	<pkg>bayesQR</pkg>
 	<pkg>BayesSummaryStatLM</pkg>
     	<pkg priority="core">bayesSurv</pkg>    
-	<pkg>Bayesthresh</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
 	<pkg>BayesVarSel</pkg>
