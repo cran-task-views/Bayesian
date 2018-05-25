@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-04-13</version>
+ <version>2018-05-25</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -282,9 +282,6 @@
 
 	<li><pkg>monomvn</pkg> is an R package for estimation of multivariate normal and Student-t data of arbitrary 
 	dimension where the pattern of missing data is monotone.</li>
-
-    	<li><pkg>MSBVAR</pkg> is an R package for estimating Bayesian Vector 
-	Autoregression models and Bayesian structural Vector Autoregression models.</li>
 
 	<li> <pkg>NetworkChange</pkg> is an R package for change point analysis in longitudinal network data.
 	It implements a hidden Markovmultilinear tensor regression model. Model diagnostic tools using marginal likelihoods
@@ -590,7 +587,6 @@
     	<pkg>MNP</pkg>
 	<pkg>mombf</pkg>
     	<pkg>monomvn</pkg>
-	<pkg>MSBVAR</pkg>
 	<pkg>NetworkChange</pkg>
 	<pkg priority="core">nimble</pkg>
 	<pkg>openEBGM</pkg>
