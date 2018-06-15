@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-05-25</version>
+ <version>2018-06-15</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -85,7 +85,12 @@
 	<li>The <pkg>BaBooN</pkg> package contains two variants of Bayesian Bootstrap Predictive Mean Matching to 
 	multiply impute missing data. </li>
 
-	<li><pkg>bamlss</pkg> provides an infrastructure for estimating probabilistic distributional regression models in a Bayesian framework. The distribution parameters may capture location, scale,	 shape, etc. and every parameter may depend on complex additive terms similar to a generalized additive model. </li>
+	<li><pkg>bamlss</pkg> provides an infrastructure for estimating probabilistic distributional regression models
+	in a Bayesian framework. The distribution parameters may capture location, scale, shape, etc.
+	and every parameter may depend on complex additive terms similar to a generalized additive model. </li>
+
+	 <li>The <pkg>BART</pkg> package provide flexible nonparametric modeling of covariates for continuous, binary,
+	 categorical and time-to-event outcomes. </li>
 
 	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
 	<pkg>BAS</pkg> utilizes an efficient algorithm to sample models without replacement.</li>
@@ -135,6 +140,9 @@
 	<li><pkg>bcp</pkg> implements a Bayesian analysis of changepoint problem using  
 	Barry and Hartigan product partition model.</li>
 
+	<li><pkg>BDgraph</pkg> provides statistical tools for Bayesian structure learning in undirected
+	graphical models for multivariate continuous, discrete, and mixed data.</li>
+
 	<li><pkg>bisoreg</pkg> implements the Bayesian isotonic regression with Bernstein polynomials.</li>
 
 	<li><pkg>BLR</pkg> provides R functions to fit parametric regression models using different types of shrinkage methods.</li>
@@ -143,6 +151,9 @@
 	generalized linear models, and survival models.  The complementary package <pkg>ensembleBMA</pkg> uses 
 	the <pkg>BMA</pkg> package to create probabilistic forecasts of ensembles using a mixture of 
 	normal distributions.</li>
+
+	<li><pkg>bmixture</pkg> provides statistical tools for Bayesian estimation for
+	the finite mixture of distributions, mainly mixture of Gamma, Normal and t-distributions. </li>
 
 	<li><pkg>BMS</pkg> is Bayesian Model Averaging library for linear models with a wide choice of (customizable) priors.
 	Built-in priors include coefficient priors (fixed, flexible and hyper-g priors), and 5 kinds of model priors. </li>
@@ -154,7 +165,8 @@
 	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
 	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
 
-	<li><pkg>BoomSpikeSlab</pkg> provides functions to do spike and slab regression via the stochastic search variable selection algorithm. It handles probit, logit, poisson, and student T data.</li>
+	<li><pkg>BoomSpikeSlab</pkg> provides functions to do spike and slab regression
+	via the stochastic search variable selection algorithm. It handles probit, logit, poisson, and student T data.</li>
 	
     	<li><pkg>bqtl</pkg> can be used to fit quantitative trait loci (QTL) models. 
 	This package allows Bayesian estimation of multi-gene models
@@ -167,8 +179,9 @@
 
 
 	<li><pkg>bsamGP</pkg> provides functions to perform Bayesian inference using a spectral analysis of Gaussian process priors.
-	Gaussian processes are represented with a Fourier series based on cosine basis functions. Currently the package includes parametric linear models,
-	partial linear additive models with/without shape restrictions, generalized linear additive models with/without shape restrictions, and density estimation model. </li>
+	Gaussian processes are represented with a Fourier series based on cosine basis functions.
+	Currently the package includes parametric linear models, partial linear additive models with/without shape restrictions,
+	generalized linear additive models with/without shape restrictions, and density estimation model. </li>
 	
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
@@ -211,7 +224,8 @@
 	using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.</li>
 	
    	<li><pkg>eigenmodel</pkg> estimates the parameters of a model for symmetric relational data 
-	(e.g., the above-diagonal part of a square matrix), using a model-based eigenvalue decomposition and regression using MCMC methods.</li>
+	(e.g., the above-diagonal part of a square matrix), using a model-based
+	eigenvalue decomposition and regression using MCMC methods.</li>
 
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis of extreme value models.</li>
 
@@ -365,6 +379,9 @@
 	Bayesian Gaussian Process Models, Bayesian Auto-Regressive (AR) Models, and Bayesian Gaussian Predictive Processes
 	based AR Models. </li>
 
+	<li><pkg>ssgraph</pkg> is for Bayesian inference in undirected graphical models
+	using spike-and-slab priors for multivariate continuous, discrete, and mixed data.  </li>	
+
 	<li><pkg>stochvol</pkg> provides efficient algorithms for fully Bayesian estimation of stochastic volatility (SV) models.</li>
 
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed Gaussian process models: 
@@ -389,6 +406,11 @@
     <p> <strong>Post-estimation tools</strong></p>
     <ul>
     	<li><pkg>BayesValidate</pkg> implements a software validation method for Bayesian softwares. </li>
+
+	<li><pkg>MCMCvis</pkg> performs key functions (visualizes, manipulates, and summarizes)
+	for MCMC analysis. Functions support simple and straightforward subsetting of model parameters within the calls,
+	and produce presentable and 'publication-ready' output.
+	MCMC output may be derived from Bayesian model output fit with JAGS, Stan, or other MCMC samplers. </li>
 
     	<li>The <pkg>boa</pkg> package provides functions for diagnostics, 
 	summarization, and visualization of MCMC sequences.  It imports
@@ -499,6 +521,7 @@
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
 	<pkg>bamlss</pkg>
+	<pkg>BART</pkg>
     	<pkg>BAS</pkg> 
     	<pkg>BayesDA</pkg>
 	<pkg>BayesFactor</pkg>
@@ -521,11 +544,13 @@
 	<pkg>BCE</pkg>
 	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
+	<pkg>BDgraph</pkg>
     	<pkg>bisoreg</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
 	<pkg>BMS</pkg>
     	<pkg>Bmix</pkg>
+	<pkg>bmixture</pkg>
 	<pkg>bnlearn</pkg>
     	<pkg priority="core">boa</pkg>
     	<pkg>Bolstad</pkg>
@@ -577,6 +602,7 @@
     	<pkg priority="core">mcmc</pkg>
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
+	<pkg>MCMCvis</pkg>
     	<pkg>mgcv</pkg>	
 	<pkg>mlogitBMA</pkg>
     	<pkg>MNP</pkg>
@@ -617,6 +643,7 @@
     	<pkg>spikeslab</pkg>
 	<pkg>spikeSlabGAM</pkg>
 	<pkg>spTimer</pkg>
+	<pkg>ssgraph</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
 	<pkg>tRophicPosition</pkg>
