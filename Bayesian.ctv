@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-06-15</version>
+ <version>2018-06-18</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -201,10 +201,6 @@
 
 	<li><pkg>dclone</pkg> provides low level functions for implementing maximum likelihood estimating procedures 
 	for complex models using data cloning and MCMC methods.</li> 
-
-    	<li><pkg>deal</pkg> provides R functions for Bayesian network analysis; 
-	the current version of covers discrete and continuous variables
-    	under Gaussian network structure. </li>
 
 	<li><pkg>deBInfer</pkg> provides R functions for Bayesian parameter inference
 	in differential equations using MCMC methods.</li>
@@ -570,7 +566,6 @@
     	<pkg priority="core">coda</pkg>
 	<pkg>cudaBayesreg</pkg>
     	<pkg>dclone</pkg>
-    	<pkg>deal</pkg>
 	<pkg>deBInfer</pkg> 
     	<pkg>dlm</pkg>      
     	<pkg priority="core">DPpackage</pkg>
