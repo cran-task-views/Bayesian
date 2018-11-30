@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-06-18</version>
+ <version>2018-11-30</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -469,10 +469,6 @@
 	hurdle, and even non-linear models all in a multilevel context.</li>
 
 
-   	<li> <pkg>cudaBayesreg</pkg> provides a Compute Unified Device Architecture (CUDA) implementation of a Bayesian multilevel model 
-	for the analysis of brain fMRI data. 
-	CUDA is a software platform for massively parallel high-performance computing on NVIDIA GPUs.</li>
-
     	<li>There are two packages that can be used to interface R with 
 	<a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>.
     	<pkg>R2WinBUGS</pkg> provides a set of functions to call WinBUGS on 
@@ -564,7 +560,6 @@
 	<pkg>catnet</pkg>
 	<pkg>coalescentMCMC</pkg>
     	<pkg priority="core">coda</pkg>
-	<pkg>cudaBayesreg</pkg>
     	<pkg>dclone</pkg>
 	<pkg>deBInfer</pkg> 
     	<pkg>dlm</pkg>      
