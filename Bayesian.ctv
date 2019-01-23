@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2018-11-30</version>
+ <version>2019-01-23</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -476,8 +476,6 @@
     	supports Linux systems through 
 	<a href="http://www.openbugs.net/">OpenBUGS</a> on Linux (LinBUGS).</li>
 
-	<li> <pkg>glmmBUGS</pkg> writes BUGS model files, formats data, and creates starting values for generalized linear mixed models.</li>
-
     	<li>There are three packages that provide R interface with 
 	<a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>:
     	<pkg>rjags</pkg>, <pkg>R2jags</pkg>, and <pkg>runjags</pkg>.</li>    
@@ -576,7 +574,6 @@
     	<pkg>geoR</pkg>
     	<pkg>geoRglm</pkg>
 	<pkg>ggmcmc</pkg>
-    	<pkg>glmmBUGS</pkg>
 	<pkg>gRain</pkg>
 	<pkg>growcurves</pkg>
 	<pkg>hbsae</pkg>
