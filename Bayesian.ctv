@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-01-23</version>
+ <version>2019-01-29</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -472,9 +472,7 @@
     	<li>There are two packages that can be used to interface R with 
 	<a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>.
     	<pkg>R2WinBUGS</pkg> provides a set of functions to call WinBUGS on 
-	a Windows system and a Linux system;  <pkg>rbugs</pkg>
-    	supports Linux systems through 
-	<a href="http://www.openbugs.net/">OpenBUGS</a> on Linux (LinBUGS).</li>
+	a Windows system and a Linux system.</li>
 
     	<li>There are three packages that provide R interface with 
 	<a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>:
@@ -612,7 +610,6 @@
     	<pkg>ramps</pkg>
 	<pkg>revdbayes</pkg>
     	<pkg>RxCEcolInf</pkg>
-    	<pkg>rbugs</pkg>
     	<pkg>RJaCGH</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
