@@ -384,9 +384,6 @@
 	a spatial modeling and regression package providing fully Bayesian MCMC posterior inference for
     	models ranging from the simple linear model, to nonstationary treed Gaussian process, and others in between.</li> 
 
-	<li><pkg>tRophicPosition</pkg> estimates the trophic position of a consumer relative to a baseline species.
-	It implements a Bayesian approach which combines an interface to the JAGS MCMC library of rjags and stable isotopes.</li> 
-	
 	<li><bioc>vbmp</bioc> is a package for variational Bayesian multinomial probit regression with Gaussian process priors. 
 	It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. 
 	This software also incorporates feature weighting by means of Automatic Relevance Determination. </li>
@@ -630,7 +627,6 @@
 	<pkg>ssgraph</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
-	<pkg>tRophicPosition</pkg>
     	<pkg>zic</pkg>
     	
 	</packagelist>
