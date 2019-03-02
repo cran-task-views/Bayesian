@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-01-29</version>
+ <version>2019-03-02</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -142,8 +142,6 @@
 
 	<li><pkg>BDgraph</pkg> provides statistical tools for Bayesian structure learning in undirected
 	graphical models for multivariate continuous, discrete, and mixed data.</li>
-
-	<li><pkg>bisoreg</pkg> implements the Bayesian isotonic regression with Bernstein polynomials.</li>
 
 	<li><pkg>BLR</pkg> provides R functions to fit parametric regression models using different types of shrinkage methods.</li>
 
@@ -530,7 +528,6 @@
 	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
 	<pkg>BDgraph</pkg>
-    	<pkg>bisoreg</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
 	<pkg>BMS</pkg>
