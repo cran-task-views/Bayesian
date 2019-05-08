@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-03-02</version>
+ <version>2019-05-08</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -221,6 +221,9 @@
 	(e.g., the above-diagonal part of a square matrix), using a model-based
 	eigenvalue decomposition and regression using MCMC methods.</li>
 
+	<li><pkg>EntropyMCMC</pkg> is an R package for MCMC simulation and convergence evaluation using entropy and
+	Kullback-Leibler divergence estimation. </li>
+
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis of extreme value models.</li>
 
     	<li><pkg>exactLoglinTest</pkg> provides functions for log-linear models that compute  
@@ -374,7 +377,10 @@
 	based AR Models. </li>
 
 	<li><pkg>ssgraph</pkg> is for Bayesian inference in undirected graphical models
-	using spike-and-slab priors for multivariate continuous, discrete, and mixed data.  </li>	
+	using spike-and-slab priors for multivariate continuous, discrete, and mixed data.  </li>
+
+	<li><pkg>ssMousetrack</pkg> estimates previously compiled state-space modeling for mouse-tracking experiments
+	using the <pkg>rstan</pkg> package, which provides the R interface to the Stan C++ library for Bayesian estimation. </li>
 
 	<li><pkg>stochvol</pkg> provides efficient algorithms for fully Bayesian estimation of stochastic volatility (SV) models.</li>
 
@@ -416,6 +422,9 @@
 	It can easily import MCMC output from WinBUGS, OpenBUGS, and JAGS, or from plain
     	matrices.  <pkg>coda</pkg> contains the Gelman and Rubin, Geweke, Heidelberger and Welch, and Raftery and Lewis diagnostics.</li>
 
+	<li><pkg>plotMCMC</pkg> extends <pkg>coda</pkg> by adding convenience functions to make it easier to create multipanel plots.
+	The graphical parameters have sensible defaults and are easy to modify via top-level arguments. </li>
+	
     	<li><pkg>ramps</pkg> implements Bayesian geostatistical analysis of Gaussian processes 
 	using a reparameterized and marginalized posterior sampling algorithm. </li>
 
@@ -459,7 +468,8 @@
 	located at the <a href="http://www.stats.ox.ac.uk/pub/RWin/">CRANextras</a>
     	repository.</li>
 
-	<li> <pkg>brms</pkg> implements Bayesian multilevel models in R using <a href="http://mc-stan.org/">Stan</a>. A wide range of distributions and link functions are supported,
+	<li> <pkg>brms</pkg> implements Bayesian multilevel models in R using <a href="http://mc-stan.org/">Stan</a>.
+	A wide range of distributions and link functions are supported,
 	allowing users to fit linear, robust linear, binomial, Pois- son, survival, response times, ordinal, quantile, zero-inflated,
 	hurdle, and even non-linear models all in a multilevel context.</li>
 
@@ -559,6 +569,7 @@
 	<pkg>eco</pkg>
     	<pkg>eigenmodel</pkg>
 	<pkg>ensembleBMA</pkg>
+	<pkg>EntropyMCMC</pkg>
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
 	<pkg>factorQR</pkg>
@@ -591,6 +602,7 @@
 	<pkg priority="core">nimble</pkg>
 	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
+	<pkg>plotMCMC</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>prevalence</pkg>
 	<pkg>profdpm</pkg>
@@ -622,6 +634,7 @@
 	<pkg>spikeSlabGAM</pkg>
 	<pkg>spTimer</pkg>
 	<pkg>ssgraph</pkg>
+	<pkg>ssMousetrack</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
     	<pkg>zic</pkg>
