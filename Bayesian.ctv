@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-05-08</version>
+ <version>2019-06-06</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -184,8 +184,6 @@
     	<li><pkg>bspec</pkg> performs Bayesian inference on the (discrete) power spectrum of time series.</li>
 
     	<li><pkg>bspmma</pkg> is a package for Bayesian semiparametric models for meta-analysis. </li>
-
-    	<li><pkg>BSquare</pkg> models the quantile process as a function of predictors. </li>
 
 	<li><pkg>bsts</pkg> is a package for time series regression using dynamic linear models using MCMC.</li>
 
@@ -555,7 +553,6 @@
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
-	<pkg>BSquare</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>catnet</pkg>
 	<pkg>coalescentMCMC</pkg>
