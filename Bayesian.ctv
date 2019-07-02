@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-06-06</version>
+ <version>2019-07-02</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -245,9 +245,6 @@
 	<li> <pkg>gRain</pkg> is a package for probability propagation in graphical independence networks,
 	also known as Bayesian networks or probabilistic expert systems. </li>
 		
-    	<li> <pkg>growcurves</pkg>  is a package for Bayesian semi and nonparametric growth curve models 
-	that additionally include multiple membership random effects. </li>
-
     	<li>The <pkg>HI</pkg> package has functions to implement a geometric approach 
 	to transdimensional MCMC methods and random direction multivariate
     	Adaptive Rejection Metropolis Sampling.</li>
@@ -575,7 +572,6 @@
     	<pkg>geoRglm</pkg>
 	<pkg>ggmcmc</pkg>
 	<pkg>gRain</pkg>
-	<pkg>growcurves</pkg>
 	<pkg>hbsae</pkg>
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
