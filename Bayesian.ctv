@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-07-02</version>
+ <version>2019-07-24</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -162,6 +162,10 @@
 	
 	<li><pkg>bnlearn</pkg> is a package for Bayesian network structure learning 
 	(via constraint-based, score-based and hybrid algorithms), parameter learning (via ML and Bayesian estimators) and inference.</li>
+
+	<li><pkg>BNSP</pkg> is a package for Bayeisan non- and semi-parametric model fitting. It handles Dirichlet process mixtures
+	and spike-slab for multivariate (and univariate) response analysis, with nonparametric models for the means,
+	the variances and the correlation matrix.</li>
 
 	<li><pkg>BoomSpikeSlab</pkg> provides functions to do spike and slab regression
 	via the stochastic search variable selection algorithm. It handles probit, logit, poisson, and student T data.</li>
@@ -485,6 +489,9 @@
 	The <a href="http://mc-stan.org/">Stan</a> project develops a probabilistic programming language that implements
 	full Bayesian statistical inference via MCMC and (optionally penalized) maximum likelihood estimation via optimization. </li>
 
+	<li> <pkg>pcFactorStan</pkg> provides convenience functions and pre-programmed Stan models related to the paired comparison
+	factor model. Its purpose is to make fitting paired comparison data using Stan easy. </li>
+
 	<li> <pkg>R2BayesX</pkg> provides an R interface to estimate structured additive regression (STAR) models with 'BayesX'.</li> 
 
 
@@ -539,6 +546,7 @@
     	<pkg>Bmix</pkg>
 	<pkg>bmixture</pkg>
 	<pkg>bnlearn</pkg>
+	<pkg>BNSP</pkg>
     	<pkg priority="core">boa</pkg>
     	<pkg>Bolstad</pkg>
 	<pkg>Boom</pkg>
@@ -595,6 +603,7 @@
 	<pkg priority="core">nimble</pkg>
 	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
+	<pkg>pcFactorStan</pkg>
 	<pkg>plotMCMC</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>prevalence</pkg>
