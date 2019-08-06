@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-07-24</version>
+ <version>2019-08-06</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -39,10 +39,6 @@
 
 	<li><pkg>bayesSurv</pkg> contains R functions to perform Bayesian inference for survival 
 	regression models with flexible error and random effects distributions.</li>
-
-	<li><pkg>DPpackage</pkg> contains R functions for Bayesian nonparametric and semiparametric models. 
-	DPpackage currently includes semiparametric models for density estimation, ROC curve analysis, 
-	interval censored data, binary regression models, generalized linear mixed models, and IRT type models. </li>
 
 	<li><pkg>LaplacesDemon</pkg> seeks to provide a complete Bayesian environment, 
 	including numerous MCMC algorithms, Laplace Approximation with multiple optimization algorithms, 
@@ -565,7 +561,6 @@
     	<pkg>dclone</pkg>
 	<pkg>deBInfer</pkg> 
     	<pkg>dlm</pkg>      
-    	<pkg priority="core">DPpackage</pkg>
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
 	<pkg>eco</pkg>
