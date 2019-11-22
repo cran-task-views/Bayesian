@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-08-06</version>
+ <version>2019-11-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -281,9 +281,6 @@
     	<li>The <pkg>MNP</pkg> package fits multinomial probit models using MCMC methods.</li>  
 
 	<li><pkg>mombf</pkg> performs model selection based on non-local priors, including MOM, eMOM and iMOM priors..</li>
-
-	<li><pkg>monomvn</pkg> is an R package for estimation of multivariate normal and Student-t data of arbitrary 
-	dimension where the pattern of missing data is monotone.</li>
 
 	<li> <pkg>NetworkChange</pkg> is an R package for change point analysis in longitudinal network data.
 	It implements a hidden Markovmultilinear tensor regression model. Model diagnostic tools using marginal likelihoods
@@ -593,7 +590,6 @@
 	<pkg>mlogitBMA</pkg>
     	<pkg>MNP</pkg>
 	<pkg>mombf</pkg>
-    	<pkg>monomvn</pkg>
 	<pkg>NetworkChange</pkg>
 	<pkg priority="core">nimble</pkg>
 	<pkg>openEBGM</pkg>
