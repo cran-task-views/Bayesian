@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2019-11-22</version>
+ <version>2019-12-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -263,9 +263,6 @@
 	for the binomial spatial model (see the <view>Spatial</view> view for more information). </li>
 
     	<li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>    
-
-    	<li><pkg>MasterBayes</pkg> is an R package that implements MCMC methods to 
-	integrate over uncertainty in pedigree configurations estimated from molecular markers and phenotypic data. </li>
 
 	<li><pkg>matchingMarkets</pkg> implements a structural model based on a Gibbs sampler to correct for the bias
 	from endogenous matching (e.g. group formation or two-sided matching).</li>
@@ -581,7 +578,6 @@
     	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
 	<pkg>matchingMarkets</pkg>
-    	<pkg>MasterBayes</pkg>
     	<pkg priority="core">mcmc</pkg>
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
