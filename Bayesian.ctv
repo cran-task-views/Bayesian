@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-01-08</version>
+ <version>2020-01-11</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -88,9 +88,6 @@
 	 <li>The <pkg>BART</pkg> package provide flexible nonparametric modeling of covariates for continuous, binary,
 	 categorical and time-to-event outcomes. </li>
 
-	<li>The <pkg>BAS</pkg> package implements BMA for regression models using g-priors and mixtures of g-priors.  
-	<pkg>BAS</pkg> utilizes an efficient algorithm to sample models without replacement.</li>
-	
  	<li>The <pkg>bayesGARCH</pkg> package provides a function which perform the Bayesian estimation of the 
 	GARCH(1,1) model with Student's t innovations.</li>
 
@@ -514,7 +511,6 @@
     	<pkg>BaM</pkg>
 	<pkg>bamlss</pkg>
 	<pkg>BART</pkg>
-    	<pkg>BAS</pkg> 
     	<pkg>BayesDA</pkg>
 	<pkg>BayesFactor</pkg>
     	<pkg>bayesGARCH</pkg>
