@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-01-11</version>
+ <version>2020-01-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -309,11 +309,6 @@
 	<li><pkg>revdbayes</pkg> provides functions for the Bayesian analysis of extreme value models using
 	direct random sampling from extreme value posterior distributions. </li>
 	
-    	<li>The <pkg>RJaCGH</pkg> package implements Bayesian analysis of 
-	CGH microarrays using hidden Markov chain models.
-    	The selection of the number of states is made via their posterior 
-	probability computed by reversible jump Markov chain Monte Carlo Methods.</li>
-
 	<li>The <code>hitro.new()</code> function in <pkg>Runuran</pkg> provides an MCMC sampler 
 	based on the Hit-and-Run algorithm in combination with the Ratio-of-Uniforms method.</li>
 	
@@ -609,7 +604,6 @@
     	<pkg>ramps</pkg>
 	<pkg>revdbayes</pkg>
     	<pkg>RxCEcolInf</pkg>
-    	<pkg>RJaCGH</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
 	<pkg>rstan</pkg>
