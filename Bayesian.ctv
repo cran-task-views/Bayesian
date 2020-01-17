@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-01-16</version>
+ <version>2020-01-17</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -124,11 +124,6 @@
 
    	<li><pkg>BCBCSF</pkg> provides functions to predict the discrete response based on selected high dimensional features, 
 	such as gene expression data. </li>
-
-	<li><pkg>bclust</pkg> builds a dendrogram with log posterior as a natural distance defined by the model. 
-	It is also capable to computing Bayesian discrimination probabilities equivalent to the implemented Bayesian clustering. 
-	Spike-and-Slab models are adopted in a way to be able to produce an importance measure for clustering 
-	and discriminant variables. </li>
 
 	<li><pkg>bcp</pkg> implements a Bayesian analysis of changepoint problem using  
 	Barry and Hartigan product partition model.</li>
@@ -526,7 +521,6 @@
 	<pkg>bbemkr</pkg>
 	<pkg>BCBCSF</pkg>
 	<pkg>BCE</pkg>
-	<pkg>bclust</pkg>
     	<pkg>bcp</pkg>
 	<pkg>BDgraph</pkg>
 	<pkg>BLR</pkg>
