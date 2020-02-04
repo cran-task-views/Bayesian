@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-02-01</version>
+ <version>2020-02-04</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -247,9 +247,7 @@
     	<li>The function <code>krige.bayes()</code> in the <pkg>geoR</pkg> package performs 
 	Bayesian analysis of geostatistical data allowing
     	specification of different levels of uncertainty in the model parameters.  
-	The <code>binom.krige.bayes()</code> function in the
-    	<pkg>geoRglm</pkg> package implements Bayesian posterior simulation and spatial prediction 
-	for the binomial spatial model (see the <view>Spatial</view> view for more information). </li>
+	Ssee the <view>Spatial</view> view for more information.</li>
 
     	<li>The <pkg>lmm</pkg> package contains R functions to fit linear mixed models using MCMC methods.</li>    
 
@@ -555,7 +553,6 @@
 	<pkg>factorQR</pkg>
 	<pkg>FME</pkg>
     	<pkg>geoR</pkg>
-    	<pkg>geoRglm</pkg>
 	<pkg>ggmcmc</pkg>
 	<pkg>gRain</pkg>
 	<pkg>hbsae</pkg>
