@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-02-04</version>
+ <version>2020-02-20</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -281,10 +281,6 @@
 
 	<li><pkg>prevalence</pkg> provides functions for the estimation of true prevalence from apparent prevalence in a 
 	Bayesian framework. MCMC sampling is performed via JAGS/rjags. </li>
-
-	<li><pkg>profdpm</pkg> facilitates profile inference
-	(inference at the posterior mode) for a class of product
-	partition models. </li> 
 
     	<li>The <pkg>pscl</pkg> package provides R functions to fit 
 	item-response theory models using MCMC methods 
@@ -580,7 +576,6 @@
 	<pkg>plotMCMC</pkg>
 	<pkg>predmixcor</pkg>
 	<pkg>prevalence</pkg>
-	<pkg>profdpm</pkg>
     	<pkg>pscl</pkg>
 	<pkg>PAWL</pkg>
 	<pkg>PReMiuM</pkg>
