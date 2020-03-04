@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-02-20</version>
+ <version>2020-03-04</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -178,9 +178,6 @@
 
     	<li><pkg>BVS</pkg> is a package for Bayesian variant selection and Bayesian model uncertainty
 	techniques for genetic association studies.</li>
-
-	<li><pkg>catnet</pkg> is a package that handles discrete Bayesian network models and provides 
-	inference using the frequentist approach.</li>
 
 	<li><pkg>coalescentMCMC</pkg> provides a flexible framework for coalescent analyses in R.</li>
 
@@ -532,7 +529,6 @@
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
 	<pkg>BVS</pkg>	
-	<pkg>catnet</pkg>
 	<pkg>coalescentMCMC</pkg>
     	<pkg priority="core">coda</pkg>
     	<pkg>dclone</pkg>
