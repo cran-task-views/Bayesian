@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-04-10</version>
+ <version>2020-05-07</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -114,7 +114,10 @@
  	<li><pkg>BAYSTAR</pkg> provides functions for Bayesian estimation of threshold autoregressive models.</li>  
 
   	<li><pkg>bbemkr</pkg> implements Bayesian bandwidth estimation for Nadaraya-Watson 
-	type multivariate kernel regression with Gaussian error.</li>  
+	type multivariate kernel regression with Gaussian error.</li>
+
+	<li><pkg>bbricks</pkg> provides a class of frequently used Bayesian parametric and nonparametric model structures,
+	as well as a set of tools for common analytical tasks. </li>
 	   
 	<li><pkg>BCE</pkg> contains function to estimates taxonomic compositions from 
 	biomarker data using a Bayesian approach.  </li>
@@ -496,6 +499,7 @@
     	<pkg>BayHaz</pkg>
     	<pkg>BAYSTAR</pkg>
 	<pkg>bbemkr</pkg>
+	<pkg>bbricks</pkg>
 	<pkg>BCBCSF</pkg>
 	<pkg>BCE</pkg>
     	<pkg>bcp</pkg>
