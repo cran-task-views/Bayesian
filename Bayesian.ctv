@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-05-07</version>
+ <version>2020-06-05</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are increasingly 
@@ -397,9 +397,6 @@
 
     <p> <strong>Packages for learning Bayesian statistics</strong></p>
     <ul>
-	<li><pkg>AtelieR</pkg> is a GTK interface for teaching basic concepts in statistical inference, 
-	and doing elementary bayesian statistics (inference on proportions, multinomial counts, means and variances).</li>
-		
 	<li>The <pkg>BaM</pkg> package is an R package associated with Jeff Gill's book, 
 	"Bayesian Methods: A Social and Behavioral Sciences Approach, Second Edition" (CRC Press, 2007).</li>
 
