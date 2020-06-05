@@ -474,7 +474,6 @@
 	<pkg>abn</pkg>
     	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
-	<pkg>AtelieR</pkg>
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
     	<pkg>BaM</pkg>
