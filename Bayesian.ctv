@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-06-13</version>
+ <version>2020-07-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -95,13 +95,6 @@
 	accuracy of ABC estimates, and to calculate the
 	misclassification probabilities of different models.</li>
 
-	<li><pkg>abn</pkg> is a package for modelling multivariate
-	data using additive Bayesian networks. It provides routines to
-	help determine optimal Bayesian network models for a given
-	data set, where these models are used to identify statistical
-	dependencies in messy, complex data.</li>
-	
-	
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting
 	of an adapative mixture of Student-t distributions to a target
 	density through its kernel function. The mixture approximation
@@ -787,7 +780,6 @@
 
     	<packagelist>
 	<pkg>abc</pkg>
-	<pkg>abn</pkg>
     	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
 	<pkg>BaBooN</pkg>
