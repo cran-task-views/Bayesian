@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-07-22</version>
+ <version>2020-08-04</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -94,6 +94,14 @@
 	Cross-validation tools are also available for measuring the
 	accuracy of ABC estimates, and to calculate the
 	misclassification probabilities of different models.</li>
+
+	<li><pkg>acebayes</pkg> finds optimal Bayesian experimental
+	design using the approximate coordinate exchange (ACE)
+	algorithm. </li>
+
+
+
+
 
 	<li><pkg>AdMit</pkg> provides functions to perform the fitting
 	of an adapative mixture of Student-t distributions to a target
@@ -201,7 +209,9 @@
 	structure learning in undirected graphical models for
 	multivariate continuous, discrete, and mixed data.</li>
 	
-
+	<li><pkg>Bergm</pkg> performs Bayesian analysis for exponential random
+	graph models using advanced computational algorithms. </li>
+	
 	<li>The <pkg>BEST</pkg> provides an alternative to t-tests,
 	producing posterior estimates for group means and standard
 	deviations and their differences and effect sizes. </li>
@@ -291,7 +301,10 @@
 
 	<li><pkg>bsts</pkg> is a package for time series regression
 	using dynamic linear models using MCMC.</li>
-	
+
+
+	<li><pkg>BVAR</pkg> is a package for estimating hierarchical Bayesian
+	vector autoregressive models.</li>
 
     	<li><pkg>BVS</pkg> is a package for Bayesian variant selection
     	and Bayesian model uncertainty techniques for genetic
@@ -300,7 +313,9 @@
 
 	<li><pkg>coalescentMCMC</pkg> provides a flexible framework
 	for coalescent analyses in R.</li>
-	
+
+	<li><pkg>conting</pkg> performs Bayesian analysis of complete
+	and incomplete contingency tables.</li>
 
 	<li><pkg>dclone</pkg> provides low level functions for
 	implementing maximum likelihood estimating procedures  for
@@ -444,6 +459,12 @@
 	analysis in longitudinal network data. It implements a hidden
 	Markovmultilinear tensor regression model. Model diagnostic
 	tools using marginal likelihoods and WAIC are provided. </li>
+
+	<li><pkg>NGSSEML</pkg> gives codes for formulating and
+	specifying the non-Gaussian state-space models in the R
+	language. Inferences for the parameters of the model can be
+	made under the classical and Bayesian.  </li>
+	
 
 	<li> <pkg>openEBGM</pkg> calculates Empirical Bayes Geometric
 	Mean (EBGM) and quantile scores from the posterior
@@ -780,6 +801,7 @@
 
     	<packagelist>
 	<pkg>abc</pkg>
+	<pkg>acebayes</pkg>
     	<pkg>AdMit</pkg>
     	<pkg priority="core">arm</pkg>
 	<pkg>BaBooN</pkg>
@@ -810,6 +832,7 @@
 	<pkg>BCE</pkg>
     	<pkg>bcp</pkg>
 	<pkg>BDgraph</pkg>
+	<pkg>Bergm</pkg>
 	<pkg>BEST</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
@@ -829,8 +852,10 @@
 	<pkg>bspec</pkg>
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
+	<pkg>BVAR</pkg>
 	<pkg>BVS</pkg>	
 	<pkg>coalescentMCMC</pkg>
+	<pkg>conting</pkg>
     	<pkg priority="core">coda</pkg>
     	<pkg>dclone</pkg>
 	<pkg>deBInfer</pkg> 
@@ -867,6 +892,7 @@
 	<pkg>mombf</pkg>
 	<pkg>NetworkChange</pkg>
 	<pkg priority="core">nimble</pkg>
+	<pkg>NGSSEML</pkg>
 	<pkg>openEBGM</pkg>
 	<pkg>pacbpred</pkg>
 	<pkg>pcFactorStan</pkg>
