@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-08-04</version>
+ <version>2020-08-15</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -147,12 +147,6 @@
 	<li><pkg>bayesmeta</pkg> is an R package to perform
 	meta-analyses within the common random-effects model
 	framework.</li>
-	
-	<li><pkg>BayesSummaryStatLM</pkg> provides two functions: one
-	function that computes summary statistics of data and one
-	function that carries out the MCMC posterior sampling for
-	Bayesian linear regression models where summary statistics are
-	used as input. </li>
 	
   	<li><pkg>BayesTree</pkg> implements BART (Bayesian Additive
   	Regression Trees) by Chipman, George, and McCulloch
@@ -819,7 +813,6 @@
 	<pkg>bayesmeta</pkg>
     	<pkg>bayesQR</pkg>
 	<pkg>BayesPostEst</pkg>
-	<pkg>BayesSummaryStatLM</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
 	<pkg>BayesVarSel</pkg>
