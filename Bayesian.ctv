@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-08-15</version>
+ <version>2020-08-28</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -299,11 +299,6 @@
 
 	<li><pkg>BVAR</pkg> is a package for estimating hierarchical Bayesian
 	vector autoregressive models.</li>
-
-    	<li><pkg>BVS</pkg> is a package for Bayesian variant selection
-    	and Bayesian model uncertainty techniques for genetic
-    	association studies.</li>
-	
 
 	<li><pkg>coalescentMCMC</pkg> provides a flexible framework
 	for coalescent analyses in R.</li>
@@ -846,7 +841,6 @@
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
 	<pkg>BVAR</pkg>
-	<pkg>BVS</pkg>	
 	<pkg>coalescentMCMC</pkg>
 	<pkg>conting</pkg>
     	<pkg priority="core">coda</pkg>
