@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-08-28</version>
+ <version>2020-11-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -678,11 +678,6 @@
 
     <p> <strong>Packages for learning Bayesian statistics</strong></p>
     <ul>
-	<li>The <pkg>BaM</pkg> package is an R package associated with
-    Jeff Gill's book, "Bayesian Methods: A Social and Behavioral
-    Sciences Approach, Second Edition" (CRC Press, 2007).</li>
-    
-
 	<li><pkg>BayesDA</pkg> provides R functions and datasets for
 	"Bayesian Data Analysis, Second Edition" (CRC Press, 2003) by
 	Andrew Gelman, John B. Carlin, Hal S. Stern, and Donald
@@ -795,7 +790,6 @@
     	<pkg priority="core">arm</pkg>
 	<pkg>BaBooN</pkg>
     	<pkg priority="core">BACCO</pkg>
-    	<pkg>BaM</pkg>
 	<pkg>bamlss</pkg>
 	<pkg>BART</pkg>
 	<pkg>BAS</pkg>
