@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-11-22</version>
+ <version>2020-12-07</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -57,7 +57,13 @@
 	posterior predictive checks, a variety of plots, elicitation,
 	parameter and variable importance, and numerous additional
 	utility functions.</li>
-	
+
+
+	<li><pkg>loo</pkg> provides functions for efficient approximate leave-one-out cross-validation (LOO) for Bayesian models
+	using Markov chain Monte Carlo. The approximation uses Pareto smoothed importance sampling (PSIS), a new procedure
+	for regularizing importance weights. As a byproduct of the calculations, <pkg>loo</pkg> also provides standard errors for
+	estimated predictive errors and for the comparison of predictive errors between models.
+	The package also provides methods for using stacking and other model weighting techniques to average Bayesian predictive distributions. </li>
 
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain
     	Monte Carlo (MCMC) algorithms for wide range of models
@@ -160,6 +166,10 @@
 	computing various Bayes factors for simple designs, including
 	contingency tables,one- and two-sample designs, one-way
 	designs, general ANOVA designs, and linear regression.</li>
+
+	<li><pkg>bayestestR</pkg> provides utilities to describe posterior distributions and Bayesian models.
+	It includes point-estimates such as Maximum A Posteriori (MAP), measures of dispersion (Highest Density Interval) and
+	indices used for null-hypothesis testing (such as ROPE percentage, pd and Bayes factors).</li>
 	
 	<li><pkg>BayesVarSel</pkg> calculate Bayes factors in linear
 	models and then to provide a formal Bayesian answer to testing
@@ -206,9 +216,16 @@
 	<li><pkg>Bergm</pkg> performs Bayesian analysis for exponential random
 	graph models using advanced computational algorithms. </li>
 	
-	<li>The <pkg>BEST</pkg> provides an alternative to t-tests,
+	<li><pkg>BEST</pkg> provides an alternative to t-tests,
 	producing posterior estimates for group means and standard
 	deviations and their differences and effect sizes. </li>
+
+	<li>The <pkg>BGVAR</pkg> package fits Bayesian Global Vector Autoregression (BGVAR) models
+	with different prior setups and the possibility to introduce stochastic volatility. Built-in priors include the Minnesota,
+	the stochastic search variable selection and Normal-Gamma (NG) prior. </li>
+
+	<li><pkg>blavaan</pkg> fits a variety of Bayesian latent variable models,
+	including confirmatory factor analysis, structural equation models, and latent growth curve models. </li>
 
 	<li><pkg>BLR</pkg> provides R functions to fit parametric
 	regression models using different types of shrinkage
@@ -408,6 +425,8 @@
     	of uncertainty in the model parameters. See the
     	<view>Spatial</view> view for more information.</li>
 	
+	<li><pkg>LAWBL</pkg> is an R package latent (variable) analysis with with different Bayesian learning methods,
+	including the partially confirmatory factor analysis, its generalized version, and the partially confirmatory item response model. </li> 
 
     	<li>The <pkg>lmm</pkg> package contains R functions to fit
     	linear mixed models using MCMC methods.</li>
@@ -802,6 +821,7 @@
 	<pkg>bayesmeta</pkg>
     	<pkg>bayesQR</pkg>
 	<pkg>BayesPostEst</pkg>
+	<pkg>bayestestR</pkg>
     	<pkg>BayesTree</pkg>
     	<pkg>BayesValidate</pkg>
 	<pkg>BayesVarSel</pkg>
@@ -816,6 +836,8 @@
 	<pkg>BDgraph</pkg>
 	<pkg>Bergm</pkg>
 	<pkg>BEST</pkg>
+	<pkg>BGVAR</pkg>
+	<pkg>blavaan</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
 	<pkg>BMS</pkg>
@@ -858,9 +880,11 @@
     	<pkg>Hmisc</pkg>
 	<pkg>iterLap</pkg>
     	<pkg>LaplacesDemon</pkg>
+	<pkg>LAWBL</pkg>
     	<pkg>LearnBayes</pkg>
     	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
+	<pkg>loo</pkg>
 	<pkg>matchingMarkets</pkg>
     	<pkg priority="core">mcmc</pkg>
 	<pkg>mcmcse</pkg>
