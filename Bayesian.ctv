@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2020-12-07</version>
+ <version>2021-02-16</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -21,8 +21,9 @@
    packages that link R to other Bayesian sampling engines such as  <a
    href="http://mcmc-jags.sourceforge.net/">JAGS</a>, <a
    href="http://www.openbugs.net/">OpenBUGS</a>, <a
-   href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>, and
-   <a href="http://mc-stan.org/">Stan</a>.</p> 
+   href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">WinBUGS</a>, 
+   <a href="http://mc-stan.org/">Stan</a>, and <a
+   href="https://www.tensorflow.org">TensorFlow</a>.</p> 
 
    <p><strong>Bayesian packages for general model fitting</strong> </p>
     
@@ -59,11 +60,15 @@
 	utility functions.</li>
 
 
-	<li><pkg>loo</pkg> provides functions for efficient approximate leave-one-out cross-validation (LOO) for Bayesian models
-	using Markov chain Monte Carlo. The approximation uses Pareto smoothed importance sampling (PSIS), a new procedure
-	for regularizing importance weights. As a byproduct of the calculations, <pkg>loo</pkg> also provides standard errors for
+	<li><pkg>loo</pkg> provides functions for efficient approximate
+	leave-one-out cross-validation (LOO) for Bayesian models
+	using Markov chain Monte Carlo. The approximation uses
+	Pareto smoothed importance sampling (PSIS), a new procedure
+	for regularizing importance weights. As a byproduct of the
+	calculations, <pkg>loo</pkg> also provides standard errors for
 	estimated predictive errors and for the comparison of predictive errors between models.
-	The package also provides methods for using stacking and other model weighting techniques to average Bayesian predictive distributions. </li>
+	The package also provides methods for using stacking and other
+	model weighting techniques to average Bayesian predictive distributions. </li>
 
     	<li><pkg>MCMCpack</pkg> provides model-specific Markov chain
     	Monte Carlo (MCMC) algorithms for wide range of models
@@ -167,9 +172,12 @@
 	contingency tables,one- and two-sample designs, one-way
 	designs, general ANOVA designs, and linear regression.</li>
 
-	<li><pkg>bayestestR</pkg> provides utilities to describe posterior distributions and Bayesian models.
-	It includes point-estimates such as Maximum A Posteriori (MAP), measures of dispersion (Highest Density Interval) and
-	indices used for null-hypothesis testing (such as ROPE percentage, pd and Bayes factors).</li>
+	<li><pkg>bayestestR</pkg> provides utilities to describe posterior
+	distributions and Bayesian models.
+	It includes point-estimates such as Maximum A Posteriori (MAP),
+	measures of dispersion (Highest Density Interval) and
+	indices used for null-hypothesis testing (such as ROPE percentage,
+	pd and Bayes factors).</li>
 	
 	<li><pkg>BayesVarSel</pkg> calculate Bayes factors in linear
 	models and then to provide a formal Bayesian answer to testing
@@ -221,11 +229,13 @@
 	deviations and their differences and effect sizes. </li>
 
 	<li>The <pkg>BGVAR</pkg> package fits Bayesian Global Vector Autoregression (BGVAR) models
-	with different prior setups and the possibility to introduce stochastic volatility. Built-in priors include the Minnesota,
+	with different prior setups and the possibility to introduce stochastic
+	volatility. Built-in priors include the Minnesota,
 	the stochastic search variable selection and Normal-Gamma (NG) prior. </li>
 
 	<li><pkg>blavaan</pkg> fits a variety of Bayesian latent variable models,
-	including confirmatory factor analysis, structural equation models, and latent growth curve models. </li>
+	including confirmatory factor analysis, structural equation models,
+	and latent growth curve models. </li>
 
 	<li><pkg>BLR</pkg> provides R functions to fit parametric
 	regression models using different types of shrinkage
@@ -317,6 +327,12 @@
 	<li><pkg>BVAR</pkg> is a package for estimating hierarchical Bayesian
 	vector autoregressive models.</li>
 
+	<li><pkg>causact</pkg> provides R functions for visualizing and running
+	inference on generative directed acyclic graphs (DAGs).
+	Once a generative DAG is created, the package automates Bayesian inference
+	via the <pkg>greta</pkg> package and <b>TensorFlow</b>.</li>
+
+
 	<li><pkg>coalescentMCMC</pkg> provides a flexible framework
 	for coalescent analyses in R.</li>
 
@@ -331,7 +347,11 @@
 	<li><pkg>deBInfer</pkg> provides R functions for Bayesian
 	parameter inference in differential equations using MCMC
 	methods.</li>
-	
+
+	<li><pkg>dina</pkg> estimates the Deterministic Input, Noisy "And" Gate (DINA)
+	cognitive diagnostic model parameters using the Gibbs sampler.
+	<pkg>edina</pkg> performs a Bayesian estimation of the exploratory deterministic
+	input, noisy and gate (EDINA) cognitive diagnostic model.</li>
 
     	<li><pkg>dlm</pkg> is a package for Bayesian (and likelihood)
     	analysis of  dynamic linear models. It includes the
@@ -361,7 +381,11 @@
 	<li><pkg>EntropyMCMC</pkg> is an R package for MCMC simulation
 	and convergence evaluation using entropy and Kullback-Leibler
 	divergence estimation. </li>
-	
+
+	<li><pkg>errum</pkg> performs a Bayesian estimation of the
+	exploratory reduced reparameterized unified model (ErRUM).
+	<pkg>rrum</pkg> implements Gibbs sampling algorithm for
+	Bayesian estimation of the Reduced Reparameterized Unified Model (rrum).</li>
 
     	<li><pkg>evdbayes</pkg> provides tools for Bayesian analysis
     	of extreme value models.</li>
@@ -425,8 +449,10 @@
     	of uncertainty in the model parameters. See the
     	<view>Spatial</view> view for more information.</li>
 	
-	<li><pkg>LAWBL</pkg> is an R package latent (variable) analysis with with different Bayesian learning methods,
-	including the partially confirmatory factor analysis, its generalized version, and the partially confirmatory item response model. </li> 
+	<li><pkg>LAWBL</pkg> is an R package latent (variable) analysis
+	with with different Bayesian learning methods,
+	including the partially confirmatory factor analysis,
+	its generalized version, and the partially confirmatory item response model. </li> 
 
     	<li>The <pkg>lmm</pkg> package contains R functions to fit
     	linear mixed models using MCMC methods.</li>
@@ -436,7 +462,11 @@
 	based on a Gibbs sampler to correct for the bias from
 	endogenous matching (e.g. group formation or two-sided
 	matching).</li>
-	
+
+	<li>The <pkg>mcmcensemble</pkg> package provides ensemble samplers for
+	affine-invariant Monte Carlo Markov Chain, which allow a faster convergence
+	for badly scaled estimation problems. Two samplers are proposed:
+	the 'differential.evolution' sampler and the 'stretch' sampler.</li>	
 
    	<li><pkg>MCMCglmm</pkg> is package for fitting Generalised
    	Linear Mixed Models using MCMC methods. </li>
@@ -444,12 +474,6 @@
 
 	<li><pkg>mcmcse</pkg> allows estimation of multivariate
 	effective sample size and calculation of Monte Carlo standard errors.</li>	
-
-    	<li>The <code>mcmcsamp()</code> function in <pkg>lme4</pkg>
-    	allows MCMC sampling for	the linear mixed model and
-    	generalized linear mixed model.</li>
-	
-	
 
     	<li>The <pkg>mlogitBMA</pkg> Provides a modified function
 	<code>bic.glm()</code> of the <pkg>BMA</pkg> package that can
@@ -496,14 +520,10 @@
 	Bayesian framework. MCMC sampling is performed via
 	JAGS/rjags. </li>
 	
-    	<li>The <pkg>pscl</pkg> package provides R functions to fit item-response theory models using MCMC methods 
+    	<li>The <pkg>pscl</pkg> package provides R functions to fit
+	item-response theory models using MCMC methods 
 	and to compute highest density regions for the Beta
 	distribution and the inverse gamma distribution.</li>
-	
-
-	<li>The <pkg>PAWL</pkg> package implements parallel adaptive
-	Metropolis-Hastings and sequential Monte Carlo samplers for
-	sampling from multimodal target distributions.</li>
 	
 
 	<li><pkg>PReMiuM</pkg> is a package for profile regression,
@@ -747,8 +767,13 @@
 	survival, response times, ordinal, quantile, zero-inflated,
 	hurdle, and even non-linear models all in a multilevel
 	context.</li>
-	
 
+
+	<li><pkg>greta</pkg> allows users to write statistical models in R
+	and fit them by MCMC and optimisation on CPUs and GPUs, using Google <b>'TensorFlow'</b>.
+	<pkg>greta</pkg> lets you write your own model like in BUGS, JAGS and Stan,
+	except that you write models right in R, it scales well to massive datasets,
+	and it’s easy to extend and build on.</li>
 
     	<li>There are two packages that can be used to interface R
     	with <a
@@ -794,7 +819,7 @@
 
     
     <p> The Bayesian Inference Task View is written by Jong Hee Park (Seoul National University, South Korea), 
-	Andrew D. Martin (University of Michigan, Ann Arbor, MI, USA), 
+	Andrew D. Martin (Washington University in St. Louis, MO, USA), 
 	and Kevin M. Quinn (UC Berkeley, Berkeley, CA, USA).  
 	Please email the <a
 	href="mailto:jongheepark@snu.ac.kr?subject=Bayesian%20Task%20View">task
@@ -857,17 +882,21 @@
 	<pkg>bspmma</pkg>
 	<pkg>bsts</pkg>
 	<pkg>BVAR</pkg>
+	<pkg>causact</pkg>
 	<pkg>coalescentMCMC</pkg>
 	<pkg>conting</pkg>
     	<pkg priority="core">coda</pkg>
     	<pkg>dclone</pkg>
-	<pkg>deBInfer</pkg> 
+	<pkg>deBInfer</pkg>
+	<pkg>dina</pkg>
     	<pkg>dlm</pkg>      
     	<pkg>EbayesThresh</pkg>
 	<pkg>ebdbNet</pkg>
+	<pkg>edina</pkg>
     	<pkg>eigenmodel</pkg>
 	<pkg>ensembleBMA</pkg>
 	<pkg>EntropyMCMC</pkg>
+	<pkg>errum</pkg>
     	<pkg>evdbayes</pkg>
     	<pkg>exactLoglinTest</pkg>
 	<pkg>factorQR</pkg>
@@ -875,6 +904,7 @@
     	<pkg>geoR</pkg>
 	<pkg>ggmcmc</pkg>
 	<pkg>gRain</pkg>
+	<pkg>greta</pkg>
 	<pkg>hbsae</pkg>
     	<pkg>HI</pkg>    
     	<pkg>Hmisc</pkg>
@@ -882,11 +912,11 @@
     	<pkg>LaplacesDemon</pkg>
 	<pkg>LAWBL</pkg>
     	<pkg>LearnBayes</pkg>
-    	<pkg>lme4</pkg>
     	<pkg>lmm</pkg>
 	<pkg>loo</pkg>
 	<pkg>matchingMarkets</pkg>
     	<pkg priority="core">mcmc</pkg>
+	<pkg>mcmcensemble</pkg>
 	<pkg>mcmcse</pkg>
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
@@ -905,7 +935,6 @@
 	<pkg>predmixcor</pkg>
 	<pkg>prevalence</pkg>
     	<pkg>pscl</pkg>
-	<pkg>PAWL</pkg>
 	<pkg>PReMiuM</pkg>
 	<pkg>RSGHB</pkg>
 	<pkg>R2BayesX</pkg>
@@ -916,6 +945,7 @@
     	<pkg>RxCEcolInf</pkg>
     	<pkg>rjags</pkg>
 	<pkg>RSGHB</pkg>
+	<pkg>rrum</pkg>
 	<pkg>rstan</pkg>
  	<pkg>rstiefel</pkg>
     	<pkg>runjags</pkg>
@@ -940,20 +970,21 @@
 	</packagelist>
 
     <links>
-    <a href="http://www.perossi.org/home/bsm-1">Bayesian Statistics and Marketing (bayesm)</a>
-    <a href="http://www.BayesX.org/">BayesX</a>
-    <a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>
-    <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
-    <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">The BUGS Project (WinBUGS)</a>
-    <a href="http://www.openbugs.net/">OpenBUGS</a>
-    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
-    <a href="http://r-nimble.org/">NIMBLE</a>
-    <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
-    <a href="http://mc-stan.org/">Stan</a>
     <view>gR</view>
     <bioc>vbmp</bioc>
+    <a href="http://www.perossi.org/home/bsm-1">Bayesian Statistics and Marketing (bayesm)</a>
+    <a href="http://www.BayesX.org/">BayesX</a>
     <a href="http://www.public-health.uiowa.edu/boa/">BOA</a>
+    <a href="http://www.stats.ox.ac.uk/pub/RWin/src/contrib/">BRugs in CRANextras</a>
+    <a href="http://mcmc-jags.sourceforge.net/">Just Another Gibbs Sampler (JAGS)</a>
+    <a href="http://mcmcpack.berkeley.edu/">MCMCpack</a>
+    <a href="http://r-nimble.org/">NIMBLE</a>
+    <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
+    <a href="http://www.openbugs.net/">OpenBUGS</a>
     <!-- <a href="http://www-fis.iarc.fr/coda/">CODA</a> -->
+    <a href="http://mc-stan.org/">Stan</a>
+    <a href="https://www.tensorflow.org">TensorFlow</a>
+    <a href="http://www.mrc-bsu.cam.ac.uk/software/bugs/">The BUGS Project (WinBUGS)</a>
     </links>
 
 
