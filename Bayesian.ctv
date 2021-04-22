@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2021-02-16</version>
+ <version>2021-04-22</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -766,14 +766,14 @@
 	users to fit linear, robust linear, binomial, Pois- son,
 	survival, response times, ordinal, quantile, zero-inflated,
 	hurdle, and even non-linear models all in a multilevel
-	context.</li>
-
+	context. <pkg>shinybrms</pkg> is a graphical user interface (GUI) for
+	fitting Bayesian regression models using the package <pkg>brms</pkg>.</li> 
 
 	<li><pkg>greta</pkg> allows users to write statistical models in R
 	and fit them by MCMC and optimisation on CPUs and GPUs, using Google <b>'TensorFlow'</b>.
 	<pkg>greta</pkg> lets you write your own model like in BUGS, JAGS and Stan,
 	except that you write models right in R, it scales well to massive datasets,
-	and it’s easy to extend and build on.</li>
+	and it is easy to extend and build on.</li>
 
     	<li>There are two packages that can be used to interface R
     	with <a
@@ -954,6 +954,7 @@
     	<pkg>SampleSizeMeans</pkg>
     	<pkg>SampleSizeProportions</pkg>
 	<pkg>sbgcop</pkg>
+	<pkg>shinybrms</pkg>
     	<pkg>SimpleTable</pkg>
     	<pkg>sna</pkg>
     	<pkg>spBayes</pkg>
