@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2021-04-22</version>
+ <version>2021-05-19</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -227,11 +227,6 @@
 	<li><pkg>BEST</pkg> provides an alternative to t-tests,
 	producing posterior estimates for group means and standard
 	deviations and their differences and effect sizes. </li>
-
-	<li>The <pkg>BGVAR</pkg> package fits Bayesian Global Vector Autoregression (BGVAR) models
-	with different prior setups and the possibility to introduce stochastic
-	volatility. Built-in priors include the Minnesota,
-	the stochastic search variable selection and Normal-Gamma (NG) prior. </li>
 
 	<li><pkg>blavaan</pkg> fits a variety of Bayesian latent variable models,
 	including confirmatory factor analysis, structural equation models,
@@ -861,7 +856,6 @@
 	<pkg>BDgraph</pkg>
 	<pkg>Bergm</pkg>
 	<pkg>BEST</pkg>
-	<pkg>BGVAR</pkg>
 	<pkg>blavaan</pkg>
 	<pkg>BLR</pkg>
     	<pkg>BMA</pkg>
