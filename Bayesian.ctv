@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2021-05-19</version>
+ <version>2021-09-04</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -804,12 +804,6 @@
 	comparison data using Stan easy. </li>
 	
 
-	<li> <pkg>R2BayesX</pkg> provides an R interface to estimate
-	structured additive regression (STAR) models with
-	'BayesX'.</li>
-	
-
-
     </ul>
 
     
@@ -931,7 +925,6 @@
     	<pkg>pscl</pkg>
 	<pkg>PReMiuM</pkg>
 	<pkg>RSGHB</pkg>
-	<pkg>R2BayesX</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
     	<pkg>ramps</pkg>
