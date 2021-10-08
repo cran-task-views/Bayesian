@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2021-10-10</version>
+ <version>2021-10-08</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -619,10 +619,6 @@
 	<pkg>rstan</pkg> package, which provides the R interface to
 	the Stan C++ library for Bayesian estimation. </li>
 
-	<li><pkg>stableGR</pkg> allows for stable estimation of the
-	Gelman-Rubin statistic with improved cutoffs and provides
-	estimates of how many more MCMC samples are needed.</li>
-
 	<li><pkg>stochvol</pkg> provides efficient algorithms for
 	fully Bayesian estimation of stochastic volatility (SV)
 	models.</li>
@@ -942,7 +938,6 @@
 	<pkg>spTimer</pkg>
 	<pkg>ssgraph</pkg>
 	<pkg>ssMousetrack</pkg>
-	<pkg>stableGR</pkg>
 	<pkg>stochvol</pkg>
     	<pkg>tgp</pkg>
     	<pkg>zic</pkg>
