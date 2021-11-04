@@ -2,7 +2,7 @@
  <name>Bayesian</name>  
  <topic>Bayesian Inference</topic>
  <maintainer email="jongheepark@snu.ac.kr">Jong Hee Park</maintainer>
- <version>2021-10-08</version>
+ <version>2021-11-04</version>
 
  <info>
    <p>Applied researchers interested in Bayesian statistics are
@@ -120,6 +120,8 @@
 	can be used as the importance density in importance sampling
 	or as the candidate density in the Metropolis-Hastings
 	algorithm.</li>
+
+	
 	
 	<li>The <pkg>BaBooN</pkg> package contains two variants of
 	Bayesian Bootstrap Predictive Mean Matching to multiply impute
@@ -152,6 +154,16 @@
  	which perform the Bayesian estimation of the GARCH(1,1) model
  	with Student's t innovations.</li>
 
+	<li><pkg>BayesianTools</pkg> is an R package for general-purpose MCMC
+	and SMC samplers, as well as plot and diagnostic functions for
+	Bayesian statistics, with a particular focus on calibrating
+	complex system models. Implemented samplers include various
+	Metropolis MCMC variants (including adaptive and/or delayed
+	rejection MH), the T-walk, two differential evolution MCMCs,
+	two DREAM MCMCs, and a sequential Monte Carlo (SMC)
+	particle filter.</li>
+
+
 	<li><pkg>bayesImageS</pkg> is an R package for Bayesian image
 	analysis using the hidden Potts model.</li>
 	
@@ -169,7 +181,7 @@
 	
 	<li><pkg>BayesFactor</pkg> provides a suite of functions for
 	computing various Bayes factors for simple designs, including
-	contingency tables,one- and two-sample designs, one-way
+	contingency tables, one- and two-sample designs, one-way
 	designs, general ANOVA designs, and linear regression.</li>
 
 	<li><pkg>bayestestR</pkg> provides utilities to describe posterior
@@ -468,7 +480,14 @@
 	
 
 	<li><pkg>mcmcse</pkg> allows estimation of multivariate
-	effective sample size and calculation of Monte Carlo standard errors.</li>	
+	effective sample size and calculation of Monte Carlo standard errors.</li>
+
+	<li><pkg>MHadaptive</pkg> performs general Metropolis-Hastings
+	Markov Chain Monte Carlo sampling of a user defined function
+	which returns the un-normalized value (likelihood times prior)
+	of a Bayesian model. The proposal variance-covariance structure
+	is updated adaptively for efficient mixing when the structure
+	of the target distribution is unknown.</li>	 
 
     	<li>The <pkg>mlogitBMA</pkg> Provides a modified function
 	<code>bic.glm()</code> of the <pkg>BMA</pkg> package that can
@@ -537,6 +556,10 @@
 	Hit-and-Run algorithm in combination with the
 	Ratio-of-Uniforms method.</li>
 	
+
+	<li><pkg>RoBMA</pkg> implements Bayesian model-averaging for
+	meta-analytic models, including models correcting for publication
+	bias.</li> 
 	
 	<li><pkg>RSGHB</pkg> can be used to estimate models using a
 	hierarchical Bayesian framework and provides flexibility in
@@ -623,7 +646,6 @@
 	fully Bayesian estimation of stochastic volatility (SV)
 	models.</li>
 	
-
     	<li>The <pkg>tgp</pkg> package implements Bayesian treed
     	Gaussian process models:  a spatial modeling and regression
     	package providing fully Bayesian MCMC posterior inference for
@@ -820,6 +842,7 @@
     	<pkg>bayesGARCH</pkg>
     	<pkg priority="core">bayesm</pkg>
     	<pkg>bayesmix</pkg>
+	<pkg>BayesianTools</pkg>
 	<pkg>bayesImageS</pkg>
 	<pkg>bayesmeta</pkg>
     	<pkg>bayesQR</pkg>
@@ -897,6 +920,7 @@
     	<pkg>MCMCglmm</pkg>
     	<pkg priority="core">MCMCpack</pkg>
 	<pkg>MCMCvis</pkg>
+	<pkg>MHadaptive</pkg>
     	<pkg>mgcv</pkg>	
 	<pkg>mlogitBMA</pkg>
     	<pkg>MNP</pkg>
@@ -912,6 +936,7 @@
 	<pkg>prevalence</pkg>
     	<pkg>pscl</pkg>
 	<pkg>PReMiuM</pkg>
+	<pkg>RoBMA</pkg>
 	<pkg>RSGHB</pkg>
     	<pkg>R2jags</pkg>
     	<pkg>R2WinBUGS</pkg>
