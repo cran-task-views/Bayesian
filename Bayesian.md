@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park
 email: jongheepark@snu.ac.kr
-version: 2021-12-27
+version: 2022-02-22
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -414,9 +414,6 @@ review packages that link R to other Bayesian sampling engines such as
     copula, treating the univariate marginal distributions as nuisance
     parameters as described in Hoff(2007). It also provides a
     semiparametric imputation procedure for missing multivariate data.
--   `r pkg("SimpleTable")` provides a series of methods to
-    conduct Bayesian inference and sensitivity analysis for causal
-    effects from 2 x 2 and 2 x 2 x K tables.
 -   `r pkg("sna")`, an R package for social network
     analysis, contains functions to generate posterior samples from
     Butt's Bayesian network accuracy model using Gibbs sampling.
