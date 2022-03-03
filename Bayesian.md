@@ -580,6 +580,8 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `vcov.gam()` function the `r pkg("mgcv")` package
     can extract a Bayesian posterior covariance matrix of the parameters
     from a fitted `gam` object.
+
+#### Package name starting with Z
 -   `r pkg("zic")` provides functions for an MCMC analysis
     of zero-inflated count models including stochastic search variable
     selection.
