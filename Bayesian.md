@@ -7,6 +7,8 @@ version: 2022-02-22
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
+## CRAN Task View: Bayesian Inference
+
 Applied researchers interested in Bayesian statistics are increasingly
 attracted to R because of the ease of which one can code algorithms to
 sample from posterior distributions as well as the significant number of
