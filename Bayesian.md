@@ -265,11 +265,6 @@ review packages that link R to other Bayesian sampling engines such as
     for calculating sample size requirements using three different
     Bayesian criteria in the context of designing an experiment to
     estimate a normal mean or the difference between two normal means.
--   `r pkg("SampleSizeProportions")` contains a set of R
-    functions for calculating sample size requirements using three
-    different Bayesian criteria in the context of designing an
-    experiment to estimate the difference between two binomial
-    proportions.
 
 #### Graphics
 -   `r pkg("basicMCMCplots")` provides methods for examining posterior MCMC samples from a single chain using trace plots and density plots, and from multiple chains by comparing posterior medians and credible intervals from each chain. 
