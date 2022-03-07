@@ -391,9 +391,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bayesQR")` supports Bayesian quantile regression
     using the asymmetric Laplace distribution, both continuous as well
     as binary dependent variables.
--   `r pkg("factorQR")` is a package to fit Bayesian
-    quantile regression models that assume a factor structure for at
-    least part of the design matrix.
 
 
 #### Shrinkage/Variable selection/Gaussian process
