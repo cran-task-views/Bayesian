@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2022-02-22
+version: 2022-03-07
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -625,8 +625,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 ### Post-estimation tools
 
--   `r pkg("BayesValidate")` implements a software
-    validation method for Bayesian softwares.
 -   `r pkg("MCMCvis")` performs key functions (visualizes,
     manipulates, and summarizes) for MCMC analysis. Functions support
     simple and straightforward subsetting of model parameters within the
