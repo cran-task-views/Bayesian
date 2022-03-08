@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2022-03-07
+version: 2022-03-08
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -220,9 +220,6 @@ review packages that link R to other Bayesian sampling engines such as
     applied to multinomial logit (MNL) data.
 -   The `r pkg("MNP")` package fits multinomial probit
     models using MCMC methods.
--   `r pkg("predmixcor")` provides functions to predict the
-    binary response based on high dimensional binary features modeled
-    with Bayesian mixture models.
 -   `r bioc("vbmp")` is a package for variational Bayesian
     multinomial probit regression with Gaussian process priors. It
     estimates class membership posterior probability employing
@@ -340,9 +337,6 @@ review packages that link R to other Bayesian sampling engines such as
     (marginally DP) mixture models, including particle learning and
     Gibbs sampling for static DP mixtures, particle learning for dynamic
     BAR stick-breaking, and DP mixture regression.
--   `r pkg("predmixcor")` provides functions to predict the
-    binary response based on high dimensional binary features modeled
-    with Bayesian mixture models.
 
 
 
