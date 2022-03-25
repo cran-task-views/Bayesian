@@ -693,7 +693,7 @@ review packages that link R to other Bayesian sampling engines such as
     `r pkg("rjags")`, `r pkg("R2jags")`, and
     `r pkg("runjags")`.
 -   All of these BUGS engines use graphical models for model
-    specification. As such, the `r view("gR")` task view may
+    specification. As such, the `r view("GraphicalModels")` task view may
     be of interest.
 -   `r pkg("rstan")` provides R functions to parse, compile,
     test, estimate, and analyze Stan models by accessing the header-only
