@@ -348,8 +348,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("predmixcor")` provides functions to predict the
     binary response based on high dimensional binary features modeled
     with Bayesian mixture models.
-
-
+-   `r pkg("REBayes")` is a package for empirical Bayes estimation using Kiefer-Wolfowitz maximum likelihood estimation. 
 
 #### Network models/Matrix-variate distribution
 - `r pkg("BayesianNetwork")` provides a 'Shiny' web application for creating interactive Bayesian Network models, learning the structure and parameters of Bayesian networks, and utilities for classic network analysis.
