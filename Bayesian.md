@@ -3,8 +3,9 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2022-03-08
+version: '2022-04-06'
 source: https://github.com/cran-task-views/Bayesian/
+output: pdf_document
 ---
 
 ## CRAN Task View: Bayesian Inference
@@ -55,7 +56,6 @@ review packages that link R to other Bayesian sampling engines such as
     include various Metropolis MCMC variants (including adaptive and/or
     delayed rejection MH), the T-walk, two differential evolution MCMCs,
     two DREAM MCMCs, and a sequential Monte Carlo (SMC) particle filter.
-    
 -   `r pkg("LaplacesDemon")` seeks to provide a complete
     Bayesian environment, including numerous MCMC algorithms, Laplace
     Approximation with multiple optimization algorithms, scores of
@@ -493,6 +493,7 @@ review packages that link R to other Bayesian sampling engines such as
     specifying the non-Gaussian state-space models in the R language.
     Inferences for the parameters of the model can be made under the
     classical and Bayesian.
+-   `r pkg("Rbeast")` implements  a Bayesian model averaging method via RJMCMC to decompose time series into abrupt changes, trend, and seasonality, useful for changepoint detection, time series decomposition,  nonlinear trend analysis, and time series segmentation.
 -   `r pkg("spTimer")` fits, spatially predict and
     temporally forecast large amounts of space-time data using Bayesian
     Gaussian Process Models, Bayesian Auto-Regressive (AR) Models, and
