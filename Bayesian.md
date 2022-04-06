@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2022-02-22
+version: 2022-03-08
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -138,7 +138,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bama")` performs mediation analysis in the presence of high-dimensional mediators based on the potential outcome framework. Bayesian Mediation Analysis (BAMA), developed by Song et al (2019).
 -   `r pkg("bartCause")` contains a variety of methods to generate typical causal inference estimates using Bayesian Additive Regression Trees (BART) as the underlying regression model (Hill 2012). 
 -   `r pkg("BayesCACE")` performs CACE (Complier Average Causal Effect analysis) on either a single study or meta-analysis of datasets with binary outcomes, using either complete or incomplete noncompliance information. 
--   `r pkg("bayescn")` is a package for a Bayesian hybrid approach for inferring Directed Acyclic Graphs (DAGs) for continuous, discrete, and mixed data.
+-   `r pkg("baycn")` is a package for a Bayesian hybrid approach for inferring Directed Acyclic Graphs (DAGs) for continuous, discrete, and mixed data.
 -   `r pkg("BayesTree")` implements BART (Bayesian Additive
     Regression Trees) by Chipman, George, and McCulloch (2006).
 -   `r pkg("BDgraph")` provides statistical tools for
@@ -220,9 +220,6 @@ review packages that link R to other Bayesian sampling engines such as
     applied to multinomial logit (MNL) data.
 -   The `r pkg("MNP")` package fits multinomial probit
     models using MCMC methods.
--   `r pkg("predmixcor")` provides functions to predict the
-    binary response based on high dimensional binary features modeled
-    with Bayesian mixture models.
 -   `r bioc("vbmp")` is a package for variational Bayesian
     multinomial probit regression with Gaussian process priors. It
     estimates class membership posterior probability employing
@@ -265,11 +262,6 @@ review packages that link R to other Bayesian sampling engines such as
     for calculating sample size requirements using three different
     Bayesian criteria in the context of designing an experiment to
     estimate a normal mean or the difference between two normal means.
--   `r pkg("SampleSizeProportions")` contains a set of R
-    functions for calculating sample size requirements using three
-    different Bayesian criteria in the context of designing an
-    experiment to estimate the difference between two binomial
-    proportions.
 
 #### Graphics
 -   `r pkg("basicMCMCplots")` provides methods for examining posterior MCMC samples from a single chain using trace plots and density plots, and from multiple chains by comparing posterior medians and credible intervals from each chain. 
@@ -350,6 +342,7 @@ review packages that link R to other Bayesian sampling engines such as
     with Bayesian mixture models.
 -   `r pkg("REBayes")` is a package for empirical Bayes estimation using Kiefer-Wolfowitz maximum likelihood estimation. 
 
+
 #### Network models/Matrix-variate distribution
 - `r pkg("BayesianNetwork")` provides a 'Shiny' web application for creating interactive Bayesian Network models, learning the structure and parameters of Bayesian networks, and utilities for classic network analysis.
 -   `r pkg("Bergm")` performs Bayesian analysis for
@@ -390,9 +383,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bayesQR")` supports Bayesian quantile regression
     using the asymmetric Laplace distribution, both continuous as well
     as binary dependent variables.
--   `r pkg("factorQR")` is a package to fit Bayesian
-    quantile regression models that assume a factor structure for at
-    least part of the design matrix.
 
 
 #### Shrinkage/Variable selection/Gaussian process
@@ -433,7 +423,7 @@ review packages that link R to other Bayesian sampling engines such as
     responses.
 
 #### Spatial models
--   `r pkg("CARBayes")` implements a class of univariate and multivariate spatial generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (MCMC) simulation. Also, see `r pkg("CARBayesdata").` 
+-   `r pkg("CARBayes")` implements a class of univariate and multivariate spatial generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (MCMC) simulation. Also, see `r pkg("CARBayesdata")`. 
 -   `r pkg("CARBayesST")`, which implements a class of univariate and multivariate spatio-temporal generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (MCMC) simulation. 
 -   `r pkg("CircSpaceTime")` implementation of Bayesian models for spatial and spatio-temporal interpolation of circular data using Gaussian Wrapped and Gaussian Projected distributions.
 -   The function `krige.bayes()` in the `r pkg("geoR")`
@@ -624,8 +614,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 ### Post-estimation tools
 
--   `r pkg("BayesValidate")` implements a software
-    validation method for Bayesian softwares.
 -   `r pkg("MCMCvis")` performs key functions (visualizes,
     manipulates, and summarizes) for MCMC analysis. Functions support
     simple and straightforward subsetting of model parameters within the
@@ -708,7 +696,7 @@ review packages that link R to other Bayesian sampling engines such as
     `r pkg("rjags")`, `r pkg("R2jags")`, and
     `r pkg("runjags")`.
 -   All of these BUGS engines use graphical models for model
-    specification. As such, the `r view("gR")` task view may
+    specification. As such, the `r view("GraphicalModels")` task view may
     be of interest.
 -   `r pkg("rstan")` provides R functions to parse, compile,
     test, estimate, and analyze Stan models by accessing the header-only
