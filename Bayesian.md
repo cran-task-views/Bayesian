@@ -161,7 +161,6 @@ review packages that link R to other Bayesian sampling engines such as
     of ABC estimates, and to calculate the misclassification
     probabilities of different models.
 -   `r pkg("abcrf")` performs Approximate Bayesian Computation (ABC) model choice and parameter inference via random forests.
--   `r pkg("atmcmc")` uses adaptive diagnostics to tune and run a random walk Metropolis MCMC algorithm, to converge to a specified target distribution and estimate means of functionals.
 -   `r pkg("bamlss")` provides an infrastructure for
     estimating probabilistic distributional regression models in a
     Bayesian framework. The distribution parameters may capture
@@ -192,12 +191,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("mcmcse")` allows estimation of multivariate
     effective sample size and calculation of Monte Carlo standard
     errors.
--   `r pkg("MHadaptive")` performs general
-    Metropolis-Hastings Markov Chain Monte Carlo sampling of a user
-    defined function which returns the un-normalized value (likelihood
-    times prior) of a Bayesian model. The proposal variance-covariance
-    structure is updated adaptively for efficient mixing when the
-    structure of the target distribution is unknown.
 -   The `hitro.new()` function in `r pkg("Runuran")`
     provides an MCMC sampler based on the Hit-and-Run algorithm in
     combination with the Ratio-of-Uniforms method.
@@ -249,8 +242,6 @@ review packages that link R to other Bayesian sampling engines such as
     deviations and their differences and effect sizes.
 -   `r pkg("bspmma")` is a package for Bayesian
     semiparametric models for meta-analysis.
--   `r pkg("conting")` performs Bayesian analysis of
-    complete and incomplete contingency tables.
 -   `r pkg("CPBayes")` performs a Bayesian meta-analysis method for studying cross-phenotype genetic associations. 
 -   `r pkg("openEBGM")` calculates Empirical Bayes Geometric
     Mean (EBGM) and quantile scores from the posterior distribution
@@ -258,10 +249,6 @@ review packages that link R to other Bayesian sampling engines such as
     cell counts in large, sparse contingency tables.
 -   `r pkg("RxCEcolInf")` fits the R x C inference model
     described in Greiner and Quinn (2009).
--   `r pkg("SampleSizeMeans")` contains a set of R functions
-    for calculating sample size requirements using three different
-    Bayesian criteria in the context of designing an experiment to
-    estimate a normal mean or the difference between two normal means.
 
 #### Graphics
 -   `r pkg("basicMCMCplots")` provides methods for examining posterior MCMC samples from a single chain using trace plots and density plots, and from multiple chains by comparing posterior medians and credible intervals from each chain. 
@@ -295,9 +282,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BCBCSF")` provides functions to predict the
     discrete response based on selected high dimensional features, such
     as gene expression data.
--   `r pkg("pacbpred")` perform estimation and prediction in
-    high-dimensional additive models, using a sparse PAC-Bayesian point
-    of view and a MCMC algorithm.
 
 
 #### Factor analysis/item response theory models
@@ -312,9 +296,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 
 #### Missing data
--   The `r pkg("BaBooN")` package contains two variants of
-    Bayesian Bootstrap Predictive Mean Matching to multiply impute
-    missing data.
 -   `r pkg("sbgcop")` estimates parameters of a Gaussian
     copula, treating the univariate marginal distributions as nuisance
     parameters as described in Hoff(2007). It also provides a
@@ -337,9 +318,6 @@ review packages that link R to other Bayesian sampling engines such as
     (marginally DP) mixture models, including particle learning and
     Gibbs sampling for static DP mixtures, particle learning for dynamic
     BAR stick-breaking, and DP mixture regression.
--   `r pkg("predmixcor")` provides functions to predict the
-    binary response based on high dimensional binary features modeled
-    with Bayesian mixture models.
 -   `r pkg("REBayes")` is a package for empirical Bayes estimation using Kiefer-Wolfowitz maximum likelihood estimation. 
 
 
@@ -379,7 +357,6 @@ review packages that link R to other Bayesian sampling engines such as
     multivariate continuous, discrete, and mixed data.
 
 #### Quantile regression
--   `r pkg("AdjBQR")`  provides functions for adjusted inference for Bayesian quantile regression based on asymmetric Laplace working likelihood.   
 -   `r pkg("bayesQR")` supports Bayesian quantile regression
     using the asymmetric Laplace distribution, both continuous as well
     as binary dependent variables.
@@ -395,7 +372,6 @@ review packages that link R to other Bayesian sampling engines such as
     g-priors for linear models or mixtures of g-priors in generalized
     linear models.
 -   `r pkg("basad")` provides a Bayesian variable selection approach using continuous spike and slab prior distributions. 
--   `r pkg("BayesGESM")` provides a set of tools to perform the statistical inference based on the Bayesian approach for regression models under the assumption that independent additive errors follow normal, Student-t, slash, contaminated normal, Laplace or symmetric hyperbolic distributions.
 -   `r pkg("BayesGPfit")` performs Bayesian inferences on nonparametric regression via Gaussian Processes with a modified exponential square kernel using a basis expansion approach.
 -   `r pkg("BayesianGLasso")` implements a data-augmented block Gibbs sampler for simulating the posterior distribution of concentration matrices for specifying the topology and parameterization of a Gaussian Graphical Model (GGM). 
 -   `r pkg("BLR")` provides R functions to fit parametric
@@ -446,9 +422,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 
 #### Survival models
--   `r pkg("BayHaz")` contains a suite of R functions for
-    Bayesian estimation of smooth hazard rates via Compound Poisson
-    Process (CPP) priors.
 -   The `r pkg("BMA")` package has functions for Bayesian
     model averaging for linear models, generalized linear models, and
     survival models. The complementary package
@@ -459,7 +432,6 @@ review packages that link R to other Bayesian sampling engines such as
 #### Time series models
 -   `r pkg("BaPreStoPro")` is a R package for Bayesian estimation and prediction for stochastic processes based on the Euler approximation.
 -   `r pkg("BayesARIMAX")` is a package for Bayesian estimation of ARIMAX model. Autoregressive Integrated Moving Average (ARIMA) model is very popular univariate time series model. Its application has been widened by the incorporation of exogenous variable(s) (X) in the model and modified as ARIMAX by Bierens (1987). 
--   `r pkg("BayesBEKK")` is a package for Bayesian estimation of bivariate volatility model proposed by Engle and Kroner (1995). 
 -   `r pkg("bayesDccGarch")` performs Bayesian estimation of dynamic conditional correlation GARCH model for multivariate time series volatility (Fioruci et al. 2014). 
 -   `r pkg("bayesdfa")` implements Bayesian dynamic factor analysis with 'Stan'. 
 -   The `r pkg("bayesGARCH")` package provides a function
@@ -477,7 +449,6 @@ review packages that link R to other Bayesian sampling engines such as
     using dynamic linear models using MCMC.
 -   `r pkg("BVAR")` is a package for estimating hierarchical
     Bayesian vector autoregressive models.
--   `r pkg("cbar")` detects contextual anomalies in time-series data with Bayesian data analysis. 
 -   `r pkg("DIRECT")` provides a Bayesian clustering method for replicated time series or replicated measurements from multiple experimental conditions. 
 -   `r pkg("dlm")` is a package for Bayesian (and likelihood) analysis of dynamic linear models. It includes the calculations of the Kalman filter and smoother, and the forward
     filtering backward sampling algorithm.
@@ -524,9 +495,6 @@ review packages that link R to other Bayesian sampling engines such as
     dispersion (Highest Density Interval) and indices used for
     null-hypothesis testing (such as ROPE percentage, pd and Bayes
     factors).
--   `r pkg("bbemkr")` implements Bayesian bandwidth
-    estimation for Nadaraya-Watson type multivariate kernel regression
-    with Gaussian error.
 -   `r pkg("bbricks")` provides a class of frequently used
     Bayesian parametric and nonparametric model structures,as well as a
     set of tools for common analytical tasks.
@@ -540,11 +508,6 @@ review packages that link R to other Bayesian sampling engines such as
     `r pkg("rrum")` implements Gibbs sampling algorithm for
     Bayesian estimation of the Reduced Reparameterized Unified Model
     (rrum).
--   `r pkg("evdbayes")` provides tools for Bayesian analysis
-    of extreme value models.
--   `r pkg("exactLoglinTest")` provides functions for
-    log-linear models that compute Monte Carlo estimates of conditional
-    P-values for goodness of fit tests.
 -   `r pkg("FME")` provides functions to help in fitting
     models to data, to perform Monte Carlo, sensitivity and
     identifiability analysis. It is intended to work with models be
@@ -581,15 +544,12 @@ review packages that link R to other Bayesian sampling engines such as
 ### Bayesian models for specific disciplines
 -   `r pkg("AnaCoDa")` is a collection of models to analyze genome scale codon data using a Bayesian framework.
 -   `r pkg("ArchaeoChron")` provides a list of functions for the Bayesian modeling of archaeological chronologies.
--   `r pkg("ASPBay")` allows to make inference on the properties of causal genetic variants in linkage disequilibrium with genotyped markers. 
--   `r pkg("babar")` is designed to use nested sampling (a Bayesian analysis technique) to compare possible models for bacterial growth curves, as well as extracting parameters.
 -   The `r pkg("BACCT")` implements the Bayesian Augmented Control (BAC, a.k.a. Bayesian historical data borrowing) method under clinical trial setting by calling 'Just Another Gibbs Sampler' ('JAGS') software.  
 -   `r pkg("BaSkePro")` provides tools to perform Bayesian inference of carcass processing/transport strategy and bone attrition from archaeofaunal skeletal profiles characterized by percentages of MAU (Minimum Anatomical Units). 
 -   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
 -   `r pkg("bayesCT")` performs simulation and analysis of Bayesian adaptive clinical trials for binomial, Gaussian, and time-to-event data types, incorporates historical data and allows early stopping for futility or early success. 
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
 -   `r pkg("bayes4psy")` contains several Bayesian models for data analysis of psychological tests.
-- `r pkg("BayesianAnimalTracker")` provides a Bayesian melding approach to combine the GPS observations and Dead-Reckoned path for an accurate animal's track, or equivalently, use the GPS observations to correct the Dead-Reckoned path. 
 - `r pkg("bayesianETAS")` is a package for Bayesian estimation of the Epidemic Type Aftershock Sequence (ETAS) model for earthquake occurrences. 
 -   `r pkg("BayesianFROC")` provides new methods for the so-called Free-response Receiver Operating Characteristic (FROC) analysis. 
 - `r pkg("BayesianLaterality")` provides functions to implement a Bayesian model for predicting hemispheric dominance from observed laterality indices (Sorensen and Westerhausen 2020). 
