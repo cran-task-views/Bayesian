@@ -665,7 +665,10 @@ review packages that link R to other Bayesian sampling engines such as
     [Stan](http://mc-stan.org/) project develops a probabilistic
     programming language that implements full Bayesian statistical
     inference via MCMC and (optionally penalized) maximum likelihood
-    estimation via optimization.
+    estimation via optimization. 
+-   `r pkg("rstanarm")` estimates previously compiled regression models 
+    using the `r pkg("rstan")` package,  which provides the R interface 
+    to the Stan C++ library for Bayesian estimation.
 -   `r pkg("pcFactorStan")` provides convenience functions
     and pre-programmed Stan models related to the paired comparison
     factor model. Its purpose is to make fitting paired comparison data
