@@ -273,6 +273,7 @@ review packages that link R to other Bayesian sampling engines such as
     hierarchical Bayesian framework and provides flexibility in allowing
     the user to specify the likelihood function directly instead of
     assuming predetermined model structures.
+-   `r pkg("vglmer")` estimates generalized linear mixed effects models using variational Bayes; limited types of splines can also be used as       predictors. It provides the ability to integrate these models in ensembles using the `r pkg("SuperLearner") package.
 
 #### High dimensional methods/machine learning methods 
 -   `r pkg("abglasso")` implements a Bayesian adaptive graphical lasso data-augmented block Gibbs sampler. 
