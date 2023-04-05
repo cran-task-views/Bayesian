@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2022-09-27
+version: 2023-04-06
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -175,9 +175,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("EntropyMCMC")` is an R package for MCMC
     simulation and convergence evaluation using entropy and
     Kullback-Leibler divergence estimation.
--   The `r pkg("HI")` package has functions to implement a
-    geometric approach to transdimensional MCMC methods and random
-    direction multivariate Adaptive Rejection Metropolis Sampling.
 -   `r pkg("iterLap")` performs an iterative Laplace
     approximation to build a global approximation of the posterior
     (using mixture distributions) and then uses importance sampling for
@@ -246,8 +243,6 @@ review packages that link R to other Bayesian sampling engines such as
     Mean (EBGM) and quantile scores from the posterior distribution
     using the Gamma-Poisson Shrinker (GPS) model to find unusually large
     cell counts in large, sparse contingency tables.
--   `r pkg("RxCEcolInf")` fits the R x C inference model
-    described in Greiner and Quinn (2009).
 
 #### Graphics
 -   `r pkg("basicMCMCplots")` provides methods for examining posterior MCMC samples from a single chain using trace plots and density plots, and from multiple chains by comparing posterior medians and credible intervals from each chain. 
@@ -276,7 +271,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 #### High dimensional methods/machine learning methods 
 -   `r pkg("abglasso")` implements a Bayesian adaptive graphical lasso data-augmented block Gibbs sampler. 
--   `r pkg("autohd")` performs mediation analysis for time to event high-dimensional data. Mediation Analysis proposed by Miocevic et al.(2017) as a statistical tool in the Bayesian framework. 
 -   `r pkg("bartMachine")` allows an advanced implementation of Bayesian Additive Regression Trees with expanded features for data analysis and visualization.
 -   The `r pkg("bayesGAM")`package is designed to provide a user friendly option to fit univariate and multivariate response Generalized Additive Models (GAM) using Hamiltonian Monte Carlo (HMC) with few technical burdens. 
 -   `r pkg("BCBCSF")` provides functions to predict the
@@ -313,11 +307,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bmixture")` provides statistical tools for
     Bayesian estimation for the finite mixture of distributions, mainly
     mixture of Gamma, Normal and t-distributions.
--   `r pkg("Bmix")` is a bare-bones implementation of
-    sampling algorithms for a variety of Bayesian stick-breaking
-    (marginally DP) mixture models, including particle learning and
-    Gibbs sampling for static DP mixtures, particle learning for dynamic
-    BAR stick-breaking, and DP mixture regression.
 -   `r pkg("REBayes")` is a package for empirical Bayes estimation using Kiefer-Wolfowitz maximum likelihood estimation. 
 
 
@@ -430,7 +419,6 @@ review packages that link R to other Bayesian sampling engines such as
     of ensembles using a mixture of normal distributions.
 
 #### Time series models
--   `r pkg("BaPreStoPro")` is a R package for Bayesian estimation and prediction for stochastic processes based on the Euler approximation.
 -   `r pkg("BayesARIMAX")` is a package for Bayesian estimation of ARIMAX model. Autoregressive Integrated Moving Average (ARIMA) model is very popular univariate time series model. Its application has been widened by the incorporation of exogenous variable(s) (X) in the model and modified as ARIMAX by Bierens (1987). 
 -   `r pkg("bayesDccGarch")` performs Bayesian estimation of dynamic conditional correlation GARCH model for multivariate time series volatility (Fioruci et al. 2014). 
 -   `r pkg("bayesdfa")` implements Bayesian dynamic factor analysis with 'Stan'. 
@@ -460,10 +448,6 @@ review packages that link R to other Bayesian sampling engines such as
     point analysis in longitudinal network data. It implements a hidden
     Markovmultilinear tensor regression model. Model diagnostic tools
     using marginal likelihoods and WAIC are provided.
--   `r pkg("NGSSEML")` gives codes for formulating and
-    specifying the non-Gaussian state-space models in the R language.
-    Inferences for the parameters of the model can be made under the
-    classical and Bayesian.
 -   `r pkg("Rbeast")` implements  a Bayesian model averaging method via RJMCMC to decompose time series into abrupt changes, trend, and seasonality, useful for changepoint detection, time series decomposition,  nonlinear trend analysis, and time series segmentation.
 -   `r pkg("spTimer")` fits, spatially predict and
     temporally forecast large amounts of space-time data using Bayesian
@@ -551,7 +535,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
 -   `r pkg("bayes4psy")` contains several Bayesian models for data analysis of psychological tests.
 - `r pkg("bayesianETAS")` is a package for Bayesian estimation of the Epidemic Type Aftershock Sequence (ETAS) model for earthquake occurrences. 
--   `r pkg("BayesianFROC")` provides new methods for the so-called Free-response Receiver Operating Characteristic (FROC) analysis. 
 - `r pkg("BayesianLaterality")` provides functions to implement a Bayesian model for predicting hemispheric dominance from observed laterality indices (Sorensen and Westerhausen 2020). 
 -   `r pkg("bayesImageS")` is an R package for Bayesian image analysis using the hidden Potts model.
 -   `r pkg("bayesLife")` makes probabilistic projections of life expectancy for all countries of the world, using a Bayesian hierarchical model.
