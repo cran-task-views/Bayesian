@@ -479,9 +479,6 @@ review packages that link R to other Bayesian sampling engines such as
     dispersion (Highest Density Interval) and indices used for
     null-hypothesis testing (such as ROPE percentage, pd and Bayes
     factors).
--   `r pkg("bbricks")` provides a class of frequently used
-    Bayesian parametric and nonparametric model structures,as well as a
-    set of tools for common analytical tasks.
 -   `r pkg("coalescentMCMC")` provides a flexible framework
     for coalescent analyses in R.
 -   `r pkg("deBInfer")` provides R functions for Bayesian
