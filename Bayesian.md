@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2023-04-06
+version: 2023-07-17
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -506,9 +506,6 @@ review packages that link R to other Bayesian sampling engines such as
     compute small area estimates based on a basic area or unit-level
     model. The model is fit using restricted maximum likelihood, or in a
     hierarchical Bayesian way.
--   `r pkg("matchingMarkets")` implements a structural model
-    based on a Gibbs sampler to correct for the bias from endogenous
-    matching (e.g. group formation or two-sided matching).
 -   `r pkg("mombf")` performs model selection based on
     non-local priors, including MOM, eMOM and iMOM priors..
 -   `r pkg("prevalence")` provides functions for the
