@@ -250,11 +250,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("ggmcmc")` is a tool for assessing and diagnosing
     convergence of Markov Chain Monte Carlo simulations, as well as for
     graphically display results from full MCMC analysis.
--   `r pkg("SamplerCompare")` provides a framework for
-    running sets of MCMC samplers on sets of distributions with a
-    variety of tuning parameters, along with plotting functions to
-    visualize the results of those simulations.
-
 
 #### Hierarchical models
 -   `r pkg("baggr")` compares meta-analyses of data with hierarchical Bayesian models in Stan, including convenience functions for formatting data, plotting and pooling measures specific to meta-analysis. 
