@@ -535,7 +535,6 @@ review packages that link R to other Bayesian sampling engines such as
     interval mapping of genetic loci. The package also contains
     graphical tools for QTL analysis.
 -    `r pkg("coalitions")` implements a Bayesian framework for the opinion poll based estimation of event probabilities in multi-party electoral systems (Bender and Bauer 2018). 
--   `r pkg("dfpk")` provides statistical methods involving PK measures are provided, in the dose allocation process during a Phase I clinical trials. 
 -   `r pkg("dina")` estimates the Deterministic Input, Noisy
     "And" Gate (DINA) cognitive diagnostic model parameters using the
     Gibbs sampler. `r pkg("edina")` performs a Bayesian
