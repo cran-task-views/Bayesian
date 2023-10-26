@@ -230,7 +230,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("bayefdr")` implements the Bayesian FDR control described by Newton et al. (2004).
 -   The `r pkg("bayesAB")` provides a suite of functions that allow the user to analyze A/B test data in a Bayesian framework. 
 -   `r pkg("BayesCombo")` combines diverse evidence across multiple studies to test a high level scientific theory. The methods can also be used as an alternative to a standard meta-analysis.
-- The `r pkg("bayesloglin")` package is for Bayesian analysis of contingency table data.
 -   `r pkg("bayesmeta")` is an R package to perform
     meta-analyses within the common random-effects model framework.
 -   `r pkg("BEST")` provides an alternative to t-tests,
