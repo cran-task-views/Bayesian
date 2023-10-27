@@ -427,10 +427,17 @@ review packages that link R to other Bayesian sampling engines such as
     model.
 -   `r pkg("bspec")` performs Bayesian inference on the
     (discrete) power spectrum of time series.
--   `r pkg("bsts")` is a package for time series regression
-    using dynamic linear models using MCMC.
+-   `r pkg("bsvars")` offers Bayesian estimation of structural vector autoregressive 
+    models using MCMC. It considers a wide range of models, including homo- and 
+    heteroskedastic ones and those with non-normal structural shocks, all of which 
+    feature three-level equation-specific hierarchical priors. It facilitates 
+    estimating the causal dynamic effects of shocks, predictions, and other structural analyses.
 -   `r pkg("BVAR")` is a package for estimating hierarchical
     Bayesian vector autoregressive models.
+-   `r pkg("bvarsv")` is a package for Bayesian estimation of an influential time-varying 
+    parameter structural vector autoregression with stochastic volatility proposed
+    by Giorgio Primiceri in his 2005 paper published in the Review of Economic Studies.
+    It facilitates forecasting and impulse response analysis.
 -   `r pkg("DIRECT")` provides a Bayesian clustering method for replicated time series or replicated measurements from multiple experimental conditions. 
 -   `r pkg("dlm")` is a package for Bayesian (and likelihood) analysis of dynamic linear models. It includes the calculations of the Kalman filter and smoother, and the forward
     filtering backward sampling algorithm.
@@ -443,6 +450,10 @@ review packages that link R to other Bayesian sampling engines such as
     Markovmultilinear tensor regression model. Model diagnostic tools
     using marginal likelihoods and WAIC are provided.
 -   `r pkg("Rbeast")` implements  a Bayesian model averaging method via RJMCMC to decompose time series into abrupt changes, trend, and seasonality, useful for changepoint detection, time series decomposition,  nonlinear trend analysis, and time series segmentation.
+-   `r pkg("shrinkTVP")` fits a heteroskedastic time series regression with 
+    time-varying parameters modeled with state-space equations. It features a flexible
+    triple-gamma prior allowing to cut time variation in any of the parameters automatically 
+    if data does not support it.
 -   `r pkg("spTimer")` fits, spatially predict and
     temporally forecast large amounts of space-time data using Bayesian
     Gaussian Process Models, Bayesian Auto-Regressive (AR) Models, and
