@@ -234,9 +234,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BayesCombo")` combines diverse evidence across multiple studies to test a high level scientific theory. The methods can also be used as an alternative to a standard meta-analysis.
 -   `r pkg("bayesmeta")` is an R package to perform
     meta-analyses within the common random-effects model framework.
--   `r pkg("BEST")` provides an alternative to t-tests,
-    producing posterior estimates for group means and standard
-    deviations and their differences and effect sizes.
 -   `r pkg("bspmma")` is a package for Bayesian
     semiparametric models for meta-analysis.
 -   `r pkg("CPBayes")` performs a Bayesian meta-analysis method for studying cross-phenotype genetic associations. 
