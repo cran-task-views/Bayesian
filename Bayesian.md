@@ -348,14 +348,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 
 #### Shrinkage/Variable selection/Gaussian process
--   `r pkg("BAS")` is a package for Bayesian Variable
-    Selection and Model Averaging in linear models and generalized
-    linear models using stochastic or deterministic sampling without
-    replacement from posterior distributions. Prior distributions on
-    coefficients are from Zellner's g-prior or mixtures of g-priors
-    corresponding to the Zellner-Siow Cauchy Priors or the mixture of
-    g-priors for linear models or mixtures of g-priors in generalized
-    linear models.
 -   `r pkg("basad")` provides a Bayesian variable selection approach using continuous spike and slab prior distributions. 
 -   `r pkg("BayesGPfit")` performs Bayesian inferences on nonparametric regression via Gaussian Processes with a modified exponential square kernel using a basis expansion approach.
 -   `r pkg("BayesianGLasso")` implements a data-augmented block Gibbs sampler for simulating the posterior distribution of concentration matrices for specifying the topology and parameterization of a Gaussian Graphical Model (GGM). 
