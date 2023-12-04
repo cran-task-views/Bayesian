@@ -126,8 +126,9 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("RoBMA")` implements Bayesian model-averaging for
     meta-analytic models, including models correcting for publication
     bias.
+-   `r pkg("BAS")` is a package for Bayesian Variable Selection and Model Averaging in linear and generalized linear models using prior distributions on coefficients from Zellner’s g-prior or mixtures of g-priors.
 
-
+  
 #### Bayesian tree models
 -   `r pkg("dbarts")` fits Bayesian additive regression trees (Chipman, George, and McCulloch 2010).
 -   The `r pkg("bartBMA")` offers functions for Bayesian additive regression trees using Bayesian model averaging.     
