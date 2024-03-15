@@ -413,9 +413,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bayeslongitudinal")` adjusts longitudinal regression models using Bayesian methodology for covariance structures of composite symmetry (SC), autoregressive ones of order 1 AR (1) and autoregressive moving average of order (1,1) ARMA (1,1).
 -   `r pkg("BAYSTAR")` provides functions for Bayesian
     estimation of threshold autoregressive models.
--   `r pkg("bcp")` implements a Bayesian analysis of
-    changepoint problem using Barry and Hartigan product partition
-    model.
 -   `r pkg("bspec")` performs Bayesian inference on the
     (discrete) power spectrum of time series.
 -   `r pkg("bsvars")` offers Bayesian estimation of structural vector autoregressive 
