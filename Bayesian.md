@@ -131,7 +131,6 @@ review packages that link R to other Bayesian sampling engines such as
   
 #### Bayesian tree models
 -   `r pkg("dbarts")` fits Bayesian additive regression trees (Chipman, George, and McCulloch 2010).
--   The `r pkg("bartBMA")` offers functions for Bayesian additive regression trees using Bayesian model averaging.     
 -   `r pkg("bartCause")` contains a variety of methods to generate typical causal inference estimates using Bayesian Additive Regression Trees (BART) as the underlying regression model (Hill 2012).
 -   `r pkg("bartcs")` fits Bayesian Regression Additive Trees (BART) models to select true confounders from a large set of potential confounders and to estimate average treatment effect (Kim et al. 2023). 
 
@@ -244,7 +243,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 #### Graphics
 -   `r pkg("basicMCMCplots")` provides methods for examining posterior MCMC samples from a single chain using trace plots and density plots, and from multiple chains by comparing posterior medians and credible intervals from each chain. 
--   `r pkg("bayeslincom")` computes point estimates, standard deviations, and credible intervals for linear combinations of posterior samples.
 -   `r pkg("ggmcmc")` is a tool for assessing and diagnosing
     convergence of Markov Chain Monte Carlo simulations, as well as for
     graphically display results from full MCMC analysis.
@@ -337,6 +335,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("ssgraph")` is for Bayesian inference in
     undirected graphical models using spike-and-slab priors for
     multivariate continuous, discrete, and mixed data.
+-   `r pkg("SequenceSpikeSlab")` contains fast functions to calculate the exact Bayes posterior for the Sparse Normal Sequence Model, implementing the algorithms described in Van Erven and Szabo (2021).
 
 #### Quantile regression
 -   `r pkg("bayesQR")` supports Bayesian quantile regression
@@ -433,6 +432,7 @@ review packages that link R to other Bayesian sampling engines such as
     for thresholding methods. Although the original model is developed
     in the context of wavelets, this package is useful when researchers
     need to take advantage of possible sparsity in a parameter set.
+-   `r pkg("mvgam")` fits Bayesian dynamic generalized additive models to sets of time series, using a wide range of observation families. Estimation is performed using Markov Chain Monte Carlo with Hamiltonian Monte Carlo in the software Stan. 
 -   `r pkg("NetworkChange")` is an R package for change
     point analysis in longitudinal network data. It implements a hidden
     Markovmultilinear tensor regression model. Model diagnostic tools
