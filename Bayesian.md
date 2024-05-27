@@ -47,7 +47,6 @@ review packages that link R to other Bayesian sampling engines such as
     Process priors, hierarchical linear models, hierarchical multinomial
     logit, hierarchical negative binomial regression models, and linear
     instrumental variable models.
-
 -   `r pkg("BayesianTools")` is an R package for
     general-purpose MCMC and SMC samplers, as well as plot and
     diagnostic functions for Bayesian statistics, with a particular
