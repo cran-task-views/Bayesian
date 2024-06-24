@@ -198,7 +198,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("BART")` package provide flexible
     nonparametric modeling of covariates for continuous, binary,
     categorical and time-to-event outcomes.
--   `r pkg("bayesbr")` fits the beta regression model using Bayesian inference. 
 -   `r pkg("BayesComm")` performs Bayesian multivariate binary (probit) regression models for analysis of ecological communities.
 -   `r pkg("bayescopulareg")` provides tools for Bayesian copula generalized linear models (GLMs).
 -   `r pkg("bayescount")` provides a set of functions to allow analysis of count data (such as faecal egg count data) using Bayesian MCMC methods. 
@@ -513,7 +512,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 ### Bayesian models for specific disciplines
 -   `r pkg("AnaCoDa")` is a collection of models to analyze genome scale codon data using a Bayesian framework.
--   `r pkg("ArchaeoChron")` provides a list of functions for the Bayesian modeling of archaeological chronologies.
 -   The `r pkg("BACCT")` implements the Bayesian Augmented Control (BAC, a.k.a. Bayesian historical data borrowing) method under clinical trial setting by calling 'Just Another Gibbs Sampler' ('JAGS') software.  
 -   `r pkg("BaSkePro")` provides tools to perform Bayesian inference of carcass processing/transport strategy and bone attrition from archaeofaunal skeletal profiles characterized by percentages of MAU (Minimum Anatomical Units). 
 -   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
@@ -524,14 +522,11 @@ review packages that link R to other Bayesian sampling engines such as
 - `r pkg("BayesianLaterality")` provides functions to implement a Bayesian model for predicting hemispheric dominance from observed laterality indices (Sorensen and Westerhausen 2020). 
 -   `r pkg("bayesImageS")` is an R package for Bayesian image analysis using the hidden Potts model.
 -   `r pkg("bayesLife")` makes probabilistic projections of life expectancy for all countries of the world, using a Bayesian hierarchical model.
--   `r pkg("BCE")` contains function to estimates taxonomic
-    compositions from biomarker data using a Bayesian approach.
 -   `r pkg("bqtl")` can be used to fit quantitative trait
     loci (QTL) models. This package allows Bayesian estimation of
     multi-gene models via Laplace approximations and provides tools for
     interval mapping of genetic loci. The package also contains
     graphical tools for QTL analysis.
--    `r pkg("coalitions")` implements a Bayesian framework for the opinion poll based estimation of event probabilities in multi-party electoral systems (Bender and Bauer 2018). 
 -   `r pkg("dina")` estimates the Deterministic Input, Noisy
     "And" Gate (DINA) cognitive diagnostic model parameters using the
     Gibbs sampler. `r pkg("edina")` performs a Bayesian
