@@ -407,6 +407,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("bayesGARCH")` package provides a function
     which perform the Bayesian estimation of the GARCH(1,1) model with
     Student's t innovations.
+-   `r pkg("bayesianVARs")` implements efficient algorithms for the fully Bayesian estimation of vectorautoregressions (VARs) featuring stochastic volatility (SV) using various continuous shrinkage priors.
 -   `r pkg("bayeslongitudinal")` adjusts longitudinal regression models using Bayesian methodology for covariance structures of composite symmetry (SC), autoregressive ones of order 1 AR (1) and autoregressive moving average of order (1,1) ARMA (1,1).
 -   `r pkg("BAYSTAR")` provides functions for Bayesian
     estimation of threshold autoregressive models.
@@ -430,6 +431,7 @@ review packages that link R to other Bayesian sampling engines such as
     for thresholding methods. Although the original model is developed
     in the context of wavelets, this package is useful when researchers
     need to take advantage of possible sparsity in a parameter set.
+-   `r pkg("factorstochvol")` contains samplers for estimating (sparse) latent factor stochastic volatility models with interweaving.
 -   `r pkg("mvgam")` fits Bayesian dynamic generalized additive models to sets of time series, using a wide range of observation families. Estimation is performed using Markov Chain Monte Carlo with Hamiltonian Monte Carlo in the software Stan. 
 -   `r pkg("NetworkChange")` is an R package for change
     point analysis in longitudinal network data. It implements a hidden
