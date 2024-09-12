@@ -418,6 +418,8 @@ review packages that link R to other Bayesian sampling engines such as
     heteroskedastic ones and those with non-normal structural shocks, all of which 
     feature three-level equation-specific hierarchical priors. It facilitates 
     estimating the causal dynamic effects of shocks, predictions, and other structural analyses.
+-   `r pkg("bsvarSIGNs")` is a package for Bayesian analysis of structural vector
+    autoregressive models identified by sign, zero, and narrative restrictions.
 -   `r pkg("BVAR")` is a package for estimating hierarchical
     Bayesian vector autoregressive models.
 -   `r pkg("bvarsv")` is a package for Bayesian estimation of an influential time-varying 
@@ -546,6 +548,9 @@ review packages that link R to other Bayesian sampling engines such as
     calls, and produce presentable and 'publication-ready' output.
     MCMC output may be derived from Bayesian model output fit with JAGS,
     Stan, or other MCMC samplers.
+-   `r pkg("bayesplot")` provides plotting functions for posterior analysis,
+    MCMC diagnostics, prior and posterior predictive checks,
+    and other visualizations to support the applied Bayesian workflow.
 -   The `r pkg("boa", priority = "core")` package provides
     functions for diagnostics, summarization, and visualization of MCMC
     sequences. It imports draws from BUGS format, or from plain
