@@ -467,7 +467,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("Bayesiangammareg")` adjusts the Gamma regression models from a Bayesian perspective described by Cepeda and Urdinola (2012).
 -   `r pkg("BayesLCA")` performs Bayesian Latent Class Analysis using several different methods. 
 -   `r pkg("BayesMallows")` performs Bayesian preference learning with the Mallows rank model. 
-- `r pkg("BayesMassBal")` is a package for Bayesian data reconciliation of separation processes. 
 -   `r pkg("bayestestR")` provides utilities to describe
     posterior distributions and Bayesian models. It includes
     point-estimates such as Maximum A Posteriori (MAP), measures of
