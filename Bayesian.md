@@ -261,7 +261,6 @@ review packages that link R to other Bayesian sampling engines such as
 #### High dimensional methods/machine learning methods 
 -   `r pkg("abglasso")` implements a Bayesian adaptive graphical lasso data-augmented block Gibbs sampler. 
 -   `r pkg("bartMachine")` allows an advanced implementation of Bayesian Additive Regression Trees with expanded features for data analysis and visualization.
--   The `r pkg("bayesGAM")`package is designed to provide a user friendly option to fit univariate and multivariate response Generalized Additive Models (GAM) using Hamiltonian Monte Carlo (HMC) with few technical burdens. 
 -   `r pkg("BCBCSF")` provides functions to predict the
     discrete response based on selected high dimensional features, such
     as gene expression data.
@@ -518,7 +517,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("BACCT")` implements the Bayesian Augmented Control (BAC, a.k.a. Bayesian historical data borrowing) method under clinical trial setting by calling 'Just Another Gibbs Sampler' ('JAGS') software.  
 -   `r pkg("BaSkePro")` provides tools to perform Bayesian inference of carcass processing/transport strategy and bone attrition from archaeofaunal skeletal profiles characterized by percentages of MAU (Minimum Anatomical Units). 
 -   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
--   `r pkg("bayesCT")` performs simulation and analysis of Bayesian adaptive clinical trials for binomial, Gaussian, and time-to-event data types, incorporates historical data and allows early stopping for futility or early success. 
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
 -   `r pkg("bayes4psy")` contains several Bayesian models for data analysis of psychological tests.
 - `r pkg("bayesianETAS")` is a package for Bayesian estimation of the Epidemic Type Aftershock Sequence (ETAS) model for earthquake occurrences. 
