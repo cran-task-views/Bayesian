@@ -198,7 +198,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("BART")` package provide flexible
     nonparametric modeling of covariates for continuous, binary,
     categorical and time-to-event outcomes.
--   `r pkg("BayesComm")` performs Bayesian multivariate binary (probit) regression models for analysis of ecological communities.
 -   `r pkg("bayescopulareg")` provides tools for Bayesian copula generalized linear models (GLMs).
 -   `r pkg("bayescount")` provides a set of functions to allow analysis of count data (such as faecal egg count data) using Bayesian MCMC methods. 
 -   `r pkg("BayesGWQS")` fits Bayesian grouped weighted quantile sum (BGWQS) regressions for one or more chemical groups with binary outcomes. 
