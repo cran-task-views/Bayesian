@@ -148,9 +148,6 @@ review packages that link R to other Bayesian sampling engines such as
     equation models, and latent growth curve models.
 -   `r pkg("causact")` provides R functions for visualizing
     and running inference on generative directed acyclic graphs (DAGs).
-    Once a generative DAG is created, the package automates Bayesian
-    inference via the `r pkg("greta")` package and
-    **TensorFlow** .
 -   `r pkg("CausalImpact")` implements a Bayesian approach to causal impact estimation in time series, as described in Brodersen et al. (2015). 
 
 #### Computational methods 
@@ -569,6 +566,9 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("ramps")` implements Bayesian geostatistical
     analysis of Gaussian processes using a reparameterized and
     marginalized posterior sampling algorithm.
+- `r pkg("broom.mixed")` extends the `broom` package to provide "tidy" summaries for mixed models. It supports extracting parameter estimates and diagnostics from Bayesian model objects produced by `r pkg("brms")`, `r pkg("rstanarm")`, and `r pkg("MCMCglmm")` into standardized data frames.
+- `r pkg("parameters")` provides tools for processing and summarizing model parameters. It can extract detailed posterior summaries—including High Density Intervals (HDI), Region of Practical Equivalence (ROPE), and Probability of Direction (pd)—from a wide variety of Bayesian model fits (e.g., `r pkg("brms")`, `r pkg("rstanarm")`, `r pkg("MCMCglmm")`).
+
 
 ### Packages for learning Bayesian statistics
 -   `r pkg("BaM")` provide functions and datasets for "Bayesian Methods: A Social and Behavioral Sciences Approach" by Jeff Gill (Chapman and Hall/CRC, 2002/2007/2014).
@@ -608,12 +608,6 @@ review packages that link R to other Bayesian sampling engines such as
     all in a multilevel context. `r pkg("shinybrms")` is a
     graphical user interface (GUI) for fitting Bayesian regression
     models using the package `r pkg("brms")`.
--   `r pkg("greta")` allows users to write statistical
-    models in R and fit them by MCMC and optimisation on CPUs and GPUs,
-    using Google **'TensorFlow'** . `r pkg("greta")` lets
-    you write your own model like in BUGS, JAGS and Stan, except that
-    you write models right in R, it scales well to massive datasets, and
-    it is easy to extend and build on.
 -   There are two packages that can be used to interface R with
     [WinBUGS](http://www.mrc-bsu.cam.ac.uk/software/bugs/).
     `r pkg("R2WinBUGS")` provides a set of functions to call
