@@ -148,7 +148,8 @@ review packages that link R to other Bayesian sampling engines such as
     equation models, and latent growth curve models.
 -   `r pkg("causact")` provides R functions for visualizing
     and running inference on generative directed acyclic graphs (DAGs).
--   `r pkg("CausalImpact")` implements a Bayesian approach to causal impact estimation in time series, as described in Brodersen et al. (2015). 
+-   `r pkg("CausalImpact")` implements a Bayesian approach to causal impact estimation in time series, as described in Brodersen et al. (2015).
+-   `r pkg("stochtree")` implements flexible stochastic tree ensembles, providing robust implementations of Bayesian Additive Regression Trees (BART) for supervised learning and Bayesian Causal Forests (BCF) for causal inference. It features model serialization, parallel sampling, and a low-level interface for custom stochastic forest samplers.
 
 #### Computational methods 
 -   `r pkg("abc")` package implements several ABC algorithms
