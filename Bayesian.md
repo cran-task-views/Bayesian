@@ -131,6 +131,7 @@ review packages that link R to other Bayesian sampling engines such as
 #### Bayesian tree models
 -   `r pkg("dbarts")` fits Bayesian additive regression trees (Chipman, George, and McCulloch 2010).
 -   `r pkg("bartCause")` contains a variety of methods to generate typical causal inference estimates using Bayesian Additive Regression Trees (BART) as the underlying regression model (Hill 2012).
+-   `r pkg("stochtree")` implements Bayesian Additive Regression Trees (Chipman, George, and McCulloch 2010) and Bayesian Causal Forests (Hahn, Murray, and Carvalho 2020), and also provides a "low-level" R interface to allow design of custom Bayesian regression tree models.
 -   `r pkg("bartcs")` fits Bayesian Regression Additive Trees (BART) models to select true confounders from a large set of potential confounders and to estimate average treatment effect (Kim et al. 2023). 
 
 #### Causal inference
