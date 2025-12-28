@@ -143,6 +143,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BDgraph")` provides statistical tools for
     Bayesian structure learning in undirected graphical models for
     multivariate continuous, discrete, and mixed data.
+-   `r pkg("bgms")` provides Bayesian variable selection methods for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.    
 -   `r pkg("blavaan")` fits a variety of Bayesian latent
     variable models, including confirmatory factor analysis, structural
     equation models, and latent growth curve models.
