@@ -420,6 +420,9 @@ review packages that link R to other Bayesian sampling engines such as
     parameter structural vector autoregression with stochastic volatility proposed
     by Giorgio Primiceri in his 2005 paper published in the Review of Economic Studies.
     It facilitates forecasting and impulse response analysis.
+-   `r pkg("BHSBVAR")` implements Bayesian estimation of the structural vector 
+    autoregressive model identified by sign restrictions implemented through
+    calibrated prior distributions as in Baumeister and Hamilton (2015).
 -   `r pkg("DIRECT")` provides a Bayesian clustering method for replicated time series or replicated measurements from multiple experimental conditions. 
 -   `r pkg("dlm")` is a package for Bayesian (and likelihood) analysis of dynamic linear models. It includes the calculations of the Kalman filter and smoother, and the forward
     filtering backward sampling algorithm.
@@ -632,6 +635,8 @@ review packages that link R to other Bayesian sampling engines such as
     and pre-programmed Stan models related to the paired comparison
     factor model. Its purpose is to make fitting paired comparison data
     using Stan easy.
+-   `r pkg("StealLikeBayes")` provides a compendium of Bayesian statistical 
+    routines written in C++ that are useful for developing R packages.
 
 The Bayesian Inference Task View is written by Jong Hee Park (Seoul
 National University, South Korea), Andrew D. Martin (Washington
