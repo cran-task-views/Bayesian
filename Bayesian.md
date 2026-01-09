@@ -192,7 +192,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 #### Discrete data
 -   `r pkg("ammiBayes")` offers flexible multi-environment trials analysis via MCMC method for Additive Main Effects and Multiplicative Model (AMMI) for ordinal data.     
--   `r pkg("BANOVA")` includes functions for Hierarchical Bayes ANOVA models with normal response, t response, Binomial (Bernoulli) response, Poisson response, ordered multinomial response and multinomial response variables.
 -   The `r pkg("BART")` package provide flexible
     nonparametric modeling of covariates for continuous, binary,
     categorical and time-to-event outcomes.
@@ -224,7 +223,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bamdit")` provides functions for Bayesian meta-analysis of diagnostic test data which are based on a scale mixtures bivariate random-effects model.
 -   `r pkg("BASS")` is a package for Bayesian fitting and sensitivity analysis methods for adaptive spline surfaces. 
 -   The `r pkg("bayefdr")` implements the Bayesian FDR control described by Newton et al. (2004).
--   The `r pkg("bayesAB")` provides a suite of functions that allow the user to analyze A/B test data in a Bayesian framework. 
 -   `r pkg("BayesCombo")` combines diverse evidence across multiple studies to test a high level scientific theory. The methods can also be used as an alternative to a standard meta-analysis.
 -   `r pkg("bayesmeta")` is an R package to perform
     meta-analyses within the common random-effects model framework.
