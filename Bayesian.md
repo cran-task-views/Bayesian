@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2023-07-17
+version: 2026-03-16
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
