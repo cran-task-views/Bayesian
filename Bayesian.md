@@ -170,9 +170,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("dclone")` provides low level functions for
     implementing maximum likelihood estimating procedures for complex
     models using data cloning and MCMC methods.
--   `r pkg("EntropyMCMC")` is an R package for MCMC
-    simulation and convergence evaluation using entropy and
-    Kullback-Leibler divergence estimation.
 -   `r pkg("iterLap")` performs an iterative Laplace
     approximation to build a global approximation of the posterior
     (using mixture distributions) and then uses importance sampling for
@@ -195,7 +192,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   The `r pkg("BART")` package provide flexible
     nonparametric modeling of covariates for continuous, binary,
     categorical and time-to-event outcomes.
--   `r pkg("bayescopulareg")` provides tools for Bayesian copula generalized linear models (GLMs).
 -   `r pkg("bayescount")` provides a set of functions to allow analysis of count data (such as faecal egg count data) using Bayesian MCMC methods. 
 -   `r pkg("BayesGWQS")` fits Bayesian grouped weighted quantile sum (BGWQS) regressions for one or more chemical groups with binary outcomes. 
 -   `r pkg("BayesLogit")` provides tools for sampling from the PolyaGamma distribution based on Polson, Scott, and Windle (2013).
@@ -366,7 +362,6 @@ review packages that link R to other Bayesian sampling engines such as
 #### Spatial models
 -   `r pkg("CARBayes")` implements a class of univariate and multivariate spatial generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (MCMC) simulation. Also, see `r pkg("CARBayesdata")`. 
 -   `r pkg("CARBayesST")`, which implements a class of univariate and multivariate spatio-temporal generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (MCMC) simulation. 
--   `r pkg("CircSpaceTime")` implementation of Bayesian models for spatial and spatio-temporal interpolation of circular data using Gaussian Wrapped and Gaussian Projected distributions.
 -   The function `krige.bayes()` in the `r pkg("geoR")`
     package performs Bayesian analysis of geostatistical data allowing
     specification of different levels of uncertainty in the model
@@ -514,7 +509,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
 -   `r pkg("bayes4psy")` contains several Bayesian models for data analysis of psychological tests.
-- `r pkg("bayesianETAS")` is a package for Bayesian estimation of the Epidemic Type Aftershock Sequence (ETAS) model for earthquake occurrences. 
 - `r pkg("BayesianLaterality")` provides functions to implement a Bayesian model for predicting hemispheric dominance from observed laterality indices (Sorensen and Westerhausen 2020). 
 -   `r pkg("bayesImageS")` is an R package for Bayesian image analysis using the hidden Potts model.
 -   `r pkg("bayesLife")` makes probabilistic projections of life expectancy for all countries of the world, using a Bayesian hierarchical model.
