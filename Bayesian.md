@@ -454,7 +454,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("bayesammi")` performs Bayesian estimation of the additive main effects and multiplicative interaction (AMMI) model. 
 -   `r pkg("BayesBP")` is a package for Bayesian estimation using Bernstein polynomial fits rate matrix.
 -   `r pkg("BayesCR")` proposes a parametric fit for censored linear regression models based on SMSN distributions, from a Bayesian perspective. 
--   `r pkg("bayesdistreg")` implements Bayesian Distribution Regression methods. This package contains functions for three estimators (non-asymptotic, semi-asymptotic and asymptotic) and related routines for Bayesian Distribution Regression in Huang and Tsyawo (2018).
 -   `r pkg("bayesDP")` provides functions for data augmentation using the Bayesian discount prior method for single arm and two-arm clinical trials in Haddad et al. (2017).
 -   `r pkg("BayesFM")` provides a collection of procedures to perform Bayesian analysis on a variety of factor models. 
 -   `r pkg("BayesGOF")` performs four interconnected tasks: (i) characterizes the uncertainty of the elicited parametric prior; (ii) provides exploratory diagnostic for checking prior-data conflict; (iii) computes the final statistical prior density estimate; and (iv) executes macro- and micro-inference.
