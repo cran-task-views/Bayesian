@@ -37,7 +37,7 @@ review packages that link R to other Bayesian sampling engines such as
     contains three sub-packages: emulator, calibrator, and approximator,
     that perform Bayesian emulation and calibration of computer
     programs.
--   `r pkg("bayesforecast", priority = "core")` provides various functions for Bayesian time series analysis using 'Stan' for full Bayesian inference. A wide range of distributions and models are supported, allowing users to fit Seasonal ARIMA, ARIMAX, Dynamic Harmonic Regression, GARCH, t-student innovation GARCH models, asymmetric GARCH, Random Walks, stochastic volatility models for univariate time series.    
+-   `r pkg("bayesforecast", priority = "core")` provides various functions for Bayesian time series analysis using 'Stan' for full Bayesian inference. A wide range of distributions and models are supported, allowing users to fit Seasonal ARIMA, ARIMAX, Dynamic Harmonic Regression, GARCH, t-student innovation GARCH models, asymmetric GARCH, Random Walks, stochastic volatility models for univariate time series.
 -   `r pkg("bayesm", priority = "core")` provides R functions
     for Bayesian inference for various models widely used in marketing
     and micro-econometrics. The models include linear regression models,
@@ -144,7 +144,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BDgraph")` provides statistical tools for
     Bayesian structure learning in undirected graphical models for
     multivariate continuous, discrete, and mixed data.
--   `r pkg("bgms")` provides Bayesian variable selection methods for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.    
+-   `r pkg("bgms")` provides Bayesian variable selection methods for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.
 -   `r pkg("blavaan")` fits a variety of Bayesian latent
     variable models, including confirmatory factor analysis, structural
     equation models, and latent growth curve models.
@@ -190,7 +190,7 @@ review packages that link R to other Bayesian sampling engines such as
 
 
 #### Discrete data
--   `r pkg("ammiBayes")` offers flexible multi-environment trials analysis via MCMC method for Additive Main Effects and Multiplicative Model (AMMI) for ordinal data.     
+-   `r pkg("ammiBayes")` offers flexible multi-environment trials analysis via MCMC method for Additive Main Effects and Multiplicative Model (AMMI) for ordinal data.
 -   The `r pkg("BART")` package provide flexible
     nonparametric modeling of covariates for continuous, binary,
     categorical and time-to-event outcomes.
@@ -507,7 +507,7 @@ review packages that link R to other Bayesian sampling engines such as
 
 
 ### Bayesian models for specific disciplines
--   The `r pkg("BACCT")` implements the Bayesian Augmented Control (BAC, a.k.a. Bayesian historical data borrowing) method under clinical trial setting by calling 'Just Another Gibbs Sampler' ('JAGS') software.  
+-   The `r pkg("BACCT")` implements the Bayesian Augmented Control (BAC, a.k.a. Bayesian historical data borrowing) method under clinical trial setting by calling 'Just Another Gibbs Sampler' ('JAGS') software.
 -   `r pkg("BaSkePro")` provides tools to perform Bayesian inference of carcass processing/transport strategy and bone attrition from archaeofaunal skeletal profiles characterized by percentages of MAU (Minimum Anatomical Units). 
 -   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
