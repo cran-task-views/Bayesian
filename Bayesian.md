@@ -568,9 +568,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 ### Packages for learning Bayesian statistics
 -   `r pkg("BaM")` provide functions and datasets for "Bayesian Methods: A Social and Behavioral Sciences Approach" by Jeff Gill (Chapman and Hall/CRC, 2002/2007/2014).
--   `r pkg("BayesDA")` provides R functions and datasets for
-    "Bayesian Data Analysis, Second Edition" (CRC Press, 2003) by
-    Andrew Gelman, John B. Carlin, Hal S. Stern, and Donald B. Rubin.
 -   The `r pkg("Bolstad")` package contains a set of R
     functions and data sets for the book Introduction to Bayesian
     Statistics, by Bolstad, W.M. (2007).
