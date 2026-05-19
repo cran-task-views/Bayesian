@@ -151,6 +151,7 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("causact")` provides R functions for visualizing
     and running inference on generative directed acyclic graphs (DAGs).
 -   `r pkg("CausalImpact")` implements a Bayesian approach to causal impact estimation in time series, as described in Brodersen et al. (2015).
+-   `r pkg("dynamite")` supports Bayesian causal inference for complex panel data using dynamic multivariate panel models.
 -   `r pkg("stochtree")` implements flexible stochastic tree ensembles, providing robust implementations of Bayesian Additive Regression Trees (BART) for supervised learning and Bayesian Causal Forests (BCF) for causal inference. It features model serialization, parallel sampling, and a low-level interface for custom stochastic forest samplers.
 
 #### Computational methods 
@@ -448,6 +449,7 @@ review packages that link R to other Bayesian sampling engines such as
     to the Stan C++ library for Bayesian estimation.
 -   `r pkg("stochvol")` provides efficient algorithms for
     fully Bayesian estimation of stochastic volatility (SV) models.
+-  `r pkg("bssm")` implements methods for Bayesian inference of non-linear and non-Gaussian state space models.
 
 
 #### Other models
