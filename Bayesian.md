@@ -510,7 +510,6 @@ review packages that link R to other Bayesian sampling engines such as
 
 ### Bayesian models for specific disciplines
 -   `r pkg("BaSkePro")` provides tools to perform Bayesian inference of carcass processing/transport strategy and bone attrition from archaeofaunal skeletal profiles characterized by percentages of MAU (Minimum Anatomical Units). 
--   `r pkg("bayesbio")` provides miscellaneous functions for bioinformatics and Bayesian statistics.
 -   `r pkg("BayesCTDesign")` provides a set of functions to help clinical trial researchers calculate power and sample size for two-arm Bayesian randomized clinical trials that do or do not incorporate historical control data.
 -   `r pkg("bayes4psy")` contains several Bayesian models for data analysis of psychological tests.
 - `r pkg("BayesianLaterality")` provides functions to implement a Bayesian model for predicting hemispheric dominance from observed laterality indices (Sorensen and Westerhausen 2020). 
