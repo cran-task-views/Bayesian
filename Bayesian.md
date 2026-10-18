@@ -241,6 +241,12 @@ review packages that link R to other Bayesian sampling engines such as
 
 #### Hierarchical models
 -   `r pkg("baggr")` compares meta-analyses of data with hierarchical Bayesian models in Stan, including convenience functions for formatting data, plotting and pooling measures specific to meta-analysis. 
+-   `r pkg("bmm")` fits hierarchical Bayesian measurement models from
+    cognitive psychology, including signal detection, multinomial
+    processing tree, diffusion decision, and working memory models. It
+    translates each model into `r pkg("brms")` syntax and estimates it
+    in Stan, with a separate regression formula for every model
+    parameter.
 -   `r pkg("dirichletprocess")` performs nonparametric Bayesian analysis using Dirichlet processes without the need to program the inference algorithms. 
 -   The `r pkg("lmm")` package contains R functions to fit
     linear mixed models using MCMC methods.
