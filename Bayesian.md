@@ -203,6 +203,13 @@ review packages that link R to other Bayesian sampling engines such as
     applied to multinomial logit (MNL) data.
 -   The `r pkg("MNP")` package fits multinomial probit
     models using MCMC methods.
+-   `r pkg("RprobitB")` fits probit models for binary, multinomial,
+    ordered, and ranked choices in cross-sectional and panel data by
+    Gibbs sampling. Normal and log-normal random coefficients, finite
+    mixtures, sparse finite mixtures, and Dirichlet process mixtures
+    describe preference heterogeneity. The package also provides
+    choice predictions, marginal effects, WAIC, PSIS-LOO, and Bayes
+    factors by bridge sampling.
 -   `r bioc("vbmp")` is a package for variational Bayesian
     multinomial probit regression with Gaussian process priors. It
     estimates class membership posterior probability employing
