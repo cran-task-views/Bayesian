@@ -54,6 +54,10 @@ review packages that link R to other Bayesian sampling engines such as
     include various Metropolis MCMC variants (including adaptive and/or
     delayed rejection MH), the T-walk, two differential evolution MCMCs,
     two DREAM MCMCs, and a sequential Monte Carlo (SMC) particle filter.
+-   `r pkg("hobbs")` provides a probabilistic programming language
+    for high-dimensional Bayesian models. Parameter-local sampling
+    blocks and incremental updates of cached quantities allow users
+    to avoid recomputing unaffected parts of the posterior during MCMC.
 -   `r pkg("LaplacesDemon")` seeks to provide a complete
     Bayesian environment, including numerous MCMC algorithms, Laplace
     Approximation with multiple optimization algorithms, scores of
