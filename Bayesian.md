@@ -3,7 +3,7 @@ name: Bayesian
 topic: Bayesian Inference
 maintainer: Jong Hee Park, Michela Cameletti, Xun Pang, Kevin M. Quinn
 email: jongheepark@snu.ac.kr
-version: 2026-03-16
+version: 2026-10-26
 source: https://github.com/cran-task-views/Bayesian/
 ---
 
@@ -209,9 +209,6 @@ review packages that link R to other Bayesian sampling engines such as
     variational and sparse approximation to the full posterior. This
     software also incorporates feature weighting by means of Automatic
     Relevance Determination.
--   `r pkg("zic")` provides functions for an MCMC analysis
-    of zero-inflated count models including stochastic search variable
-    selection.
 
 #### Experiment/Contingency table/meta analysis/AB testing methods
 -   `r pkg("abtest")` provides functions for Bayesian A/B testing including prior elicitation options based on Kass and Vaidyanathan (1992). 
@@ -225,8 +222,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BayesCombo")` combines diverse evidence across multiple studies to test a high level scientific theory. The methods can also be used as an alternative to a standard meta-analysis.
 -   `r pkg("bayesmeta")` is an R package to perform
     meta-analyses within the common random-effects model framework.
--   `r pkg("bspmma")` is a package for Bayesian
-    semiparametric models for meta-analysis.
 -   `r pkg("CPBayes")` performs a Bayesian meta-analysis method for studying cross-phenotype genetic associations. 
 -   `r pkg("openEBGM")` calculates Empirical Bayes Geometric
     Mean (EBGM) and quantile scores from the posterior distribution
@@ -246,10 +241,6 @@ review packages that link R to other Bayesian sampling engines such as
     linear mixed models using MCMC methods.
 -   `r pkg("MCMCglmm")` is package for fitting Generalised
     Linear Mixed Models using MCMC methods.
--   `r pkg("RSGHB")` can be used to estimate models using a
-    hierarchical Bayesian framework and provides flexibility in allowing
-    the user to specify the likelihood function directly instead of
-    assuming predetermined model structures.
 -   `r pkg("vglmer")` estimates generalized linear mixed effects models using variational Bayes; limited types of splines can also be used as       predictors. It provides the ability to integrate these models in ensembles using the `r pkg("SuperLearner")` package.
 
 #### High dimensional methods/machine learning methods 
@@ -284,7 +275,6 @@ review packages that link R to other Bayesian sampling engines such as
     approximation can be used as the importance density in importance
     sampling or as the candidate density in the Metropolis-Hastings
     algorithm.
--   `r pkg("BayesBinMix")` provides a fully Bayesian inference for estimating the number of clusters and related parameters to heterogeneous binary data.
 -   `r pkg("BayesBinMix")` performs fully Bayesian inference for estimating the number of clusters and related parameters to heterogeneous binary data.
 -   `r pkg("bmixture")` provides statistical tools for
     Bayesian estimation for the finite mixture of distributions, mainly
@@ -337,7 +327,6 @@ review packages that link R to other Bayesian sampling engines such as
 #### Shrinkage/Variable selection/Gaussian process
 -   `r pkg("basad")` provides a Bayesian variable selection approach using continuous spike and slab prior distributions. 
 -   `r pkg("BayesGPfit")` performs Bayesian inferences on nonparametric regression via Gaussian Processes with a modified exponential square kernel using a basis expansion approach.
--   `r pkg("BayesianGLasso")` implements a data-augmented block Gibbs sampler for simulating the posterior distribution of concentration matrices for specifying the topology and parameterization of a Gaussian Graphical Model (GGM). 
 -   `r pkg("BLR")` provides R functions to fit parametric
     regression models using different types of shrinkage methods.
 -   `r pkg("BNSP")` is a package for Bayeisan non- and
@@ -393,7 +382,6 @@ review packages that link R to other Bayesian sampling engines such as
     of ensembles using a mixture of normal distributions.
 
 #### Time series models
--   `r pkg("BayesARIMAX")` is a package for Bayesian estimation of ARIMAX model. Autoregressive Integrated Moving Average (ARIMA) model is very popular univariate time series model. Its application has been widened by the incorporation of exogenous variable(s) (X) in the model and modified as ARIMAX by Bierens (1987). 
 -   `r pkg("bayesDccGarch")` performs Bayesian estimation of dynamic conditional correlation GARCH model for multivariate time series volatility (Fioruci et al. 2014). 
 -   `r pkg("bayesdfa")` implements Bayesian dynamic factor analysis with 'Stan'. 
 -   The `r pkg("bayesGARCH")` package provides a function
@@ -429,6 +417,14 @@ review packages that link R to other Bayesian sampling engines such as
     in the context of wavelets, this package is useful when researchers
     need to take advantage of possible sparsity in a parameter set.
 -   `r pkg("factorstochvol")` contains samplers for estimating (sparse) latent factor stochastic volatility models with interweaving.
+-   `r pkg("ggchangepoint")` provides a unified, 'ggplot2'-native interface to
+    changepoint detection. Its `cpt_detect()` dispatcher covers about fifty
+    methods, including Bayesian changepoint methods, alongside penalised,
+    nonparametric, high-dimensional, and regression-break detectors. It
+    returns a tidy 'ggcpt' result class with 'broom'-style methods,
+    `autoplot()` and composable geoms for plotting changepoints and their
+    uncertainty, and adds inference on change locations, selection of the
+    number of changes, and sequential monitoring.
 -   `r pkg("mvgam")` fits Bayesian dynamic generalized additive models to sets of time series, using a wide range of observation families. Estimation is performed using Markov Chain Monte Carlo with Hamiltonian Monte Carlo in the software Stan. 
 -   `r pkg("NetworkChange")` is an R package for change
     point analysis in longitudinal network data. It implements a hidden
@@ -458,7 +454,6 @@ review packages that link R to other Bayesian sampling engines such as
 -   `r pkg("BayesCR")` proposes a parametric fit for censored linear regression models based on SMSN distributions, from a Bayesian perspective. 
 -   `r pkg("bayesDP")` provides functions for data augmentation using the Bayesian discount prior method for single arm and two-arm clinical trials in Haddad et al. (2017).
 -   `r pkg("BayesFM")` provides a collection of procedures to perform Bayesian analysis on a variety of factor models. 
--   `r pkg("BayesGOF")` performs four interconnected tasks: (i) characterizes the uncertainty of the elicited parametric prior; (ii) provides exploratory diagnostic for checking prior-data conflict; (iii) computes the final statistical prior density estimate; and (iv) executes macro- and micro-inference.
 -   `r pkg("Bayesiangammareg")` adjusts the Gamma regression models from a Bayesian perspective described by Cepeda and Urdinola (2012).
 -   `r pkg("BayesLCA")` performs Bayesian Latent Class Analysis using several different methods. 
 -   `r pkg("BayesMallows")` performs Bayesian preference learning with the Mallows rank model. 
@@ -494,12 +489,19 @@ review packages that link R to other Bayesian sampling engines such as
     hierarchical Bayesian way.
 -   `r pkg("mombf")` performs model selection based on
     non-local priors, including MOM, eMOM and iMOM priors..
+-   `r pkg("Pinference")` performs probability calculations for
+    propositional logic, treating Bayesian probability theory as an
+    extension of logic.
 -   `r pkg("prevalence")` provides functions for the
     estimation of true prevalence from apparent prevalence in a Bayesian
     framework. MCMC sampling is performed via JAGS/rjags.
 -   `r pkg("PReMiuM")` is a package for profile regression,
     which is a Dirichlet process Bayesian clustering where the response
     is linked non-parametrically to the covariate profile.
+-   `r pkg("prova")` performs Bayesian nonparametric inference on
+    combinations of different kinds of variates (categorical, ordinal,
+    continuous, bounded, etc.). It uses no posterior approximations and
+    automates the Markov chain Monte Carlo calculations.
 -   `r pkg("revdbayes")` provides functions for the Bayesian
     analysis of extreme value models using direct random sampling from
     extreme value posterior distributions.
