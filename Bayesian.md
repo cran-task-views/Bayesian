@@ -442,7 +442,7 @@ review packages that link R to other Bayesian sampling engines such as
     `autoplot()` and composable geoms for plotting changepoints and their
     uncertainty, and adds inference on change locations, selection of the
     number of changes, and sequential monitoring.
--   `r pkg("mvgam")` fits Bayesian dynamic generalized additive models to sets of time series, using a wide range of observation families. Estimation is performed using Markov Chain Monte Carlo with Hamiltonian Monte Carlo in the software Stan. 
+-   `r pkg("mvgam")` fits Bayesian State-Space models to sets of time series. `r pkg("brms")` writes the observation model, with its families and formula terms. `mvgam` adds latent dynamic processes such as autoregressions, vector autoregressions and dynamic factors. Estimation uses Hamiltonian Monte Carlo in Stan.
 -   `r pkg("NetworkChange")` is an R package for change
     point analysis in longitudinal network data. It implements a hidden
     Markovmultilinear tensor regression model. Model diagnostic tools
